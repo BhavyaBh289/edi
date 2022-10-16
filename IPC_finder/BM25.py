@@ -79,7 +79,7 @@ def result_window():
 window = Tk()
 window.title("Crime Law Detection")
 window.geometry("1920x1080")
-bg = PhotoImage(file="12.jpg")
+bg = PhotoImage(file="12.png")
 canvas = Canvas(window, height=1920, width=1080)
 canvas.pack(fill="both", expand=True)
 canvas.create_image(0,0, image=bg, anchor="nw")
