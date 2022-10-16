@@ -78,9 +78,9 @@ def result_window():
 
 window = Tk()
 window.title("Crime Law Detection")
-window.geometry("1920x1080")
-bg = PhotoImage(file="12.png")
-canvas = Canvas(window, height=1920, width=1080)
+window.geometry("1910x1080")
+bg = PhotoImage(file="BG1.png")
+canvas = Canvas(window, height=1910, width=1080)
 canvas.pack(fill="both", expand=True)
 canvas.create_image(0,0, image=bg, anchor="nw")
 title = Label(text="Indian Penal Code Search Engine", bg="Sky Blue",
