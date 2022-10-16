@@ -56,7 +56,7 @@ def code():
     tokenized_query = query.lower().split(" ")
     import time
     t0 = time.time()
-    results = bm25.get_top_n(tokenized_query, df.text.values, n=3)
+    results = bm25.get_top_n(tokenized_query, df.text.values, n=15)
     t1 = time.time()
     print(f'Searched IPC database in {round(t1-t0,3) } seconds \n')
     for i in results:
@@ -78,15 +78,15 @@ def result_window():
 
 window = Tk()
 window.title("Crime Law Detection")
-window.geometry("1910x1080")
-bg = PhotoImage(file="BG1.png")
-canvas = Canvas(window, height=1910, width=1080)
-canvas.pack(fill="both", expand=True)
-canvas.create_image(0,0, image=bg, anchor="nw")
-title = Label(text="Indian Penal Code Search Engine", bg="Sky Blue",
+window.geometry("1920x1000")
+ # bg = PhotoImage(file="BG1.png")
+# canvas = Canvas(window, height=1920, width=1080)
+# canvas.pack(fill="both", expand=True)
+# canvas.create_image(0,0, image=bg, anchor="nw")
+title = Label(text="First Information Report ",
               fg="black", font=("Times New Roman", int(45.0)))
-title.place(x=250.0, y=30.0)
-info = Label(text="Search for the section by entering the keyword here: ", bg="Sky Blue",
+title.place(x=650.0, y=30.0)
+info = Label(text="Search for the section by entering the keyword here: ",
               fg="black", font=("Times New Roman", int(18.0)))
 info.place(x=250.0, y=120.0)
 input = Entry(window, font=("Times New Roman", int (18.0)))
