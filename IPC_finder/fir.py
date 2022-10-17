@@ -19,7 +19,13 @@ class identification:
         self.typ = typ
 class Complainant:
     def __init__(self,name,f_h_name,DOB,nationality,uid,passport,iid):
-
+        self.name = name
+        self.f_h_name = f_h_name
+        self.DOB = DOB
+        self.nationality = nationality
+        self.uid = uid
+        self.passport = passport
+        self.iid = iid
 class fir:
     def __init__(self, District, P_Station, FIR_NO, Time_Of_FIR, off_time_start, off_time_end, info_at_PS_time, diaryreff, infotype, place_of_occ,complantant):
         self.District = District
@@ -31,7 +37,6 @@ class fir:
         self.info_at_PS_time = info_at_PS_time
         self.diaryreff = diaryreff
         self.infotype = infotype
-        self. =
-        self. =
-        self. =
-        self. =
+        self.place_of_occ = place_of_occ
+        self.complantant = complantant
+
