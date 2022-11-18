@@ -8,9 +8,8 @@ languagedata = [doc.split(" ") for doc in ld]
 # print(languagedata)
 bm25 = BM25Okapi(languagedata)
 doc_scores = bm25.get_scores(inp)
-questions = []
 n=0
 for i in doc_scores:
     n+=1
     if i > 0.1:
-        questions.append([df.loc(row = n,column = d,e,f)])
+        print(i,n)
