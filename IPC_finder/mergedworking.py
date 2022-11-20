@@ -16,8 +16,6 @@ for i in doc_scores:
         ips.append(n+2)
         questionlist.append([df["4"][n],df["5"][n],df["6"][n]])
 print(questionlist,ips)
-ips=[]
-questionlist=[]
 accepted_questions = []
 x=0
 y=0
@@ -28,7 +26,7 @@ def exitt():
 def yes():
 
     global x,y,accepted_questions
-    print ("y",x,y,len(questionlist[x]),len(questionlist))
+    # print ("y",x,y,len(questionlist[x]),len(questionlist))
     if y <len(questionlist[x])-1:
         y+=1
     elif y == len(questionlist[x])-1:
@@ -42,7 +40,7 @@ def yes():
     questions.configure(text =questionlist[x][y])
 def no():
     global x,y,accepted_questions
-    print ("n",x,y,len(questionlist[x]),len(questionlist))
+    # print ("n",x,y,len(questionlist[x]),len(questionlist))
     y = 0
     if x == len(questionlist)-1:
         exitt
