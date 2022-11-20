@@ -1,8 +1,33 @@
+import pandas as pd
+from rank_bm25 import BM25Okapi
 import tkinter
-questionlist=[["Was there a serious death threat or grievous hurt threat?", " was the accused falling under the definition of theft , robbery, mischief, or criminal trespass?", " was there an immediate need for personal defence."], ["Was the accused of sane mind?","Did the accused intentionally commit the crime?","was there an immediate need for personal defence"]]
+def bmitoquest():
+    global questionlist,ips
+    df = pd.read_csv("IPC_whole - IPC_whole.csv")
+    inp = ["murder","riot"]
+    ld = df["3"]
+    languagedata = [doc.split(" ") for doc in ld]
+    bm25 = BM25Okapi(languagedata)
+    doc_scores = bm25.get_scores(inp)
+    questionlist = []
+    ips = []
+    n=-2
+    for i in doc_scores:
+        n+=1
+        if i > 0.1:
+            ips.append(n+2)
+            questionlist.append([df["4"][n],df["5"][n],df["6"][n]])
+    print(questionlist,ips)
+bmitoquest()
+ips=[]
+questionlist=[]
 accepted_questions = []
 x=0
 y=0
+def exitt():
+    global accepted_questions,ips
+    for i in accepted_questions :
+        print(ips[i])
 def yes():
 
     global x,y,accepted_questions
@@ -13,7 +38,7 @@ def yes():
         y = 0
         accepted_questions.append(x)
         if x == len(questionlist)-1:
-            print(accepted_questions)
+            exitt()
             root.destroy()
             return
         x+=1
@@ -23,7 +48,7 @@ def no():
     print ("n",x,y,len(questionlist[x]),len(questionlist))
     y = 0
     if x == len(questionlist)-1:
-        print(accepted_questions)
+        exitt
         root.destroy()
         return
     x+=1
