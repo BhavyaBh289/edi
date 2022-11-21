@@ -3,13 +3,13 @@ import pandas as pd
 from rank_bm25 import BM25Okapi
 import tkinter
 #global variables declared till
-n=[]                    # contains keywords
-df = pd.read_csv("IPC_whole - IPC_whole.csv")
-ips=[]
-questionlist=[]
-accepted_questions = []
-x=0
-y=0
+n=[]                    # contains keywords  ##after keywordextract is run ####keywordextract,bmitoquest
+df = pd.read_csv("IPC_whole - IPC_whole.csv")       #contains the database done  manually ##alltime ####bmitoquest,exit
+ips=[]          #contains all ipcs suspected in the code and passes them to ask questions  contains ipcs after  ##after bmitoquest ####bmitoquest, exit
+questionlist=[]                 # contains all the questions to be asked ## after bmitoquest ####bmitoquest, yes, no
+accepted_questions = []             #contains all ipcs which are sure to be applied ##after yes ## yes exit
+x=0         #number of ipc in list whose questions are being answered ##yes and no ####yes,no
+y=0         #number of questions are being answered ##yes and no ####yes,no
 def keywordextract():
     global n
     extractor = pke.unsupervised.TopicRank()
@@ -67,7 +67,7 @@ def yes():
         x+=1
     questions.configure(text =questionlist[x][y])
 def no():
-    global x,y,accepted_questions
+    global x,y
     # print ("n",x,y,len(questionlist[x]),len(questionlist))
     y = 0
     if x == len(questionlist)-1:
