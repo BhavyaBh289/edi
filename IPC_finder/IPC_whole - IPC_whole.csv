@@ -1,33 +1,14 @@
 1,2,3,4,5,6,7,num
-103,When the right of private defence of property extends to causing death,"The right of
-private defence of property extends, under the restrictions mentioned in section 99, to the voluntary
-causing of death or of any other harm to the wrong-doer, if the offence, the committing of which, or the
-attempting to commit which, occasions the exercise of the right, be an offence of any of the descriptions
-hereinafter enumerated, namely:—
-First.—Robbery;
-Secondly.—House-breaking by night;
-Thirdly.—Mischief by fire committed on any building, tent or vessel, which building, tent or vessel is
-used as a human dwelling, or as a place for the custody of property;
-Fourthly.—Theft, mischief, or house-trespass, under such circumstances as may reasonably cause
-apprehension that death or grievous hurt will be the consequence, if such right of private defence is not
-exercised."," Did the accuse commit any one of the following 1. Robbery 2. House breaking by night 3. Set up a fire 4. Theft, mischief or trespass such that death or grievous hurt will be the consequence.", was there an immediate need for personal defence.,,,75
-100,When the right of private defence of the body extends to causing death,"The right of
-private defence of the body extends, under the restrictions mentioned in the last preceding section, to the
-voluntary causing of death or of any other harm to the assailant, if the offence which occasions the
-exercise of the right be of any of the descriptions hereinafter enumerated, namely:—
-First.—Such an assault as may reasonably cause the apprehension that death will otherwise be the
-consequence of such assault;
-Secondly.—Such an assault as may reasonably cause the apprehension that grievous hurt will
-otherwise be the consequence of such assault;
-Thirdly.—An assault with the intention of committing rape;
-Fourthly.—An assault with the intention of gratifying unnatural lust;
-Fifthly.—An assault with the intention of kidnapping or abducting;
-Sixthly.—An assault with the intention of wrongfully confining a person, under circumstances which
-may reasonably cause him to apprehend that he will be unable to have recourse to the public authorities
-for his release.
-1[Seventhly.—An act of throwing or administering acid or an attempt to throw or administer acid
-which may reasonably cause the apprehension that grievous hurt will otherwise be the consequence of
-such act.]", Were you entitle to one of the following:1. death would've been an otherwise consequence. 2. Grievous hurt would have been an otherwise consequence. 3. Accused had an intention of committing rape. 4. Accused had an intention of kidnapping 5. the accused did o intended to throw acid,was there an immediate need for personal defence.,,,72
+76,"Act done by a person bound, or by mistake of fact believing himself bound, by law","Nothing is an offence which is done by a person who is, or who by reason of a mistake of fact and not by
+reason of a mistake of law in good faith believes himself to be, bound by law to do it.",Were you instructed by a senior officer to do it?,Did you feel u were bound by law to do it ?,,,48
+90,Consent known to be given under fear or misconception,"A consent is not such a consent as
+is intended by any section of this Code, if the consent is given by a person under fear of injury, or under a
+misconception of fact, and if the person doing the act knows, or has reason to believe, that the consent
+was given in consequence of such fear or misconception; or
+Consent of insane person.—if the consent is given by a person who, from unsoundness of mind, or
+intoxication, is unable to understand the nature and consequence of that to which he gives his consent; or
+Consent of child.—unless the contrary appears from the context, if the consent is given by a person
+who is under twelve years of age.",was the consent given by child ,,,,62
 97,Right of private defence of the body and of property,"Every person has a right, subject to the
 restrictions contained in section 99, to defend—
 First.—His own body, and the body of any other person, against any offence affecting the human
@@ -64,14 +45,230 @@ Explanation 2.—A person is not deprived of the right of private defence agains
 attempted to be done, by the direction of a public servant, unless he knows, or has reason to believe, that
 the person doing the act is acting by such direction, or unless such person states the authority under which
 he acts, or if he has authority in writing, unless he produces such authority, if demanded.",1. Was there a serious death threat or grievous hurt threat?, was there an immediate need for personal defence.,,,71
+100,When the right of private defence of the body extends to causing death,"The right of
+private defence of the body extends, under the restrictions mentioned in the last preceding section, to the
+voluntary causing of death or of any other harm to the assailant, if the offence which occasions the
+exercise of the right be of any of the descriptions hereinafter enumerated, namely:—
+First.—Such an assault as may reasonably cause the apprehension that death will otherwise be the
+consequence of such assault;
+Secondly.—Such an assault as may reasonably cause the apprehension that grievous hurt will
+otherwise be the consequence of such assault;
+Thirdly.—An assault with the intention of committing rape;
+Fourthly.—An assault with the intention of gratifying unnatural lust;
+Fifthly.—An assault with the intention of kidnapping or abducting;
+Sixthly.—An assault with the intention of wrongfully confining a person, under circumstances which
+may reasonably cause him to apprehend that he will be unable to have recourse to the public authorities
+for his release.
+1[Seventhly.—An act of throwing or administering acid or an attempt to throw or administer acid
+which may reasonably cause the apprehension that grievous hurt will otherwise be the consequence of
+such act.]", Were you entitle to one of the following:1. death would've been an otherwise consequence. 2. Grievous hurt would have been an otherwise consequence. 3. Accused had an intention of committing rape. 4. Accused had an intention of kidnapping 5. the accused did o intended to throw acid,was there an immediate need for personal defence.,,,72
 101,When such right extends to causing any harm other than death,"If the offence be not of
 any of the descriptions enumerated in the last preceding section, the right of private defence of the body
 does not extend to the voluntary causing of death to the assailant, but does extend, under the restrictions
 mentioned in section 99, to the voluntary causing to the assailant of any harm other than death.",1. Was there a serious death threat or grievous hurt threat?, was there an immediate need for personal defence.,,,73
-401,Punishment for belonging to gang of thieves,"Whoever, at any time after the passing of this
-Act, shall belong to any wandering or other gang of persons associated for the purpose of habitually
-committing theft or robbery, and not being a gang of thugs or dacoits, shall be punished with rigorous
-imprisonment for a term which may extend to seven years, and shall also be liable to fine",Are you a gang member of that gang?/ were you in a gang?,Did you threaten people?,,"shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine.",417
+103,When the right of private defence of property extends to causing death,"The right of
+private defence of property extends, under the restrictions mentioned in section 99, to the voluntary
+causing of death or of any other harm to the wrong-doer, if the offence, the committing of which, or the
+attempting to commit which, occasions the exercise of the right, be an offence of any of the descriptions
+hereinafter enumerated, namely:—
+First.—Robbery;
+Secondly.—House-breaking by night;
+Thirdly.—Mischief by fire committed on any building, tent or vessel, which building, tent or vessel is
+used as a human dwelling, or as a place for the custody of property;
+Fourthly.—Theft, mischief, or house-trespass, under such circumstances as may reasonably cause
+apprehension that death or grievous hurt will be the consequence, if such right of private defence is not
+exercised."," Did the accuse commit any one of the following 1. Robbery 2. House breaking by night 3. Set up a fire 4. Theft, mischief or trespass such that death or grievous hurt will be the consequence.", was there an immediate need for personal defence.,,,75
+106,"Right of private defence against deadly assault when there is risk of harm to innocent
+person","If in the exercise of the right of private defence against an assault which reasonably causes the
+apprehension of death, the defender be so situated that he cannot effectually exercise that right without
+risk of harm to an innocent person, his right of private defence extends to the running of that risk.
+Illustration
+",Was there a risk of death?,Waas the harm to an innocent person a mistake by you?,,,78
+109,Punishment of abetment if the act abetted is committed in consequence and where no express provision is made for its punishment,"Whoever abets any offence shall, if the act abetted is
+committed in consequence of the abetment, and no express provision is made by this Code for the
+punishment of such abetment, be punished with the punishment provided for the offence.
+",Was the accused instigated by somebody?,,,,82
+110,"Punishment of abetment if person abetted does act with different intention from that of
+abettor.","Whoever abets the commission of an offence shall, if the person abetted does the act with a
+different intention or knowledge from that of the abettor, be punished with the punishment provided for
+the offence which would have been committed if the act had been done with the intention or knowledge
+of the abettor and with no other.",Was the accused instigated by somebody?,Were the intentions of accused different from the second person's intentions,,,83
+111,Liability of abettor when one act abetted and different act done.,"When an Act is abetted
+and a different act is done, the abettor is liable for the act done, in the same manner and to the same extent
+as if he had directly abetted it:
+Provided the act done was a probable consequence of the abetment, and was committed under the
+influence of the instigation, or with the aid or in pursuance of the conspiracy which constituted the
+abetment.",Was the accused instigated by somebody?,Were the intentions of accused different from the second person's intentions,,,84
+112,Abettor when liable to cumulative punishment for act abetted and for act done.,"If the act
+for which the abettor is liable under the last preceding section is committed in addition to the act abetted,
+and constitute a distinct offence, the abettor is liable to punishment for each of the offences.",Was the accused instigated by somebody?,Were the intentions of accused different from the second person's intentions,,,85
+113,"Liability of abettor for an effect caused by the act abetted different from that intended by
+the abettor.","When an act is abetted with the intention on the part of the abettor of causing a particular
+effect, and an act for which the abettor is liable in consequence of the abetment, causes a different effect
+from that intended by the abettor, the abettor is liable for the effect caused, in the same manner and to the
+same extent as if he had abetted the act with the intention of causing that effect, provided he knew that the
+act abetted was likely to cause that effect.",Was the accused instigated by somebody?,Were the intentions of accused different from the second person's intentions,,,86
+151,"Knowingly joining or continuing in assembly of five or more persons after it has been
+commanded to disperse.","Whoever knowingly joins or continues in any assembly of five or more
+persons likely to cause a disturbance of the public peace, after such assembly has been lawfully
+commanded to disperse, shall be punished with imprisonment of either description for a term which may
+extend to six months, or with fine, or with both.
+Explanation.—If the assembly is an unlawful assembly within the meaning of section 141, the
+offender will be punishable under section 145.",Were you in that crowd?,Did you fight in that crowd?,Did you try to obstruct the police process?,"shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both",129
+152,"Assaulting or obstructing public servant when suppressing riot, etc.—","Whoever assaults or threatens to assault, or obstructs or attempts to obstruct, any public servant in the discharge of his duty as such public servant, in endeavouring to disperse an unlawful assembly, or to suppress a riot or affray, or uses, or threatens, or attempts to use criminal force to such public servant, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",Were you involved in fights/hooliganism?,Have you tried to stop the work of government servant?/or threatened?,,"shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both",130
+202,Intentional omission to give information of offence by person bound to inform,"—Whoever,
+knowing or having reason to believe that an offence has been committed, intentionally omits to give any
+information respecting that offence which he is legally bound to give, shall be punished with
+imprisonment of either description for a term which may extend to six months, or with fine, or with both.",Did the accused intentionally omit the information about the offence committed?,,,"shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both.",191
+203,Giving false information respecting an offence committed.—,"Whoever, knowing or having
+reason to believe that an offence has been committed, gives any information respecting that offence which
+he knows or believes to be false, shall be punished with imprisonment of either description for a term
+which may extend to two years, or with fine, or with both.",Did the accused give false information about the offence committed?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",192
+204,Destruction of document to prevent its production as evidence,"Whoever secretes or
+destroys any 3
+[document and electronic record] which he may be lawfully compelled to produce as
+evidence in a Court of Justice, or in any proceeding lawfully held before a public servant, as such, or
+obliterates or renders illegible the whole or any part of such 3
+[document or electronic record] with the
+intention of preventing the same from being produced or used as evidence before such Court or public
+servant as aforesaid, or after he shall have been lawfully summoned or required to produce the same for
+that purpose, shall be punished with imprisonment of either description for a term which may extend to
+two years, or with fine, or with both",Did the accused destroy the document or electronic record which was to be presented as an evidence before the court?,"Did the accused wipe out or render any document or electronic record which was to be presented as an evidence, not clear enough to be read?",,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both",193
+205,False personation for purpose of act or proceeding in suit or prosecution,"—Whoever falsely personates another, and in such assumed character makes any admission or statement, or confesses judgment, or causes any process to be issued or becomes bail or security, or does any other act in any suit or criminal prosecution, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.","Did the accused falsely personate another person and make any admission or statement, or confess judgement?",Did the accused falsely personate another person and causes any process to be issued or becomes bail or security?,"Did the accused falsely personate another person and  does any other act in any suit
+or criminal prosecution?","shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",194
+206,Fraudulent removal or concealment of property to prevent its seizure as forfeited or in execution,"—Whoever fraudulently removes, conceals, transfers or delivers to any person any property or
+any interest therein, intending thereby to prevent that property or interest therein from being taken as a
+forfeiture or in satisfaction of a fine, under a sentence which has been pronounced, or which he knows to
+be likely to be pronounced, by a Court of Justice or other competent authority, or from being taken in
+execution of a decree or order which has been made, or which he knows to be likely to be made by a
+Court of Justice in a civil suit, shall be punished with imprisonment of either description for a term which
+may extend to two years or with fine, or with both.",Is the property involved prevented from being taken as foefeiture or as a fine under a sentence which has been pronounced or is going to be pronounced by court of justice or from being taken in execution of a decree or order?,"Was the property fraudulently removed, concealed, delivered or transferred to some other person?",,"shall be punished with imprisonment of either description for a term which may extend to two years or with fine, or with both.",195
+207,Fraudulent claim to property to prevent its seizure as forfeited or in execution.—,"Whoever
+fraudulently accepts, receives or claims any property or any interest therein, knowing that he has no right
+or rightful claim to such property or interest, or practices any deception touching any right to any property
+or any interest therein, intending thereby to prevent that property or interest therein from being taken as a
+forfeiture or in satisfaction of a fine, under a sentence which has been pronounced, or which he knows to
+be likely to be pronounced by a Court of Justice or other competent authority, or from being taken in
+execution of a decree or order which has been made, or which he knows to be likely to be made by a
+Court of Justice in a civil suit, shall be punished with imprisonment of either description for a term which
+may extend to two years, or with fine, or with both.
+",Is the property involved prevented from being taken as foefeiture or as a fine under a sentence which has been pronounced or is going to be pronounced by court of justice or from being taken in execution of a decree or order?,"Was the property fraudulently accpeted, received or claimed despite of knowing he has no right on the property?",,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both",196
+208,Fraudulently suffering decree for sum not due,"Whoever fraudulently causes or suffers a
+decree or order to be passed against him at the suit of any person for a sum not due or for a larger sum
+than is due to such person or for any property or interest in property to which such person is not entitled,
+or fraudulently causes or suffers a decree or order to be executed against him after it has been satisfied, or
+for anything in respect of which it has been satisfied, shall be punished with imprisonment of either
+description for a term which may extend to two years, or with fine, or with both.",Did the accused have an intention of annoying or injuring the victim?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",197
+209,Dishonesty making false claim in Court,"Whoever fraudulently or dishonestly, or with intent
+to injure or annoy any person, makes in a Court of Justice any claim which he knows to be false, shall be
+punished with imprisonment of either description for a term which may extend to two years, and shall
+also be liable to fine",Did the accused make any false claim in the Court of Justice?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, and shall also be liable to fine.",198
+211,False charge of offence made with intent to injure,"Whoever, with intent to cause injury to
+any person, institutes or causes to be instituted any criminal proceeding against that person, or falsely
+charges any person with having committed an offence, knowing that there is no just or lawful ground for
+such proceeding or charge against that person, shall be punished with imprisonment of either description
+for a term which may extend to two years, or with fine, or with both;
+and if such criminal proceeding be instituted on a false charge of an offence punishable with death,
+1
+[imprisonment for life], or imprisonment for seven years or upwards, shall be punishable with
+imprisonment of either description for a term which may extend to seven years, and shall also be liable to
+fine.",Did the accused institute any criminal proceeding or falsely charge the person for an offence he did not commit?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both; and if such criminal proceeding be instituted on a false charge of an offence punishable with death, 1 [imprisonment for life], or imprisonment for seven years or upwards, shall be punishable with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine",200
+213,"Taking gift, etc., to screen an offender from punishment","Whoever accepts or attempts to
+obtain, or agrees to accept, any gratification for himself or any other person, or any restitution of property
+to himself or any other person, in consideration of his concealing an offence or of his screening any
+person from legal punishment for any offence, or of his not proceeding against any person for the purpose
+of bringing him to legal punishment,
+if a capital offence.—shall, if the offence is punishable with death, be punished with imprisonment
+of either description for a term which may extend to seven years, and shall also be liable to fine;
+if punishable with imprisonment for life, or with imprisonment.—and if the offence is punishable
+with 1
+[imprisonment for life], or with imprisonment which may extend to ten years, shall be punished
+with imprisonment of either description for a term which may extend to three years, and shall also be
+liable to fine;
+and if the offence is punishable with imprisonment not extending to ten years, shall be punished with
+imprisonment of the description provided for the offence for a term which may extend to one fourth part
+of the longest term of imprisonment provided for the offence, or with fine, or with both.",Did the accused accept or agree to accept or attempt to obtain any gift or property from someone to conceal his offence or screen him from legal punishment?,,,"if a capital offence.—shall, if the offence is punishable with death, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; if punishable with imprisonment for life, or with imprisonment.—and if the offence is punishable with 3 [imprisonment for life], or with imprisonment which may extend to ten years, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine; and if the offence is punishable with imprisonment not extending to ten years, shall be punished with imprisonment of the description provided for the offence for a term which may extend to one fourth part of the longest term of imprisonment provided for the offence, or with fine, or with both.",202
+214,Offering gift or restoration of property in consideration of screening offender,"Whoever
+gives or causes, or offers or agrees to give or cause, any gratification to any person, or 2
+[restores or causes
+the restoration of] any property to any person, in consideration of that person's concealing an offence, or
+of his screening any person from legal punishment for any offence, or of his not proceeding against any
+person for the purpose of bringing him to legal punishment,
+if a capital offence.—shall, if the offence is punishable with death, be punished with imprisonment
+of either description for a term which may extend to seven years, and shall also be liable to fine;
+if punishable with imprisonment for life, or with imprisonment.—and if the offence is punishable
+with 1
+[imprisonment for life] or with imprisonment which may extend to ten years, shall be punished with
+imprisonment of either description for a term which may extend to three years, and shall also be liable to
+fine;
+and if the offence is punishable with imprisonment not extending to ten years, shall be punished with
+imprisonment of the description provided for the offence for a term which may extend to one-fourth part
+of the longest term of imprisonment provided for the offence, or with fine, or with both.",Did the accused offer or agree to offer or give any gifts or property to someone to conceal his offence or screen him from any legal punishment?,,,"if a capital offence.—shall, if the offence is punishable with death, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; if punishable with imprisonment for life, or with imprisonment.—and if the offence is punishable with 3 [imprisonment for life] or with imprisonment which may extend to ten years, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine; and if the offence is punishable with imprisonment not extending to ten years, shall be punished with imprisonment of the description provided for the offence for a term which may extend to one-fourth part of the longest term of imprisonment provided for the offence, or with fine, or with both.",203
+216,Harbouring offender who has escaped from custody or whose apprehension has been ordered.,"—Whenever any person convicted of a charged with an offence, being in lawful custody for that
+offence, escapes from such custody,or whenever a public servant, in the exercise of the lawful powers of such public servant, orders a
+certain person to be apprehended for an offence, whoever, knowing of such escape or order for
+apprehension, harbours or conceals that person with the intention of preventing him from being
+apprehended, shall be punished in the manner following, that is to say,
+if a capital offence.—if the offence for which the person was in custody or is ordered to be
+apprehended is punishable with death, he shall be punished with imprisonment of either description for a
+term which may extend to seven years, and shall also be liable to fine;
+if punishable with imprisonment for life, or with imprisonment.—if the offence is punishable
+with 1
+[imprisonment for life] or imprisonment for ten years, he shall be punished with imprisonment of
+either description for a term which may extend to three years, with or without fine;
+and if the offence is punishable with imprisonment which may extend to one year and not to ten
+years, he shall be punished with imprisonment of the description provided for the offence for a term
+which may extend to one-fourth part of the longest term of the imprisonment provided for such offence,
+or with fine, or with both.
+2
+[“Offence” in this section includes also any act or omission of which a person is alleged to have been
+guilty out of 3
+[India], which, if he had been guilty of it in 3
+[India], would have been punishable as an
+offence, and for which he is, under any law relating to extradition, 4
+*** or otherwise, liable to be
+apprehended or detained in custody in 3
+[India], and every such act or omission shall, for the purposes of
+this section, be deemed to be punishable as if the accused person had been guilty of it in 3
+[India].]
+",Did the accused harbour or conceal a person who escaped lawful custody ?,Did the accused harbour or conceal a public servant whose apprehension was ordered?,,"if a capital offence.—if the offence for which the person was in custody or is ordered to be apprehended is punishable with death, he shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; if punishable with imprisonment for life, or with imprisonment.—if the offence is punishable with 3 [imprisonment for life] or imprisonment for ten years, he shall be punished with imprisonment of either description for a term which may extend to three years, with or without fine; and if the offence is punishable with imprisonment which may extend to one year and not to ten years, he shall be punished with imprisonment of the description provided for the offence for a term which may extend to one-fourth part of the longest term of the imprisonment provided for such offence, or with fine, or with both.",205
+217,". Public servant disobeying direction of law with intent to save person from punishment or
+property from forfeiture.—","Whoever, being a public servant, knowingly disobeys any direction of the
+law as to the way in which he is to conduct himself as such public servant, intending thereby to save, or
+knowing it to be likely that he will thereby save, any person from legal punishment, or subject him to a
+less punishment than that to which he is liable, or with intent to save, or knowing that he is likely thereby
+to save, any property from forfeiture or any charge to which it is liable by law, shall be punished with
+imprisonment of either description for a term which may extend to two years, or with fine, or with both.",Is the accused a public servant?,Did the public servant disobey law to save a person from legal punishment he was entitled to?,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",208
+218,Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture,"Whoever, being a public servant, and being as such public
+servant, charged with the preparation of any record or other writing, frames that record or writing in a
+manner which he knows to be incorrect, with intent to cause, or knowing it to be likely that he will
+thereby cause, loss or injury to the public or to any person, or with intent thereby to save, or knowing it to
+be likely that he will thereby save, any person from legal punishment, or with intent to save, or knowingthat he is likely thereby to save, any property from forfeiture or other charge to which it is liable by law,
+shall be punished with imprisonment of either description for a term which may extend to three years, or
+with fine, or with both",Did the public servant frame incorrect records which caused loss or injury to the public?,Did he do this with an intention to save an offender from legal punishment?,,"shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",209
+219,"Public servant in judicial proceeding corruptly making report, etc., contrary to law","Whoever, being a public servant, corruptly or maliciously makes or pronounces in any stage of a judicial
+proceeding, any report, order, verdict, or decision which he knows to be contrary to law, shall be punished
+with imprisonment of either description for a term which may extend to seven years, or with fine, or with
+both.","Did the public servant corruptly make any report,order,verdict or decision against the law during a judicial proceeding?",,,"shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both",210
+220,"Commitment for trial or confinement by person having authority who knows that he is
+acting contrary to law.—","—Whoever, being in any office which gives him legal authority to commit
+persons for trial or to confinement, or to keep persons in confinement, corruptly or maliciously commits
+any person for trial or to confinement, or keeps any person in confinement, in the exercise of that
+authority knowing that in so doing he is acting contrary to law, shall be punished with imprisonment of
+either description for a term which may extend to seven years, or with fine, or with both.",Was the accused legally authorised to commit persons for trial or keep them in confinement?,Did the accused corruptly commit a person for trial or keep him in confinement against the law?,,"shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.",211
+223,Escape from confinement or custody negligently suffered by public servant,"Whoever,
+being a public servant legally bound as such public servant to keep in confinement any person charged
+with or convicted of any offence 1
+[or lawfully committed to custody], negligently suffers such person to
+escape from confinement, shall be punished with simple imprisonment for a term which may extend to
+two years, or with fine, or with both.
+",Did the person escape from confinement or custody beacuse of negligence of the public servant?,,,"shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with both",214
+224,. Resistance or obstruction by a person to his lawful apprehension.—,"Whoever intentionally
+offers any resistance or illegal obstruction to the lawful apprehension of himself for any offence with
+which he is charged or of which he has been convicted, or escapes or attempts to escape from any custody
+in which he is lawfully detained for any such offence, shall be punished with imprisonment of either
+description for a term which may extend to two years, or with fine, or with both.",Did the accused offer resistance or illegal obstruction to hi lawful apprehension?,Did the accused escape or try to escape from legal custody?,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",215
+228,. Intentional insult or interruption to public servant sitting in judicial proceeding.—,"Whoever intentionally offers any insult, or causes any interruption to any public servant, while such public servant is sitting in any stage of a judicial proceeding, shall be punished with simple imprisonment for a term which may extend to six months, or with fine which may extend to one thousand rupees, or with both",Did the accused insult or cause any interrupton to a public servant?,Was the public servant sitting in any stage of a judicial proceeding?,was a public servant harmed,"shall be punished with simple imprisonment for a term which may extend to six months, or with fine which may extend to one thousand rupees, or with both.",221
 300,Murder,"Except in the cases hereinafter excepted, culpable homicide is murder, if the act by
 which the death is caused is done with the intention of causing death, or—
 2ndly.—If it is done with the intention of causing such bodily injury as the offender knows to be
@@ -144,38 +341,15 @@ the age of eighteen years, suffers death or takes the risk of death with his own
 Illustration
 A, by instigation, voluntarily causes Z, a person under eighteen years of age to commit suicide. Here, on account of Z's
 youth, he was incapable of giving consent to his own death; A has therefore abetted murder",Did criminal had intenion of killing the Victim?,Did criminal knew that victim had problem in the body by which he/she can be killed?,,"302. Punishment for murder.—Whoever commits murder shall be punished with death or 1 [imprisonment for life], and shall also be liable to fine.",298
-213,"Taking gift, etc., to screen an offender from punishment","Whoever accepts or attempts to
-obtain, or agrees to accept, any gratification for himself or any other person, or any restitution of property
-to himself or any other person, in consideration of his concealing an offence or of his screening any
-person from legal punishment for any offence, or of his not proceeding against any person for the purpose
-of bringing him to legal punishment,
-if a capital offence.—shall, if the offence is punishable with death, be punished with imprisonment
-of either description for a term which may extend to seven years, and shall also be liable to fine;
-if punishable with imprisonment for life, or with imprisonment.—and if the offence is punishable
-with 1
-[imprisonment for life], or with imprisonment which may extend to ten years, shall be punished
-with imprisonment of either description for a term which may extend to three years, and shall also be
-liable to fine;
-and if the offence is punishable with imprisonment not extending to ten years, shall be punished with
-imprisonment of the description provided for the offence for a term which may extend to one fourth part
-of the longest term of imprisonment provided for the offence, or with fine, or with both.",Did the accused accept or agree to accept or attempt to obtain any gift or property from someone to conceal his offence or screen him from legal punishment?,,,"if a capital offence.—shall, if the offence is punishable with death, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; if punishable with imprisonment for life, or with imprisonment.—and if the offence is punishable with 3 [imprisonment for life], or with imprisonment which may extend to ten years, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine; and if the offence is punishable with imprisonment not extending to ten years, shall be punished with imprisonment of the description provided for the offence for a term which may extend to one fourth part of the longest term of imprisonment provided for the offence, or with fine, or with both.",202
-326B,Voluntarily throwing or attempting to throw acid.,"Whoever throws or attempts to throw
-acid on any person or attempts to administer acid to any person, or attempts to use any other means, with
-the intention of causing permanent or partial damage or deformity or burns or maiming or disfigurement
-or disability or grievous hurt to that person, shall be punished with imprisonment of either description for
-a term which shall not be less than five years but which may extend to seven years, and shall also be
-liable to fine.
-Explanation 1.—For the purposes of section 326A and this section, ""acid"" includes any substance
-which has acidic or corrosive character or burning nature, that is capable of causing bodily injury leading
-to scars or disfigurement or temporary or permanent disability.
-Explanation 2.—For the purposes of section 326A and this section, permanent or partial damage or
-deformity shall not be required to be irreversible.",Did the accused attempt to throw or administer acid to the victim?,,,"shall be punished with imprisonment of either description for  a term which shall not be less than five years but which may extend to seven years, and shall also be  liable to fine.",328
 301,"Culpable homicide by causing death of person other than person whose death was
 intended.","—If a person, by doing anything which he intends or knows to be likely to cause death,
 commits culpable homicide by causing the death of any person, whose death he neither intends nor knows
 himself to be likely to cause, the culpable homicide committed by the offender is of the description of
 which it would have been if he had caused the death of the person whose death he intended or knew
 himself to he likely to cause.",Did the accused cause death of some other person instead of the person he intended to cause death of?,,,,299
+303,Punishment for murder by life-convict,"Whoever, being under sentence of 1
+[imprisonment
+for life], commits murder, shall be punished with death.",Is the accused under sentence of imprisonment of life?,,,,301
 304,Punishment for culpable homicide not amounting to murder.,"Whoever commits culpable
 homicide not amounting to murder, shall be punished with 1
 [imprisonment for life], or imprisonment of
@@ -185,61 +359,6 @@ is likely to cause death;
 or with imprisonment of either description for a term which may extend to ten years, or with fine, or
 with both, if the act is done with the knowledge that it is likely to cause death, but without any intention
 to cause death, or to cause such bodily injury as is likely to cause death.",Did the accused commit culpable homicide but it did not result in murder?,Did the accused have both the knowledge and intention that the commited act would cause death of the person?,Did the accused know that the act is likely to cause death but did not have an intention to cause death?,,302
-204,Destruction of document to prevent its production as evidence,"Whoever secretes or
-destroys any 3
-[document and electronic record] which he may be lawfully compelled to produce as
-evidence in a Court of Justice, or in any proceeding lawfully held before a public servant, as such, or
-obliterates or renders illegible the whole or any part of such 3
-[document or electronic record] with the
-intention of preventing the same from being produced or used as evidence before such Court or public
-servant as aforesaid, or after he shall have been lawfully summoned or required to produce the same for
-that purpose, shall be punished with imprisonment of either description for a term which may extend to
-two years, or with fine, or with both",Did the accused destroy the document or electronic record which was to be presented as an evidence before the court?,"Did the accused wipe out or render any document or electronic record which was to be presented as an evidence, not clear enough to be read?",,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both",193
-205,False personation for purpose of act or proceeding in suit or prosecution,"—Whoever falsely personates another, and in such assumed character makes any admission or statement, or confesses judgment, or causes any process to be issued or becomes bail or security, or does any other act in any suit or criminal prosecution, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.","Did the accused falsely personate another person and make any admission or statement, or confess judgement?",Did the accused falsely personate another person and causes any process to be issued or becomes bail or security?,"Did the accused falsely personate another person and  does any other act in any suit
-or criminal prosecution?","shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",194
-203,Giving false information respecting an offence committed.—,"Whoever, knowing or having
-reason to believe that an offence has been committed, gives any information respecting that offence which
-he knows or believes to be false, shall be punished with imprisonment of either description for a term
-which may extend to two years, or with fine, or with both.",Did the accused give false information about the offence committed?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",192
-216,Harbouring offender who has escaped from custody or whose apprehension has been ordered.,"—Whenever any person convicted of a charged with an offence, being in lawful custody for that
-offence, escapes from such custody,or whenever a public servant, in the exercise of the lawful powers of such public servant, orders a
-certain person to be apprehended for an offence, whoever, knowing of such escape or order for
-apprehension, harbours or conceals that person with the intention of preventing him from being
-apprehended, shall be punished in the manner following, that is to say,
-if a capital offence.—if the offence for which the person was in custody or is ordered to be
-apprehended is punishable with death, he shall be punished with imprisonment of either description for a
-term which may extend to seven years, and shall also be liable to fine;
-if punishable with imprisonment for life, or with imprisonment.—if the offence is punishable
-with 1
-[imprisonment for life] or imprisonment for ten years, he shall be punished with imprisonment of
-either description for a term which may extend to three years, with or without fine;
-and if the offence is punishable with imprisonment which may extend to one year and not to ten
-years, he shall be punished with imprisonment of the description provided for the offence for a term
-which may extend to one-fourth part of the longest term of the imprisonment provided for such offence,
-or with fine, or with both.
-2
-[“Offence” in this section includes also any act or omission of which a person is alleged to have been
-guilty out of 3
-[India], which, if he had been guilty of it in 3
-[India], would have been punishable as an
-offence, and for which he is, under any law relating to extradition, 4
-*** or otherwise, liable to be
-apprehended or detained in custody in 3
-[India], and every such act or omission shall, for the purposes of
-this section, be deemed to be punishable as if the accused person had been guilty of it in 3
-[India].]
-",Did the accused harbour or conceal a person who escaped lawful custody ?,Did the accused harbour or conceal a public servant whose apprehension was ordered?,,"if a capital offence.—if the offence for which the person was in custody or is ordered to be apprehended is punishable with death, he shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; if punishable with imprisonment for life, or with imprisonment.—if the offence is punishable with 3 [imprisonment for life] or imprisonment for ten years, he shall be punished with imprisonment of either description for a term which may extend to three years, with or without fine; and if the offence is punishable with imprisonment which may extend to one year and not to ten years, he shall be punished with imprisonment of the description provided for the offence for a term which may extend to one-fourth part of the longest term of the imprisonment provided for such offence, or with fine, or with both.",205
-216A,Penalty for harbouring robbers or dacoits.—,"Whoever, knowing or having reason to
-believe that any persons are about to commit or have recently committed robbery or dacoity, harbours
-them or any of them, with the intention of facilitating the commission of such robbery or dacoity, or of
-screening them or any of them from punishment, shall be punished with rigorous imprisonment for a term
-which may extend to seven years, and shall also be liable to fine",Did the accused harbour someone who has or was about to commit robbery or dacoity?,Did the person who harboured the offender was husband or wife of the offender?,,"shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine.",206
-208,Fraudulently suffering decree for sum not due,"Whoever fraudulently causes or suffers a
-decree or order to be passed against him at the suit of any person for a sum not due or for a larger sum
-than is due to such person or for any property or interest in property to which such person is not entitled,
-or fraudulently causes or suffers a decree or order to be executed against him after it has been satisfied, or
-for anything in respect of which it has been satisfied, shall be punished with imprisonment of either
-description for a term which may extend to two years, or with fine, or with both.",Did the accused have an intention of annoying or injuring the victim?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",197
 305,Abetment of suicide of child or insane person,"If any person under eighteen years of age,
 any insane person, any delirious person, any idiot, or any person in a state of intoxication, commits
 suicide, whoever abets the commission of such suicide, shall be punished with death or 1
@@ -249,50 +368,108 @@ for life], or imprisonment for a term not exceeding ten years, and shall also be
 306,Abetment of suicide ,"—If any person commits suicide, whoever abets the commission of such
 suicide, shall be punished with imprisonment of either description for a term which may extend to ten
 years, and shall also be liable to fine",Did the accused instigate the victim to commit suicide?,,,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",306
-211,False charge of offence made with intent to injure,"Whoever, with intent to cause injury to
-any person, institutes or causes to be instituted any criminal proceeding against that person, or falsely
-charges any person with having committed an offence, knowing that there is no just or lawful ground for
-such proceeding or charge against that person, shall be punished with imprisonment of either description
-for a term which may extend to two years, or with fine, or with both;
-and if such criminal proceeding be instituted on a false charge of an offence punishable with death,
-1
-[imprisonment for life], or imprisonment for seven years or upwards, shall be punishable with
-imprisonment of either description for a term which may extend to seven years, and shall also be liable to
-fine.",Did the accused institute any criminal proceeding or falsely charge the person for an offence he did not commit?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both; and if such criminal proceeding be instituted on a false charge of an offence punishable with death, 1 [imprisonment for life], or imprisonment for seven years or upwards, shall be punishable with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine",200
-228,. Intentional insult or interruption to public servant sitting in judicial proceeding.—,"Whoever intentionally offers any insult, or causes any interruption to any public servant, while such public servant is sitting in any stage of a judicial proceeding, shall be punished with simple imprisonment for a term which may extend to six months, or with fine which may extend to one thousand rupees, or with both",Did the accused insult or cause any interrupton to a public servant?,Was the public servant sitting in any stage of a judicial proceeding?,,"shall be punished with simple imprisonment for a term which may extend to six months, or with fine which may extend to one thousand rupees, or with both.",221
-202,Intentional omission to give information of offence by person bound to inform,"—Whoever,
-knowing or having reason to believe that an offence has been committed, intentionally omits to give any
-information respecting that offence which he is legally bound to give, shall be punished with
-imprisonment of either description for a term which may extend to six months, or with fine, or with both.",Did the accused intentionally omit the information about the offence committed?,,,"shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both.",191
-209,Dishonesty making false claim in Court,"Whoever fraudulently or dishonestly, or with intent
-to injure or annoy any person, makes in a Court of Justice any claim which he knows to be false, shall be
-punished with imprisonment of either description for a term which may extend to two years, and shall
-also be liable to fine",Did the accused make any false claim in the Court of Justice?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, and shall also be liable to fine.",198
 310,Thug,"Whoever, at any time after the passing of this Act, shall have been habitually associated
 with any other or others for the purpose of committing robbery or child-stealing by means of or
 accompanied with murder, is a thug.",Did the accused murder someone during commiting a robbery or child-stealing?,,,"sec 311(shall be punished with 3[imprisonment for life], and shall also  be liable to fine)",310
-214,Offering gift or restoration of property in consideration of screening offender,"Whoever
-gives or causes, or offers or agrees to give or cause, any gratification to any person, or 2
-[restores or causes
-the restoration of] any property to any person, in consideration of that person's concealing an offence, or
-of his screening any person from legal punishment for any offence, or of his not proceeding against any
-person for the purpose of bringing him to legal punishment,
-if a capital offence.—shall, if the offence is punishable with death, be punished with imprisonment
-of either description for a term which may extend to seven years, and shall also be liable to fine;
-if punishable with imprisonment for life, or with imprisonment.—and if the offence is punishable
-with 1
-[imprisonment for life] or with imprisonment which may extend to ten years, shall be punished with
-imprisonment of either description for a term which may extend to three years, and shall also be liable to
-fine;
-and if the offence is punishable with imprisonment not extending to ten years, shall be punished with
-imprisonment of the description provided for the offence for a term which may extend to one-fourth part
-of the longest term of imprisonment provided for the offence, or with fine, or with both.",Did the accused offer or agree to offer or give any gifts or property to someone to conceal his offence or screen him from any legal punishment?,,,"if a capital offence.—shall, if the offence is punishable with death, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; if punishable with imprisonment for life, or with imprisonment.—and if the offence is punishable with 3 [imprisonment for life] or with imprisonment which may extend to ten years, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine; and if the offence is punishable with imprisonment not extending to ten years, shall be punished with imprisonment of the description provided for the offence for a term which may extend to one-fourth part of the longest term of imprisonment provided for the offence, or with fine, or with both.",203
-224,. Resistance or obstruction by a person to his lawful apprehension.—,"Whoever intentionally
-offers any resistance or illegal obstruction to the lawful apprehension of himself for any offence with
-which he is charged or of which he has been convicted, or escapes or attempts to escape from any custody
-in which he is lawfully detained for any such offence, shall be punished with imprisonment of either
-description for a term which may extend to two years, or with fine, or with both.",Did the accused offer resistance or illegal obstruction to hi lawful apprehension?,Did the accused escape or try to escape from legal custody?,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",215
-364A,"Kidnapping for ransom, etc.—","Whoever kidnaps or abducts any person or keeps a person in detention after such kidnapping or abduction, and threatens to cause death or hurt to such person, or by his conduct gives rise to a reasonable apprehension that such person may be put to death or hurt, or causes hurt or death to such person in order to compel the Government or 5 [any foreign State or international inter-governmental organisation or any other person] to do or abstain from doing any act or to pay a ransom, shall be punishable with death, or imprisonment for life, and shall also be liable to fine.",Did the accused threaten to cause death or hurt to the kidnapped or abducted person?,Did the accused compel the government or any other person to do or not do something or pay ransom?,,"shall be punishable with death, or imprisonment for life, and shall also be liable to fine.",372
+312,Causing Miscarraige,"Whoever voluntarily causes a woman with child to miscarry, shall, if such miscarriage be not caused in good faith for the purpose of saving the life of the woman, be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both; and, if the woman be quick with child, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. Explanation.—A woman who causes herself to miscarry, is within the meaning of this section.",Was the miscarriage not caused to save the mother's life?,Was the woman pregnant with a living child?,,"shall, if such miscarriage be not caused in good faith for the purpose of saving the life of the woman, be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both; and, if the woman be quick with child, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",312
+313,Causing Miscarraige without women's consent,"Whoever commits the offence defined in  the last preceding section without the consent of the woman, whether the woman is quick with child or  not, shall be punished with 3[imprisonment for life], or with imprisonment of either description for a term  which may extend to ten years, and shall also be liable to fine.  ",Was the miscarriage caused without the consent of the mother?,,,"shall be punished with 4 [imprisonment for life], or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine",313
+314,Death caused by act done with intent to cause miscarriage.,"Whoever, with intent to cause the miscarriage of a woman with child, does any act which causes the death of such woman, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; if act done without woman's consent.—and if the act is done without the consent of the woman,  shall be punished either with 3[imprisonment for life], or with the punishment above mentioned. 
+Explanation.—It is not essential to this offence that the offender should know that the act is likely to  cause death. 
+",Did the act of miscarriage that was caused also lead to the death of the woman bearing the child?,Was the miscarriage caused without the consent of the mother?,,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; if act done without woman's consent.—and if the act is done without the consent of the woman, shall be punished either with 1 [imprisonment for life], or with the punishment above mentioned.",314
+316,Causing death of quick unborn child by act amounting to culpable homicide.,"Whoever  does any act under such circumstances, that if he thereby caused death he would be guilty of culpable  homicide, and does by such act cause the death of a quick unborn child, shall be punished with  imprisonment of either description for a term which may extend to ten years, and shall also be liable to  fine. 
+",Is the accused guilty of culpable homicide?,Did the act caused death of an unborn living child?,,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",316
+317,"Exposure and abandonment of child under twelve years, by parent or person having care of it.","Whoever being the father or mother of a child under the age of twelve years, or having the care of  such child, shall expose or leave such child in any place with the intention of wholly abandoning such  child, shall be punished with imprisonment of either description for a term which may extend to seven  years, or with fine, or with both. 
+Explanation.—This section is not intended to prevent the trial of the offender for murder or culpable  homicide, as the case may be, if the child die in consequence of the exposure. 
+",Is the child under the age of twelve?,Was the child left at the place with the intention of abandoning him?,,"shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both",317
+318,Concealment of birth by secret disposal of dead body.,"Whoever, by secretly burying or  otherwise disposing of the dead body of a child whether such child die before or after or during its birth,  intentionally conceals or endeavors to conceal the birth of such child, shall be punished with  imprisonment of either description for a term which may extend to two years, or with fine, or with both. ",Was the dead body of a child secretly disposed off to conceal its birth?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",318
+324,Voluntarily causing hurt by dangerous weapons or means.,"Whoever, except in the case
+provided for by section 334, voluntarily causes hurt by means of any instrument for shooting, stabbing or
+cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire
+or any heated substance, or by means of any poison or any corrosive substance, or by means of any
+explosive substance or by means of any substance which it is deleterious to the human body to inhale, to
+swallow, or to receive into the blood, or by means of any animal, shall be punished with imprisonment of
+either description for a term which may extend to three years, or with fine, or with both.",Was the hurt not caused on provocation by some other person?,"Was the hurt caused by means of any instrument for shooting, stabbing or
+cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire
+or any heated substance, or by means of any poison or any corrosive substance, or by means of any
+explosive substance or by means of any substance which it is deleterious to the human body to inhale, to
+swallow, or to receive into the blood, or by means of any animal?",,"shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",324
+326,Voluntarily causing grievous hurt by dangerous weapons or means.,"Whoever, except in
+the case provided for by section 335, voluntarily causes grievous hurt by means of any instrument for
+shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause
+death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance,
+or by means of any explosive substance, or by means of any substance which it is deleterious to the
+human body to inhale, to swallow, or to receive into the blood, or by means of any animal, shall be
+punished with 1[imprisonment for life], or with imprisonment of either description for a term which may
+extend to ten years, and shall also be liable to fine.",Was the grevious hurt not caused on provocation by some other person?,"Was the grevious hurt caused by means of any instrument for shooting, stabbing or
+cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire
+or any heated substance, or by means of any poison or any corrosive substance, or by means of any
+explosive substance or by means of any substance which it is deleterious to the human body to inhale, to
+swallow, or to receive into the blood, or by means of any animal?",,"shall be  punished with 1[imprisonment for life], or with imprisonment of either description for a term which may  extend to ten years, and shall also be liable to fine",326
+360,Kidnapping from India,"Whoever conveys any person beyond the limits of 1[India] without
+the consent of that person, or of some person legally authorised to consent on behalf of that person, is said
+to kidnap that person from 1[India].",Was the person carried or transported outside of India without his consent?,,,"shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",366
+361,Kidnapping from lawful guardianship.—,"Whoever takes or entices any minor under 2[sixteen]
+years of age if a male, or under 3[eighteen] years of age if a female, or any person of unsound mind, out of
+the keeping of the lawful guardian of such minor or person of unsound mind, without the consent of such
+guardian, is said to kidnap such minor or person from lawful guardianship.",Was the personn taken away without the consent of their legal guardian?,Was the person a male under 16 years or a female under 18 years or a person of unsound mind?,,"shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",367
+362,Abduction,"Whoever by force compels, or by any deceitful means induces, any person to go
+from any place, is said to abduct that person.",Was the person forcefully compelled or deceitfully induced to go away from any place?,,,,368
+364,Kidnapping or abducting in order to murder,"Whoever kidnaps or abducts any person in order that such person may be murdered or may be so disposed of as to be put in danger of being murdered, shall be punished with 3 [imprisonment for life] or rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",Was the person kidnapped or abducted in order to be murdered?,Was the person kidnapped or abducted in order to put him in a danger of being murdered?,,"shall be punished with 1 [imprisonment for life] or rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",371
+365,Kidnapping or abducting with intent secretly and wrongfully to confine person,"Whoever kidnaps or abducts any person with intent to cause that person to be secretly and wrongfully confined, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",Was the person kidnapped or abducted secretly or wrongfully confined? ,,,"shall be punished with imprisonment of either description for a term which may extend to seven years, 
+and shall also be liable to fine.
+",373
+366,". Kidnapping, abducting or inducing woman to compel her marriage, etc.—","Whoever kidnaps or abducts any woman with intent that she may be compelled, or knowing it to be likely that she will be compelled, to marry any person against her will, or in order that she may be forced or seduced to illicit intercourse, or knowing it to be likely that she will be forced or seduced to illicit intercourse, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; 1 [and whoever, by means of criminal intimidation as defined in this Code or of abuse of authority or any other method of compulsion, induces any woman to go from any place with intent that she may be, or knowing that it is likely that she will be, forced or seduced to illicit intercourse with another person shall also be punishable as aforesaid].",Was the woman kidnapped or abducted and compelled to marry someone against her will?,Was the woman kidnapped or abducted and forced or seduced for illicit intercourse?,,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine",374
+367,"Kidnapping or abducting in order to subject person to grievous hurt, slavery, etc","Whoever kidnaps or abducts any person in order that such person may be subjected, or may be so disposed of as to be put in danger of being subjected to grievous hurt, or slavery, or to the unnatural lust of any person, or knowing it to be likely that such person will be so subjected or disposed of, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.","Is the kidnapped person subjected to grevious hurt,slavery or unnatural lust of other person?",,,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",377
+369,Kidnapping or abducting child under ten years with intent to steal from its person,"Whoever kidnaps or abducts any child under the age of ten years with the intention of taking dishonestly any movable property from the person of such child, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine",Is the kidnapped child under the age of 10 years?,Did the kidnapping take place with an intention of dishonestly taking any moveable property from person of child?,,"shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",379
+371,Habitual dealing in slaves,"Whoever habitually imports, exports, removes, buys, sells, traffics or deals in slaves, shall be punished with 1 [imprisonment for life], or with imprisonment of either description for a term not exceeding ten years, and shall also be liable to fine","Is the accused habitually involved in import,export,buying and selling of slaves?",,,"shall be punished with 1 [imprisonment for life], or with imprisonment of either description for a term not exceeding ten years, and shall also be liable to fine.",382
+372,"Selling minor for purposes of prostitution, etc.—","Whoever sells, lets to hire, or otherwise disposes of any 2 [person under the age of eighteen years with intent that such person shall at any age be employed or used for the purpose of prostitution or illicit intercourse with any person or for any unlawful and immoral purpose, or knowing it to be likely that such person will at any age be] employed or used for any such purpose, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.[Explanation I.—When a female under the age of eighteen years is sold, let for hire, or otherwise
+disposed of to a prostitute or to any person who keeps or manages a brothel, the person so disposing of
+such female shall, until the contrary is proved, be presumed to have disposed of her with the intent that
+she shall be used for the purpose of prostitution.
+Explanation II.—For the purposes of this section “illicit intercourse” means sexual intercourse
+between persons not united by marriage or by any union or tie which, though not amounting to a
+marriage, is recognised by the personal law or custom of the community to which they belong or, where
+they belong to different communities, of both such communities, as constituting between them a quasimarital relation.]
+",Was the female under the age of 18 years?,"Did the accused sell, let for hire, or otherwise
+dispose of the female to a prostitute or to any person who keeps or manages a brothel?",,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine",383
+373,"Buying minor for purposes of prostitution, etc","Whoever buys, hires or otherwise obtains possession of any 2 [person under the age of eighteen years with intent that such person shall at any age be employed or used for the purpose of prostitution or illicit intercourse with any person or for any unlawful and immoral purpose, or knowing it to be likely that such person will at any age be] employed or used for any such purpose, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. 3 [Explanation I.—Any prostitute or any person keeping or managing a brothel, who buys, hires or otherwise obtains possession of a female under the age of eighteen years shall, until the contrary is proved, be presumed to have obtained possession of such female with the intent that she shall be used for the purpose of prostitution. Explanation II.—“Illicit intercourse” has the same meaning as in section 372.]",Was the female under the age of 18 years?,"Did a prostitute or a person managing a brothel buy, hire, or obtain possesion of the female ?",,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",384
+374,Unlawful compulsory labour,"Whoever unlawfully compels any person to labour against the will of that person, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.",Was the person unlawfully compelled to labour against his will?,,,"shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.",385
+401,Punishment for belonging to gang of thieves,"Whoever, at any time after the passing of this
+Act, shall belong to any wandering or other gang of persons associated for the purpose of habitually
+committing theft or robbery, and not being a gang of thugs or dacoits, shall be punished with rigorous
+imprisonment for a term which may extend to seven years, and shall also be liable to fine",Was the criminal  gang member ?,Did he  threaten people?,was he a known associate of a gang ?,"shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine.",417
+402,Assembling for purpose of committing dacoity,"Whoever, at any time after the passing of
+this Act, shall be one of five or more persons assembled for the purpose of committing dacoity, shall be
+punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable
+to fine.",was the accused  involved in a robbery?,did the accused participate in or help in the robbery,was  the accused associated with robbery ,"shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine",418
+108A,Abetment in India of offences outside India,"A person abets an offence within the
+meaning of this Code who, in 2[India], abets the commission of any act without and beyond 2[India]
+which would constitute an offence if committed in 2[India].",Was the accused instigated by somebody?,Is the accused an Indian Citizen?,,,81
+153A.,"Promoting enmity between different groups on ground of religion, race, place of birth,
+residence, language, etc., and doing acts prejudicial to maintenance of harmony.—","(a) by words, either spoken or written, or by signs or by visible representations or otherwise, promotes or attempts to promote, on grounds of religion, race, place of birth, residence, language, caste or community or any other ground whatsoever, disharmony or feelings of enmity, hatred or illwill between different religious, racials, language or regional groups or castes or communities, or 1. Subs. by Act 35 of 1969, s. 2, for section 153A. 42 (b) commits any act which is prejudicial to the maintenance of harmony between different religious, racial, language or regional groups or castes or communities, and which disturbs or is likely to disturb the public tranquillity, 1 [or] 1 [(c) organizes any exercise, movement, drill or other similar activity intending that the participants in such activity shall use or be trained to use criminal force or violence or knowing it to be likely that the participants in such activity will use or be trained to use criminal force or violence, or participates in such activity intending to use or be trained to use criminal force or violence or knowing it to be likely that the participants in such activity will use or be trained to use criminal force or violence, against any religious, racial, language or regional group or caste or community and such activity for any reason whatsoever causes or is likely to cause fear or alarm or a feeling of insecurity amongst members of such religious, racial, language or regional group or caste or community,] shall be punished with imprisonment which may extend to three years, or with fine, or with both. (2) Offence committed in place of worship, etc.—Whoever commits an offence specified in sub-section (1) in any place of worship or in any assembly engaged in the performance of religious worship or religious ceremonies, shall be punished with imprisonment which may extend to five years and shall also be liable to fine.]",Did you create enmity through casteism?,Did you encourage discrimination against caste between two people?,,"shall be punished with imprisonment which may extend to three years, or with fine, or with both.                                                          Offence committed in place of worship,                                                                                                                            shall be punished with imprisonment which may extend to five years and shall also 
+be liable to fine",132
+216A,Penalty for harbouring robbers or dacoits.—,"Whoever, knowing or having reason to
+believe that any persons are about to commit or have recently committed robbery or dacoity, harbours
+them or any of them, with the intention of facilitating the commission of such robbery or dacoity, or of
+screening them or any of them from punishment, shall be punished with rigorous imprisonment for a term
+which may extend to seven years, and shall also be liable to fine",Did the accused harbour someone who has or was about to commit robbery or dacoity?,Did the person who harboured the offender was husband or wife of the offender?,,"shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine.",206
+229A, Failure by person released on bail or bond to appear in court,"Whoever, having been
+charged with an offence and released on bail or on bond without sureties, fails without sufficient cause
+(the burden of proving which shall lie upon him), to appear in court in accordance with the terms of the
+bail or bond, shall be punished with imprisonment of either description for a term which may extend to
+one year, or with fine, or with both",Was the accused released on bail or bond without sureties?,Did he fail to appear in court in accordance to the terms of bail or bond?,,"shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.",224
+304A, Causing death by negligence,"Whoever causes the death of any person by doing any rash
+or negligent act not amounting to culpable homicide, shall be punished with imprisonment of either
+description for a term which may extend to two years, or with fine, or with both.]",Was the death caused because of negligence or a rash act?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both",303
+304B,Dowry death,"(1) Where the death of a woman is caused by any burns or bodily injury or
+occurs otherwise than under normal circumstances within seven years of her marriage and it is shown that
+soon before her death she was subjected to cruelty or harassment by her husband or any relative of her
+husband for, or in connection with, any demand for dowry, such death shall be called “dowry death”, and
+such husband or relative shall be deemed to have caused her death.
+Explanation.—For the purposes of this sub-section, “dowry” shall have the same meaning as in
+section 2 of the Dowry Prohibition Act, 1961 (28 of 1961).
+(2) Whoever commits dowry death shall be punished with imprisonment for a term which shall not be
+less than seven years but which may extend to imprisonment for life",Was the woman subjected to harrasment soon before her death by her husband or his relatives regarding dowry?,Did the death of woman take place within 7 years of marriage?,,Whoever commits dowry death shall be punished with imprisonment for a term which shall not be less than seven years but which may extend to imprisonment for life.],304
 326A,"Voluntarily causing grievous hurt by use of acid, etc.","Whoever causes permanent or
 partial damage or deformity to, or burns or maims or disfigures or disables, any part or parts of the body
 of a person or causes grievous hurt by throwing acid on or by administering acid to that person, or by
@@ -306,198 +483,21 @@ partial damage or deformity to, or burns or maims or disfigures or disable, any 
 of a person or cause grievous hurt?",,"shall be punished with imprisonment of either description for a term which shall not be less  than ten years but which may extend to imprisonment for life, and with fine: 
 Provided that such fine shall be just and reasonable to meet the medical expenses of the treatment of  the victim
 ",327
-314,Death caused by act done with intent to cause miscarriage.,"Whoever, with intent to cause the miscarriage of a woman with child, does any act which causes the death of such woman, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; if act done without woman's consent.—and if the act is done without the consent of the woman,  shall be punished either with 3[imprisonment for life], or with the punishment above mentioned. 
-Explanation.—It is not essential to this offence that the offender should know that the act is likely to  cause death. 
-",Did the act of miscarriage that was caused also lead to the death of the woman bearing the child?,Was the miscarriage caused without the consent of the mother?,,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; if act done without woman's consent.—and if the act is done without the consent of the woman, shall be punished either with 1 [imprisonment for life], or with the punishment above mentioned.",314
-223,Escape from confinement or custody negligently suffered by public servant,"Whoever,
-being a public servant legally bound as such public servant to keep in confinement any person charged
-with or convicted of any offence 1
-[or lawfully committed to custody], negligently suffers such person to
-escape from confinement, shall be punished with simple imprisonment for a term which may extend to
-two years, or with fine, or with both.
-",Did the person escape from confinement or custody beacuse of negligence of the public servant?,,,"shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with both",214
-219,"Public servant in judicial proceeding corruptly making report, etc., contrary to law","Whoever, being a public servant, corruptly or maliciously makes or pronounces in any stage of a judicial
-proceeding, any report, order, verdict, or decision which he knows to be contrary to law, shall be punished
-with imprisonment of either description for a term which may extend to seven years, or with fine, or with
-both.","Did the public servant corruptly make any report,order,verdict or decision against the law during a judicial proceeding?",,,"shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both",210
-218,Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture,"Whoever, being a public servant, and being as such public
-servant, charged with the preparation of any record or other writing, frames that record or writing in a
-manner which he knows to be incorrect, with intent to cause, or knowing it to be likely that he will
-thereby cause, loss or injury to the public or to any person, or with intent thereby to save, or knowing it to
-be likely that he will thereby save, any person from legal punishment, or with intent to save, or knowingthat he is likely thereby to save, any property from forfeiture or other charge to which it is liable by law,
-shall be punished with imprisonment of either description for a term which may extend to three years, or
-with fine, or with both",Did the public servant frame incorrect records which caused loss or injury to the public?,Did he do this with an intention to save an offender from legal punishment?,,"shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",209
-153A.,"Promoting enmity between different groups on ground of religion, race, place of birth,
-residence, language, etc., and doing acts prejudicial to maintenance of harmony.—","(a) by words, either spoken or written, or by signs or by visible representations or otherwise, promotes or attempts to promote, on grounds of religion, race, place of birth, residence, language, caste or community or any other ground whatsoever, disharmony or feelings of enmity, hatred or illwill between different religious, racials, language or regional groups or castes or communities, or 1. Subs. by Act 35 of 1969, s. 2, for section 153A. 42 (b) commits any act which is prejudicial to the maintenance of harmony between different religious, racial, language or regional groups or castes or communities, and which disturbs or is likely to disturb the public tranquillity, 1 [or] 1 [(c) organizes any exercise, movement, drill or other similar activity intending that the participants in such activity shall use or be trained to use criminal force or violence or knowing it to be likely that the participants in such activity will use or be trained to use criminal force or violence, or participates in such activity intending to use or be trained to use criminal force or violence or knowing it to be likely that the participants in such activity will use or be trained to use criminal force or violence, against any religious, racial, language or regional group or caste or community and such activity for any reason whatsoever causes or is likely to cause fear or alarm or a feeling of insecurity amongst members of such religious, racial, language or regional group or caste or community,] shall be punished with imprisonment which may extend to three years, or with fine, or with both. (2) Offence committed in place of worship, etc.—Whoever commits an offence specified in sub-section (1) in any place of worship or in any assembly engaged in the performance of religious worship or religious ceremonies, shall be punished with imprisonment which may extend to five years and shall also be liable to fine.]",Did you create enmity through casteism?,Did you encourage discrimination against caste between two people?,,"shall be punished with imprisonment which may extend to three years, or with fine, or with both.                                                          Offence committed in place of worship,                                                                                                                            shall be punished with imprisonment which may extend to five years and shall also 
-be liable to fine",132
-217,". Public servant disobeying direction of law with intent to save person from punishment or
-property from forfeiture.—","Whoever, being a public servant, knowingly disobeys any direction of the
-law as to the way in which he is to conduct himself as such public servant, intending thereby to save, or
-knowing it to be likely that he will thereby save, any person from legal punishment, or subject him to a
-less punishment than that to which he is liable, or with intent to save, or knowing that he is likely thereby
-to save, any property from forfeiture or any charge to which it is liable by law, shall be punished with
-imprisonment of either description for a term which may extend to two years, or with fine, or with both.",Is the accused a public servant?,Did the public servant disobey law to save a person from legal punishment he was entitled to?,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",208
-316,Causing death of quick unborn child by act amounting to culpable homicide.,"Whoever  does any act under such circumstances, that if he thereby caused death he would be guilty of culpable  homicide, and does by such act cause the death of a quick unborn child, shall be punished with  imprisonment of either description for a term which may extend to ten years, and shall also be liable to  fine. 
-",Is the accused guilty of culpable homicide?,Did the act caused death of an unborn living child?,,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",316
-371,Habitual dealing in slaves,"Whoever habitually imports, exports, removes, buys, sells, traffics or deals in slaves, shall be punished with 1 [imprisonment for life], or with imprisonment of either description for a term not exceeding ten years, and shall also be liable to fine","Is the accused habitually involved in import,export,buying and selling of slaves?",,,"shall be punished with 1 [imprisonment for life], or with imprisonment of either description for a term not exceeding ten years, and shall also be liable to fine.",382
-303,Punishment for murder by life-convict,"Whoever, being under sentence of 1
-[imprisonment
-for life], commits murder, shall be punished with death.",Is the accused under sentence of imprisonment of life?,,,,301
-317,"Exposure and abandonment of child under twelve years, by parent or person having care of it.","Whoever being the father or mother of a child under the age of twelve years, or having the care of  such child, shall expose or leave such child in any place with the intention of wholly abandoning such  child, shall be punished with imprisonment of either description for a term which may extend to seven  years, or with fine, or with both. 
-Explanation.—This section is not intended to prevent the trial of the offender for murder or culpable  homicide, as the case may be, if the child die in consequence of the exposure. 
-",Is the child under the age of twelve?,Was the child left at the place with the intention of abandoning him?,,"shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both",317
+326B,Voluntarily throwing or attempting to throw acid.,"Whoever throws or attempts to throw
+acid on any person or attempts to administer acid to any person, or attempts to use any other means, with
+the intention of causing permanent or partial damage or deformity or burns or maiming or disfigurement
+or disability or grievous hurt to that person, shall be punished with imprisonment of either description for
+a term which shall not be less than five years but which may extend to seven years, and shall also be
+liable to fine.
+Explanation 1.—For the purposes of section 326A and this section, ""acid"" includes any substance
+which has acidic or corrosive character or burning nature, that is capable of causing bodily injury leading
+to scars or disfigurement or temporary or permanent disability.
+Explanation 2.—For the purposes of section 326A and this section, permanent or partial damage or
+deformity shall not be required to be irreversible.",Did the accused attempt to throw or administer acid to the victim?,,,"shall be punished with imprisonment of either description for  a term which shall not be less than five years but which may extend to seven years, and shall also be  liable to fine.",328
+363A,Kidnapping or maiming a minor for purposes of begging,"—(1) Whoever kidnaps any minor or, not being the lawful guardian of a minor, obtains the custody of the minor, in order that such minor may be employed or used for the purposes of begging shall be punishable with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. (2) Whoever maims any minor in order that such minor may be employed or used for the purposes of begging shall be punishable with imprisonment for life, and shall also be liable to fine. (3) Where any person, not being the lawful guardian of a minor, employs or uses such minor for the purposes of begging, it shall be presumed, unless the contrary is proved, that he kidnapped or otherwise obtained the custody of that minor in order that the minor might be employed or used for the purposes of begging. (4) In this section,— (a) “begging” means— (i) soliciting or receiving alms in a public place, whether under the pretence of singing, dancing, fortunetelling, performing tricks or selling articles or otherwise; (ii) entering on any private premises for the purpose of soliciting or receiving alms; (iii) exposing or exhibiting, with the object of obtaining or extorting alms, any sore, wound, injury, deformity or disease, whether of himself or of any other person or of an animal; (iv) using a minor as an exhibit for the purpose of soliciting or receiving alms; (b) “minor” means— (i) in the case of a male, a person under sixteen years of age; and (ii) in the case of a female, a person under eighteen years of age.]",Was the minor kidnapped to employ or use for the purpose of begging?,Was the minor injured in a way such that a part of the body is permenantely damaged to employ or use him for the purpose of begging?,,,370
+364A,"Kidnapping for ransom, etc.—","Whoever kidnaps or abducts any person or keeps a person in detention after such kidnapping or abduction, and threatens to cause death or hurt to such person, or by his conduct gives rise to a reasonable apprehension that such person may be put to death or hurt, or causes hurt or death to such person in order to compel the Government or 5 [any foreign State or international inter-governmental organisation or any other person] to do or abstain from doing any act or to pay a ransom, shall be punishable with death, or imprisonment for life, and shall also be liable to fine.",Did the accused threaten to cause death or hurt to the kidnapped or abducted person?,Did the accused compel the government or any other person to do or not do something or pay ransom?,,"shall be punishable with death, or imprisonment for life, and shall also be liable to fine.",372
+366A,Procuration of minor girl,"—Whoever, by any means whatsoever, induces any minor girl under the age of eighteen years to go from any place or to do any act with intent that such girl may be, or knowing that it is likely that she will be, forced or seduced to illicit intercourse with another person shall be punishable with imprisonment which may extend to ten years, and shall also be liable to fine.",Was the girl below 18 years of age?,Was the girl moved from a place and forced or seduced to illicit intercourse with another person?,,"shall be punishable with imprisonment which may extend to ten years, and shall also be liable to fine.",375
 366B,Importation of girl from foreign country,"Whoever imports into 3 [India] from any country outside India 4 [or from the State of Jammu and Kashmir] any girl under the age of twenty-one years with intent that she may be, or knowing it to be likely that she will be, forced or seduced to illicit intercourse with another person, 5 *** shall be punishable with imprisonment which may extend to ten years and shall shall also be liable to fine.]",Is the girl imported from a foreign country or the state of jammu and kashmir?,Is the girl below the age of 21 years?,Was the girl forced or seduced to illicit intercourse with another person?,shall be punishable with imprisonment which may extend to ten years and shall also be liable to fine,376
-369,Kidnapping or abducting child under ten years with intent to steal from its person,"Whoever kidnaps or abducts any child under the age of ten years with the intention of taking dishonestly any movable property from the person of such child, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine",Is the kidnapped child under the age of 10 years?,Did the kidnapping take place with an intention of dishonestly taking any moveable property from person of child?,,"shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",379
-367,"Kidnapping or abducting in order to subject person to grievous hurt, slavery, etc","Whoever kidnaps or abducts any person in order that such person may be subjected, or may be so disposed of as to be put in danger of being subjected to grievous hurt, or slavery, or to the unnatural lust of any person, or knowing it to be likely that such person will be so subjected or disposed of, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.","Is the kidnapped person subjected to grevious hurt,slavery or unnatural lust of other person?",,,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",377
-206,Fraudulent removal or concealment of property to prevent its seizure as forfeited or in execution,"—Whoever fraudulently removes, conceals, transfers or delivers to any person any property or
-any interest therein, intending thereby to prevent that property or interest therein from being taken as a
-forfeiture or in satisfaction of a fine, under a sentence which has been pronounced, or which he knows to
-be likely to be pronounced, by a Court of Justice or other competent authority, or from being taken in
-execution of a decree or order which has been made, or which he knows to be likely to be made by a
-Court of Justice in a civil suit, shall be punished with imprisonment of either description for a term which
-may extend to two years or with fine, or with both.",Is the property involved prevented from being taken as foefeiture or as a fine under a sentence which has been pronounced or is going to be pronounced by court of justice or from being taken in execution of a decree or order?,"Was the property fraudulently removed, concealed, delivered or transferred to some other person?",,"shall be punished with imprisonment of either description for a term which may extend to two years or with fine, or with both.",195
-207,Fraudulent claim to property to prevent its seizure as forfeited or in execution.—,"Whoever
-fraudulently accepts, receives or claims any property or any interest therein, knowing that he has no right
-or rightful claim to such property or interest, or practices any deception touching any right to any property
-or any interest therein, intending thereby to prevent that property or interest therein from being taken as a
-forfeiture or in satisfaction of a fine, under a sentence which has been pronounced, or which he knows to
-be likely to be pronounced by a Court of Justice or other competent authority, or from being taken in
-execution of a decree or order which has been made, or which he knows to be likely to be made by a
-Court of Justice in a civil suit, shall be punished with imprisonment of either description for a term which
-may extend to two years, or with fine, or with both.
-",Is the property involved prevented from being taken as foefeiture or as a fine under a sentence which has been pronounced or is going to be pronounced by court of justice or from being taken in execution of a decree or order?,"Was the property fraudulently accpeted, received or claimed despite of knowing he has no right on the property?",,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both",196
 370A,Exploitation of a trafficked person,"(1) Whoever, knowingly or having reason to believe that a minor has been trafficked, engages such minor for sexual exploitation in any manner, shall be punished with rigorous imprisonment for a term which shall not be less than five years, but which may extend to seven years, and shall also be liable to fine. (2) Whoever, knowingly by or having reason to believe that a person has been trafficked, engages such person for sexual exploitation in any manner, shall be punished with rigorous imprisonment for a term which shall not be less than three years, but which may extend to five years, and shall also be liable to fine.]",Was a minor trafficked and engaged in sexual exploitation?,Was a person trafficked and engaged in sexual exploitation?,,"a minor has been trafficked, engages such minor for sexual exploitation in any manner, shall be punished with rigorous imprisonment for a term which shall not be less than five years, but which may extend to seven years, and shall also be liable to fine.                         a person has been trafficked, engages such 
 person for sexual exploitation in any manner, shall be punished with rigorous imprisonment for a term 
 which shall not be less than three years, but which may extend to five years, and shall also be liable to fine.",381
-108A,Abetment in India of offences outside India,"A person abets an offence within the
-meaning of this Code who, in 2[India], abets the commission of any act without and beyond 2[India]
-which would constitute an offence if committed in 2[India].",Was the accused instigated by somebody?,Is the accused an Indian Citizen?,,,81
-109,Punishment of abetment if the act abetted is committed in consequence and where no express provision is made for its punishment,"Whoever abets any offence shall, if the act abetted is
-committed in consequence of the abetment, and no express provision is made by this Code for the
-punishment of such abetment, be punished with the punishment provided for the offence.
-",Was the accused instigated by somebody?,,,,82
-110,"Punishment of abetment if person abetted does act with different intention from that of
-abettor.","Whoever abets the commission of an offence shall, if the person abetted does the act with a
-different intention or knowledge from that of the abettor, be punished with the punishment provided for
-the offence which would have been committed if the act had been done with the intention or knowledge
-of the abettor and with no other.",Was the accused instigated by somebody?,Were the intentions of accused different from the second person's intentions,,,83
-111,Liability of abettor when one act abetted and different act done.,"When an Act is abetted
-and a different act is done, the abettor is liable for the act done, in the same manner and to the same extent
-as if he had directly abetted it:
-Provided the act done was a probable consequence of the abetment, and was committed under the
-influence of the instigation, or with the aid or in pursuance of the conspiracy which constituted the
-abetment.",Was the accused instigated by somebody?,Were the intentions of accused different from the second person's intentions,,,84
-112,Abettor when liable to cumulative punishment for act abetted and for act done.,"If the act
-for which the abettor is liable under the last preceding section is committed in addition to the act abetted,
-and constitute a distinct offence, the abettor is liable to punishment for each of the offences.",Was the accused instigated by somebody?,Were the intentions of accused different from the second person's intentions,,,85
-113,"Liability of abettor for an effect caused by the act abetted different from that intended by
-the abettor.","When an act is abetted with the intention on the part of the abettor of causing a particular
-effect, and an act for which the abettor is liable in consequence of the abetment, causes a different effect
-from that intended by the abettor, the abettor is liable for the effect caused, in the same manner and to the
-same extent as if he had abetted the act with the intention of causing that effect, provided he knew that the
-act abetted was likely to cause that effect.",Was the accused instigated by somebody?,Were the intentions of accused different from the second person's intentions,,,86
-220,"Commitment for trial or confinement by person having authority who knows that he is
-acting contrary to law.—","—Whoever, being in any office which gives him legal authority to commit
-persons for trial or to confinement, or to keep persons in confinement, corruptly or maliciously commits
-any person for trial or to confinement, or keeps any person in confinement, in the exercise of that
-authority knowing that in so doing he is acting contrary to law, shall be punished with imprisonment of
-either description for a term which may extend to seven years, or with fine, or with both.",Was the accused legally authorised to commit persons for trial or keep them in confinement?,Did the accused corruptly commit a person for trial or keep him in confinement against the law?,,"shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.",211
-229A, Failure by person released on bail or bond to appear in court,"Whoever, having been
-charged with an offence and released on bail or on bond without sureties, fails without sufficient cause
-(the burden of proving which shall lie upon him), to appear in court in accordance with the terms of the
-bail or bond, shall be punished with imprisonment of either description for a term which may extend to
-one year, or with fine, or with both",Was the accused released on bail or bond without sureties?,Did he fail to appear in court in accordance to the terms of bail or bond?,,"shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.",224
-90,Consent known to be given under fear or misconception,"A consent is not such a consent as
-is intended by any section of this Code, if the consent is given by a person under fear of injury, or under a
-misconception of fact, and if the person doing the act knows, or has reason to believe, that the consent
-was given in consequence of such fear or misconception; or
-Consent of insane person.—if the consent is given by a person who, from unsoundness of mind, or
-intoxication, is unable to understand the nature and consequence of that to which he gives his consent; or
-Consent of child.—unless the contrary appears from the context, if the consent is given by a person
-who is under twelve years of age.",was the consent given by child ,,,,62
-318,Concealment of birth by secret disposal of dead body.,"Whoever, by secretly burying or  otherwise disposing of the dead body of a child whether such child die before or after or during its birth,  intentionally conceals or endeavors to conceal the birth of such child, shall be punished with  imprisonment of either description for a term which may extend to two years, or with fine, or with both. ",Was the dead body of a child secretly disposed off to conceal its birth?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",318
-304A, Causing death by negligence,"Whoever causes the death of any person by doing any rash
-or negligent act not amounting to culpable homicide, shall be punished with imprisonment of either
-description for a term which may extend to two years, or with fine, or with both.]",Was the death caused because of negligence or a rash act?,,,"shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both",303
-372,"Selling minor for purposes of prostitution, etc.—","Whoever sells, lets to hire, or otherwise disposes of any 2 [person under the age of eighteen years with intent that such person shall at any age be employed or used for the purpose of prostitution or illicit intercourse with any person or for any unlawful and immoral purpose, or knowing it to be likely that such person will at any age be] employed or used for any such purpose, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.[Explanation I.—When a female under the age of eighteen years is sold, let for hire, or otherwise
-disposed of to a prostitute or to any person who keeps or manages a brothel, the person so disposing of
-such female shall, until the contrary is proved, be presumed to have disposed of her with the intent that
-she shall be used for the purpose of prostitution.
-Explanation II.—For the purposes of this section “illicit intercourse” means sexual intercourse
-between persons not united by marriage or by any union or tie which, though not amounting to a
-marriage, is recognised by the personal law or custom of the community to which they belong or, where
-they belong to different communities, of both such communities, as constituting between them a quasimarital relation.]
-",Was the female under the age of 18 years?,"Did the accused sell, let for hire, or otherwise
-dispose of the female to a prostitute or to any person who keeps or manages a brothel?",,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine",383
-373,"Buying minor for purposes of prostitution, etc","Whoever buys, hires or otherwise obtains possession of any 2 [person under the age of eighteen years with intent that such person shall at any age be employed or used for the purpose of prostitution or illicit intercourse with any person or for any unlawful and immoral purpose, or knowing it to be likely that such person will at any age be] employed or used for any such purpose, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. 3 [Explanation I.—Any prostitute or any person keeping or managing a brothel, who buys, hires or otherwise obtains possession of a female under the age of eighteen years shall, until the contrary is proved, be presumed to have obtained possession of such female with the intent that she shall be used for the purpose of prostitution. Explanation II.—“Illicit intercourse” has the same meaning as in section 372.]",Was the female under the age of 18 years?,"Did a prostitute or a person managing a brothel buy, hire, or obtain possesion of the female ?",,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",384
-366A,Procuration of minor girl,"—Whoever, by any means whatsoever, induces any minor girl under the age of eighteen years to go from any place or to do any act with intent that such girl may be, or knowing that it is likely that she will be, forced or seduced to illicit intercourse with another person shall be punishable with imprisonment which may extend to ten years, and shall also be liable to fine.",Was the girl below 18 years of age?,Was the girl moved from a place and forced or seduced to illicit intercourse with another person?,,"shall be punishable with imprisonment which may extend to ten years, and shall also be liable to fine.",375
-326,Voluntarily causing grievous hurt by dangerous weapons or means.,"Whoever, except in
-the case provided for by section 335, voluntarily causes grievous hurt by means of any instrument for
-shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause
-death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance,
-or by means of any explosive substance, or by means of any substance which it is deleterious to the
-human body to inhale, to swallow, or to receive into the blood, or by means of any animal, shall be
-punished with 1[imprisonment for life], or with imprisonment of either description for a term which may
-extend to ten years, and shall also be liable to fine.",Was the grevious hurt not caused on provocation by some other person?,"Was the grevious hurt caused by means of any instrument for shooting, stabbing or
-cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire
-or any heated substance, or by means of any poison or any corrosive substance, or by means of any
-explosive substance or by means of any substance which it is deleterious to the human body to inhale, to
-swallow, or to receive into the blood, or by means of any animal?",,"shall be  punished with 1[imprisonment for life], or with imprisonment of either description for a term which may  extend to ten years, and shall also be liable to fine",326
-324,Voluntarily causing hurt by dangerous weapons or means.,"Whoever, except in the case
-provided for by section 334, voluntarily causes hurt by means of any instrument for shooting, stabbing or
-cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire
-or any heated substance, or by means of any poison or any corrosive substance, or by means of any
-explosive substance or by means of any substance which it is deleterious to the human body to inhale, to
-swallow, or to receive into the blood, or by means of any animal, shall be punished with imprisonment of
-either description for a term which may extend to three years, or with fine, or with both.",Was the hurt not caused on provocation by some other person?,"Was the hurt caused by means of any instrument for shooting, stabbing or
-cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire
-or any heated substance, or by means of any poison or any corrosive substance, or by means of any
-explosive substance or by means of any substance which it is deleterious to the human body to inhale, to
-swallow, or to receive into the blood, or by means of any animal?",,"shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",324
-363A,Kidnapping or maiming a minor for purposes of begging,"—(1) Whoever kidnaps any minor or, not being the lawful guardian of a minor, obtains the custody of the minor, in order that such minor may be employed or used for the purposes of begging shall be punishable with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. (2) Whoever maims any minor in order that such minor may be employed or used for the purposes of begging shall be punishable with imprisonment for life, and shall also be liable to fine. (3) Where any person, not being the lawful guardian of a minor, employs or uses such minor for the purposes of begging, it shall be presumed, unless the contrary is proved, that he kidnapped or otherwise obtained the custody of that minor in order that the minor might be employed or used for the purposes of begging. (4) In this section,— (a) “begging” means— (i) soliciting or receiving alms in a public place, whether under the pretence of singing, dancing, fortunetelling, performing tricks or selling articles or otherwise; (ii) entering on any private premises for the purpose of soliciting or receiving alms; (iii) exposing or exhibiting, with the object of obtaining or extorting alms, any sore, wound, injury, deformity or disease, whether of himself or of any other person or of an animal; (iv) using a minor as an exhibit for the purpose of soliciting or receiving alms; (b) “minor” means— (i) in the case of a male, a person under sixteen years of age; and (ii) in the case of a female, a person under eighteen years of age.]",Was the minor kidnapped to employ or use for the purpose of begging?,Was the minor injured in a way such that a part of the body is permenantely damaged to employ or use him for the purpose of begging?,,,370
-313,Causing Miscarraige without women's consent,"Whoever commits the offence defined in  the last preceding section without the consent of the woman, whether the woman is quick with child or  not, shall be punished with 3[imprisonment for life], or with imprisonment of either description for a term  which may extend to ten years, and shall also be liable to fine.  ",Was the miscarriage caused without the consent of the mother?,,,"shall be punished with 4 [imprisonment for life], or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine",313
-312,Causing Miscarraige,"Whoever voluntarily causes a woman with child to miscarry, shall, if such miscarriage be not caused in good faith for the purpose of saving the life of the woman, be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both; and, if the woman be quick with child, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. Explanation.—A woman who causes herself to miscarry, is within the meaning of this section.",Was the miscarriage not caused to save the mother's life?,Was the woman pregnant with a living child?,,"shall, if such miscarriage be not caused in good faith for the purpose of saving the life of the woman, be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both; and, if the woman be quick with child, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",312
-360,Kidnapping from India,"Whoever conveys any person beyond the limits of 1[India] without
-the consent of that person, or of some person legally authorised to consent on behalf of that person, is said
-to kidnap that person from 1[India].",Was the person carried or transported outside of India without his consent?,,,"shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",366
-362,Abduction,"Whoever by force compels, or by any deceitful means induces, any person to go
-from any place, is said to abduct that person.",Was the person forcefully compelled or deceitfully induced to go away from any place?,,,,368
-364,Kidnapping or abducting in order to murder,"Whoever kidnaps or abducts any person in order that such person may be murdered or may be so disposed of as to be put in danger of being murdered, shall be punished with 3 [imprisonment for life] or rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",Was the person kidnapped or abducted in order to be murdered?,Was the person kidnapped or abducted in order to put him in a danger of being murdered?,,"shall be punished with 1 [imprisonment for life] or rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",371
-365,Kidnapping or abducting with intent secretly and wrongfully to confine person,"Whoever kidnaps or abducts any person with intent to cause that person to be secretly and wrongfully confined, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",Was the person kidnapped or abducted secretly or wrongfully confined? ,,,"shall be punished with imprisonment of either description for a term which may extend to seven years, 
-and shall also be liable to fine.
-",373
-374,Unlawful compulsory labour,"Whoever unlawfully compels any person to labour against the will of that person, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.",Was the person unlawfully compelled to labour against his will?,,,"shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.",385
-361,Kidnapping from lawful guardianship.—,"Whoever takes or entices any minor under 2[sixteen]
-years of age if a male, or under 3[eighteen] years of age if a female, or any person of unsound mind, out of
-the keeping of the lawful guardian of such minor or person of unsound mind, without the consent of such
-guardian, is said to kidnap such minor or person from lawful guardianship.",Was the personn taken away without the consent of their legal guardian?,Was the person a male under 16 years or a female under 18 years or a person of unsound mind?,,"shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",367
-366,". Kidnapping, abducting or inducing woman to compel her marriage, etc.—","Whoever kidnaps or abducts any woman with intent that she may be compelled, or knowing it to be likely that she will be compelled, to marry any person against her will, or in order that she may be forced or seduced to illicit intercourse, or knowing it to be likely that she will be forced or seduced to illicit intercourse, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; 1 [and whoever, by means of criminal intimidation as defined in this Code or of abuse of authority or any other method of compulsion, induces any woman to go from any place with intent that she may be, or knowing that it is likely that she will be, forced or seduced to illicit intercourse with another person shall also be punishable as aforesaid].",Was the woman kidnapped or abducted and compelled to marry someone against her will?,Was the woman kidnapped or abducted and forced or seduced for illicit intercourse?,,"shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine",374
-304B,Dowry death,"(1) Where the death of a woman is caused by any burns or bodily injury or
-occurs otherwise than under normal circumstances within seven years of her marriage and it is shown that
-soon before her death she was subjected to cruelty or harassment by her husband or any relative of her
-husband for, or in connection with, any demand for dowry, such death shall be called “dowry death”, and
-such husband or relative shall be deemed to have caused her death.
-Explanation.—For the purposes of this sub-section, “dowry” shall have the same meaning as in
-section 2 of the Dowry Prohibition Act, 1961 (28 of 1961).
-(2) Whoever commits dowry death shall be punished with imprisonment for a term which shall not be
-less than seven years but which may extend to imprisonment for life",Was the woman subjected to harrasment soon before her death by her husband or his relatives regarding dowry?,Did the death of woman take place within 7 years of marriage?,,Whoever commits dowry death shall be punished with imprisonment for a term which shall not be less than seven years but which may extend to imprisonment for life.],304
-106,"Right of private defence against deadly assault when there is risk of harm to innocent
-person","If in the exercise of the right of private defence against an assault which reasonably causes the
-apprehension of death, the defender be so situated that he cannot effectually exercise that right without
-risk of harm to an innocent person, his right of private defence extends to the running of that risk.
-Illustration
-",Was there a risk of death?,Waas the harm to an innocent person a mistake by you?,,,78
-151,"Knowingly joining or continuing in assembly of five or more persons after it has been
-commanded to disperse.","Whoever knowingly joins or continues in any assembly of five or more
-persons likely to cause a disturbance of the public peace, after such assembly has been lawfully
-commanded to disperse, shall be punished with imprisonment of either description for a term which may
-extend to six months, or with fine, or with both.
-Explanation.—If the assembly is an unlawful assembly within the meaning of section 141, the
-offender will be punishable under section 145.",Were you in that crowd?,Did you fight in that crowd?,Did you try to obstruct the police process?,"shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both",129
-76,"Act done by a person bound, or by mistake of fact believing himself bound, by law","Nothing is an offence which is done by a person who is, or who by reason of a mistake of fact and not by
-reason of a mistake of law in good faith believes himself to be, bound by law to do it.",Were you instructed by a senior officer to do it?,Did you feel u were bound by law to do it ?,,,48
-402,Assembling for purpose of committing dacoity,"Whoever, at any time after the passing of
-this Act, shall be one of five or more persons assembled for the purpose of committing dacoity, shall be
-punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable
-to fine.",Were you involved in a robbery?,,,"shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine",418
-152,"Assaulting or obstructing public servant when suppressing riot, etc.—","Whoever assaults or threatens to assault, or obstructs or attempts to obstruct, any public servant in the discharge of his duty as such public servant, in endeavouring to disperse an unlawful assembly, or to suppress a riot or affray, or uses, or threatens, or attempts to use criminal force to such public servant, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",Were you involved in fights/hooliganism?,Have you tried to stop the work of government servant?/or threatened?,,"shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both",130
