@@ -1,0 +1,3409 @@
+  
+   ██     ██     ██     ██     ██     ██     ██     ██     ██     ██     ██     ██  
+  █ ■█   █■ █   █ ■█   █■ █   █ ■█   █■ █   █ ■█   █■ █   █ ■█   █■ █   █ ■█   █■ █ 
+   █ █   █ █     █ █   █ █     █ █   █ █     █ █   █ █     █ █   █ █     █ █   █ █ 
+     █ █ █         █ █ █         █ █ █         █ █ █         █ █ █         █ █ █   
+      =■=           =■=           =■=           =■=           =■=           =■=                                                  
+
+
+ 
+ cd /home/bh289/Documents/clg/edi1/EDI_IPC/IPC_finder
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)>  cd /home/bh289/Documents/clg/edi1/EDI_IPC/IPC_finder
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 20:40:16.185165: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 20:40:16.314501: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 20:40:16.314530: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 20:40:16.346283: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 20:40:16.879375: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 20:40:16.879440: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 20:40:16.879448: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 20:40:17.772369: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 20:40:17.772580: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 20:40:17.772669: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words: Inverse problems for a mathematical ...
+ - stems: invers problem for a mathemat ...
+ - PoS: ADJ NOUN ADP DET ADJ ...
+sentence 1:
+ - words: A mathematical model of ion ...
+ - stems: a mathemat model of ion ...
+ - PoS: DET ADJ NOUN ADP NOUN ...
+sentence 2:
+ - words: Two inverse problems are investigated ...
+ - stems: two invers problem are investig ...
+ - PoS: NUM ADJ NOUN AUX VERB ...
+sentence 3:
+ - words: The efficiency of the proposed ...
+ - stems: the effici of the propos ...
+ - PoS: DET NOUN ADP DET VERB ...
+candidate 0: invers problem (stemmed form)
+ - surface forms: ['Inverse problems', 'inverse problems']
+ - offsets: [0, 37]
+ - sentence_ids: [0, 2]
+ - pos_patterns: [['ADJ', 'NOUN'], ['ADJ', 'NOUN']]
+candidate 1: mathemat model (stemmed form)
+ - surface forms: ['mathematical model', 'mathematical model']
+ - offsets: [4, 16]
+ - sentence_ids: [0, 1]
+ - pos_patterns: [['ADJ', 'NOUN'], ['ADJ', 'NOUN']]
+candidate 2: ion exchang (stemmed form)
+ - surface forms: ['ion exchange', 'ion exchange', 'ion exchange']
+ - offsets: [7, 19, 33]
+ - sentence_ids: [0, 1, 1]
+ - pos_patterns: [['NOUN', 'NOUN'], ['NOUN', 'NOUN'], ['NOUN', 'NOUN']]
+candidate 3: compress ion exchang (stemmed form)
+ - surface forms: ['compressible ion exchanger']
+ - offsets: [11]
+ - sentence_ids: [0]
+ - pos_patterns: [['ADJ', 'NOUN', 'NOUN']]
+candidate 4: ion exchang compress (stemmed form)
+ - surface forms: ['ion exchanger compression']
+ - offsets: [26]
+ - sentence_ids: [1]
+ - pos_patterns: [['NOUN', 'NOUN', 'NOUN']]
+candidate 5: process (stemmed form)
+ - surface forms: ['process']
+ - offsets: [31]
+ - sentence_ids: [1]
+ - pos_patterns: [['NOUN']]
+candidate 6: model (stemmed form)
+ - surface forms: ['model']
+ - offsets: [43]
+ - sentence_ids: [2]
+ - pos_patterns: [['NOUN']]
+candidate 7: uniqu solvabl (stemmed form)
+ - surface forms: ['unique solvability']
+ - offsets: [45]
+ - sentence_ids: [2]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 8: numer solut method (stemmed form)
+ - surface forms: ['numerical solution methods']
+ - offsets: [51]
+ - sentence_ids: [2]
+ - pos_patterns: [['ADJ', 'NOUN', 'NOUN']]
+candidate 9: effici (stemmed form)
+ - surface forms: ['efficiency']
+ - offsets: [58]
+ - sentence_ids: [3]
+ - pos_patterns: [['NOUN']]
+candidate 10: method (stemmed form)
+ - surface forms: ['methods']
+ - offsets: [62]
+ - sentence_ids: [3]
+ - pos_patterns: [['NOUN']]
+candidate 11: numer experi (stemmed form)
+ - surface forms: ['numerical experiment']
+ - offsets: [67]
+ - sentence_ids: [3]
+ - pos_patterns: [['ADJ', 'NOUN']]
+topic 0: method;numer solut method 
+topic 1: numer experi 
+topic 2: mathemat model;model 
+topic 3: compress ion exchang;ion exchang;ion exchang compress 
+topic 4: effici 
+topic 5: invers problem 
+topic 6: process 
+topic 7: uniqu solvabl 
+numer solut method: 0.1123051810713309
+numer experi: 0.05384349097107629
+mathemat model: 0.20956615609606072
+ion exchang: 0.252745659150394
+effici: 0.06978124102113362
+invers problem: 0.12382648206384317
+process: 0.09168033164149342
+uniqu solvabl: 0.08625145798466828
+rank 0: ion exchange (0.252745659150394)
+rank 1: mathematical model (0.20956615609606072)
+rank 2: inverse problems (0.12382648206384317)
+rank 3: numerical solution methods (0.1123051810713309)
+rank 4: process (0.09168033164149342)
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 20:47:44.590413: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 20:47:44.715153: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 20:47:44.715185: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 20:47:44.744061: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 20:47:45.239149: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 20:47:45.239198: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 20:47:45.239204: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 20:47:46.010219: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 20:47:46.010290: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 20:47:46.010328: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words: Inverse problems for a mathematical ...
+ - stems: invers problem for a mathemat ...
+ - PoS: ADJ NOUN ADP DET ADJ ...
+sentence 1:
+ - words: A mathematical model of ion ...
+ - stems: a mathemat model of ion ...
+ - PoS: DET ADJ NOUN ADP NOUN ...
+sentence 2:
+ - words: Two inverse problems are investigated ...
+ - stems: two invers problem are investig ...
+ - PoS: NUM ADJ NOUN AUX VERB ...
+sentence 3:
+ - words: The efficiency of the proposed ...
+ - stems: the effici of the propos ...
+ - PoS: DET NOUN ADP DET VERB ...
+candidate 0: invers problem (stemmed form)
+ - surface forms: ['Inverse problems', 'inverse problems']
+ - offsets: [0, 37]
+ - sentence_ids: [0, 2]
+ - pos_patterns: [['ADJ', 'NOUN'], ['ADJ', 'NOUN']]
+candidate 1: mathemat model (stemmed form)
+ - surface forms: ['mathematical model', 'mathematical model']
+ - offsets: [4, 16]
+ - sentence_ids: [0, 1]
+ - pos_patterns: [['ADJ', 'NOUN'], ['ADJ', 'NOUN']]
+candidate 2: ion exchang (stemmed form)
+ - surface forms: ['ion exchange', 'ion exchange', 'ion exchange']
+ - offsets: [7, 19, 33]
+ - sentence_ids: [0, 1, 1]
+ - pos_patterns: [['NOUN', 'NOUN'], ['NOUN', 'NOUN'], ['NOUN', 'NOUN']]
+candidate 3: compress ion exchang (stemmed form)
+ - surface forms: ['compressible ion exchanger']
+ - offsets: [11]
+ - sentence_ids: [0]
+ - pos_patterns: [['ADJ', 'NOUN', 'NOUN']]
+candidate 4: ion exchang compress (stemmed form)
+ - surface forms: ['ion exchanger compression']
+ - offsets: [26]
+ - sentence_ids: [1]
+ - pos_patterns: [['NOUN', 'NOUN', 'NOUN']]
+candidate 5: process (stemmed form)
+ - surface forms: ['process']
+ - offsets: [31]
+ - sentence_ids: [1]
+ - pos_patterns: [['NOUN']]
+candidate 6: model (stemmed form)
+ - surface forms: ['model']
+ - offsets: [43]
+ - sentence_ids: [2]
+ - pos_patterns: [['NOUN']]
+candidate 7: uniqu solvabl (stemmed form)
+ - surface forms: ['unique solvability']
+ - offsets: [45]
+ - sentence_ids: [2]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 8: numer solut method (stemmed form)
+ - surface forms: ['numerical solution methods']
+ - offsets: [51]
+ - sentence_ids: [2]
+ - pos_patterns: [['ADJ', 'NOUN', 'NOUN']]
+candidate 9: effici (stemmed form)
+ - surface forms: ['efficiency']
+ - offsets: [58]
+ - sentence_ids: [3]
+ - pos_patterns: [['NOUN']]
+candidate 10: method (stemmed form)
+ - surface forms: ['methods']
+ - offsets: [62]
+ - sentence_ids: [3]
+ - pos_patterns: [['NOUN']]
+candidate 11: numer experi (stemmed form)
+ - surface forms: ['numerical experiment']
+ - offsets: [67]
+ - sentence_ids: [3]
+ - pos_patterns: [['ADJ', 'NOUN']]
+topic 0: method;numer solut method 
+topic 1: numer experi 
+topic 2: mathemat model;model 
+topic 3: compress ion exchang;ion exchang;ion exchang compress 
+topic 4: effici 
+topic 5: invers problem 
+topic 6: process 
+topic 7: uniqu solvabl 
+numer solut method: 0.1123051810713309
+numer experi: 0.05384349097107629
+mathemat model: 0.20956615609606072
+ion exchang: 0.252745659150394
+effici: 0.06978124102113362
+invers problem: 0.12382648206384317
+process: 0.09168033164149342
+uniqu solvabl: 0.08625145798466828
+rank 0: ion exchange (0.252745659150394)
+rank 1: mathematical model (0.20956615609606072)
+rank 2: inverse problems (0.12382648206384317)
+rank 3: numerical solution methods (0.1123051810713309)
+rank 4: process (0.09168033164149342)
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 20:51:36.499474: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 20:51:36.613777: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 20:51:36.613805: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 20:51:36.642836: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 20:51:37.121514: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 20:51:37.121566: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 20:51:37.121574: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 20:51:37.865613: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 20:51:37.865794: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 20:51:37.865887: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Announcement Now coders with ...
+ - stems:   announc now coder with ...
+ - PoS: SPACE PROPN ADV VERB ADP ...
+sentence 1:
+ - words: The Starters 65 has just ...
+ - stems: the starter 65 ha just ...
+ - PoS: DET NOUN NUM AUX ADV ...
+sentence 2:
+ - words: If you missed the contest ...
+ - stems: if you miss the contest ...
+ - PoS: SCONJ PRON VERB DET NOUN ...
+candidate 0: announc (stemmed form)
+ - surface forms: ['Announcement']
+ - offsets: [1]
+ - sentence_ids: [0]
+ - pos_patterns: [['PROPN']]
+candidate 1: bronz (stemmed form)
+ - surface forms: ['bronze']
+ - offsets: [6]
+ - sentence_ids: [0]
+ - pos_patterns: [['NOUN']]
+candidate 2: badg (stemmed form)
+ - surface forms: ['badges']
+ - offsets: [9]
+ - sentence_ids: [0]
+ - pos_patterns: [['NOUN']]
+candidate 3: daili streak (stemmed form)
+ - surface forms: ['Daily Streak']
+ - offsets: [11]
+ - sentence_ids: [0]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 4: contest (stemmed form)
+ - surface forms: ['Contest', 'contest']
+ - offsets: [14, 54]
+ - sentence_ids: [0, 2]
+ - pos_patterns: [['PROPN'], ['NOUN']]
+candidate 5: problem solver (stemmed form)
+ - surface forms: ['Problem Solver']
+ - offsets: [17]
+ - sentence_ids: [0]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 6: flat (stemmed form)
+ - surface forms: ['FLAT']
+ - offsets: [23]
+ - sentence_ids: [0]
+ - pos_patterns: [['ADJ']]
+candidate 7: codechef pro subscript (stemmed form)
+ - surface forms: ['CodeChef Pro subscription']
+ - offsets: [29]
+ - sentence_ids: [0]
+ - pos_patterns: [['PROPN', 'PROPN', 'NOUN']]
+candidate 8: starter (stemmed form)
+ - surface forms: ['Starters']
+ - offsets: [34]
+ - sentence_ids: [1]
+ - pos_patterns: [['NOUN']]
+candidate 9: problem solut readi (stemmed form)
+ - surface forms: ['problem solutions ready']
+ - offsets: [46]
+ - sentence_ids: [1]
+ - pos_patterns: [['NOUN', 'NOUN', 'ADJ']]
+candidate 10: abl (stemmed form)
+ - surface forms: ['able']
+ - offsets: [60]
+ - sentence_ids: [2]
+ - pos_patterns: [['ADJ']]
+candidate 11: question (stemmed form)
+ - surface forms: ['questions']
+ - offsets: [65]
+ - sentence_ids: [2]
+ - pos_patterns: [['NOUN']]
+candidate 12: problem repositori (stemmed form)
+ - surface forms: ['problem repository']
+ - offsets: [73]
+ - sentence_ids: [2]
+ - pos_patterns: [['NOUN', 'NOUN']]
+candidate 13: video editori (stemmed form)
+ - surface forms: ['video editorials']
+ - offsets: [81]
+ - sentence_ids: [2]
+ - pos_patterns: [['NOUN', 'NOUN']]
+candidate 14: text editori (stemmed form)
+ - surface forms: ['text editorials']
+ - offsets: [84]
+ - sentence_ids: [2]
+ - pos_patterns: [['NOUN', 'NOUN']]
+topic 0: text editori;video editori 
+topic 1: problem repositori;problem solver 
+topic 2: problem solut readi 
+topic 3: abl 
+topic 4: announc 
+topic 5: badg 
+topic 6: bronz 
+topic 7: codechef pro subscript 
+topic 8: contest 
+topic 9: daili streak 
+topic 10: flat 
+topic 11: question 
+topic 12: starter 
+video editori: 0.05732049775329152
+problem solver: 0.11786932180069529
+problem solut readi: 0.05273420294894769
+abl: 0.056995187157575906
+announc: 0.05245336268747229
+badg: 0.09277452607184859
+bronz: 0.07446838932877405
+codechef pro subscript: 0.06999727718983621
+contest: 0.1371187536584453
+daili streak: 0.10575117263447179
+flat: 0.0650228633623581
+question: 0.054197016764362255
+starter: 0.06329742864192113
+rank 0: contest (0.1371187536584453)
+rank 1: problem solver (0.11786932180069529)
+rank 2: daily streak (0.10575117263447179)
+rank 3: badges (0.09277452607184859)
+rank 4: bronze (0.07446838932877405)
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 20:59:26.554238: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 20:59:26.685382: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 20:59:26.685415: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 20:59:26.714464: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 20:59:27.225161: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 20:59:27.225212: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 20:59:27.225220: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 20:59:28.046906: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 20:59:28.047132: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 20:59:28.047687: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Elon Musk has shared ...
+ - stems:   elon musk ha share ...
+ - PoS: SPACE PROPN PROPN AUX VERB ...
+candidate 0: elon musk (stemmed form)
+ - surface forms: ['Elon Musk']
+ - offsets: [1]
+ - sentence_ids: [0]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 1: photo (stemmed form)
+ - surface forms: ['photo']
+ - offsets: [6]
+ - sentence_ids: [0]
+ - pos_patterns: [['NOUN']]
+candidate 2: spacesuit (stemmed form)
+ - surface forms: ['spacesuit']
+ - offsets: [9]
+ - sentence_ids: [0]
+ - pos_patterns: [['NOUN']]
+candidate 3: second imag (stemmed form)
+ - surface forms: ['second image']
+ - offsets: [16]
+ - sentence_ids: [0]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 4: new design (stemmed form)
+ - surface forms: ['new design']
+ - offsets: [21]
+ - sentence_ids: [0]
+ - pos_patterns: [['ADJ', 'NOUN']]
+topic 0: elon musk 
+topic 1: new design 
+topic 2: photo 
+topic 3: second imag 
+topic 4: spacesuit 
+elon musk: 0.17513668001076138
+new design: 0.1592327198219628
+photo: 0.24352369790201475
+second imag: 0.19260276444660576
+spacesuit: 0.2295041378186554
+rank 0: photo (0.24352369790201475)
+rank 1: spacesuit (0.2295041378186554)
+rank 2: second image (0.19260276444660576)
+rank 3: elon musk (0.17513668001076138)
+rank 4: new design (0.1592327198219628)
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:00:13.096458: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:00:13.221233: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:00:13.221264: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:00:13.250334: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:00:13.760808: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:00:13.760863: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:00:13.760871: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:00:14.542509: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:00:14.542557: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:00:14.542587: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Elon Musk has shared ...
+ - stems:   elon musk ha share ...
+ - PoS: SPACE PROPN PROPN AUX VERB ...
+candidate 0: elon musk (stemmed form)
+ - surface forms: ['Elon Musk']
+ - offsets: [1]
+ - sentence_ids: [0]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 1: photo (stemmed form)
+ - surface forms: ['photo']
+ - offsets: [6]
+ - sentence_ids: [0]
+ - pos_patterns: [['NOUN']]
+candidate 2: spacesuit (stemmed form)
+ - surface forms: ['spacesuit']
+ - offsets: [9]
+ - sentence_ids: [0]
+ - pos_patterns: [['NOUN']]
+candidate 3: second imag (stemmed form)
+ - surface forms: ['second image']
+ - offsets: [16]
+ - sentence_ids: [0]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 4: new design (stemmed form)
+ - surface forms: ['new design']
+ - offsets: [21]
+ - sentence_ids: [0]
+ - pos_patterns: [['ADJ', 'NOUN']]
+topic 0: elon musk 
+topic 1: new design 
+topic 2: photo 
+topic 3: second imag 
+topic 4: spacesuit 
+elon musk: 0.17513668001076138
+new design: 0.1592327198219628
+photo: 0.24352369790201475
+second imag: 0.19260276444660576
+spacesuit: 0.2295041378186554
+rank 0: photo (0.24352369790201475)
+rank 1: spacesuit (0.2295041378186554)
+rank 2: second image (0.19260276444660576)
+rank 3: elon musk (0.17513668001076138)
+rank 4: new design (0.1592327198219628)
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:09:15.093472: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:09:15.238219: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:09:15.238264: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:09:15.266495: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:09:15.760208: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:09:15.760264: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:09:15.760271: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:09:16.545712: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:09:16.545758: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:09:16.545805: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: sir (stemmed form)
+ - surface forms: ['Sir', 'sir']
+ - offsets: [1, 272]
+ - sentence_ids: [0, 10]
+ - pos_patterns: [['PROPN'], ['NOUN']]
+candidate 1: humbl submiss (stemmed form)
+ - surface forms: ['humble submission']
+ - offsets: [4]
+ - sentence_ids: [0]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 2: muslim neon (stemmed form)
+ - surface forms: ['Muslim Neon']
+ - offsets: [31]
+ - sentence_ids: [1]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 3: marri (stemmed form)
+ - surface forms: ['Married']
+ - offsets: [36]
+ - sentence_ids: [1]
+ - pos_patterns: [['ADJ']]
+candidate 4: sekh sabarak darji (stemmed form)
+ - surface forms: ['Sekh Sabarak Darji']
+ - offsets: [38]
+ - sentence_ids: [1]
+ - pos_patterns: [['PROPN', 'PROPN', 'PROPN']]
+candidate 5: son (stemmed form)
+ - surface forms: ['son', 'son', 'son']
+ - offsets: [42, 64, 224]
+ - sentence_ids: [1, 2, 7]
+ - pos_patterns: [['NOUN'], ['NOUN'], ['NOUN']]
+candidate 6: sekh jugnu darji (stemmed form)
+ - surface forms: ['Sekh Jugnu Darji']
+ - offsets: [44]
+ - sentence_ids: [1]
+ - pos_patterns: [['PROPN', 'PROPN', 'PROPN']]
+candidate 7: villag (stemmed form)
+ - surface forms: ['village']
+ - offsets: [48]
+ - sentence_ids: [1]
+ - pos_patterns: [['NOUN']]
+candidate 8: para polic station (stemmed form)
+ - surface forms: ['Para police station']
+ - offsets: [51]
+ - sentence_ids: [1]
+ - pos_patterns: [['PROPN', 'NOUN', 'NOUN']]
+candidate 9: mother (stemmed form)
+ - surface forms: ['mother']
+ - offsets: [60]
+ - sentence_ids: [2]
+ - pos_patterns: [['NOUN']]
+candidate 10: year (stemmed form)
+ - surface forms: ['year']
+ - offsets: [70]
+ - sentence_ids: [2]
+ - pos_patterns: [['NOUN']]
+candidate 11: husband (stemmed form)
+ - surface forms: ['husband', 'Husband', 'husband', 'husband', 'husband', 'husband']
+ - offsets: [73, 228, 246, 268, 274, 355]
+ - sentence_ids: [2, 8, 9, 10, 10, 12]
+ - pos_patterns: [['NOUN'], ['NOUN'], ['NOUN'], ['NOUN'], ['NOUN'], ['NOUN']]
+candidate 12: in-law (stemmed form)
+ - surface forms: ['in-laws', 'in-laws', 'in-laws']
+ - offsets: [75, 160, 248]
+ - sentence_ids: [2, 6, 9]
+ - pos_patterns: [['NOUN'], ['NOUN'], ['NOUN']]
+candidate 13: three-year-old child (stemmed form)
+ - surface forms: ['three-year-old child']
+ - offsets: [91]
+ - sentence_ids: [3]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 14: world (stemmed form)
+ - surface forms: ['world']
+ - offsets: [110]
+ - sentence_ids: [4]
+ - pos_patterns: [['NOUN']]
+candidate 15: tortur (stemmed form)
+ - surface forms: ['tortures', 'torture']
+ - offsets: [114, 126]
+ - sentence_ids: [4, 5]
+ - pos_patterns: [['NOUN'], ['NOUN']]
+candidate 16: dowri (stemmed form)
+ - surface forms: ['dowry', 'dowry']
+ - offsets: [120, 203]
+ - sentence_ids: [5, 7]
+ - pos_patterns: [['NOUN'], ['NOUN']]
+candidate 17: marriag (stemmed form)
+ - surface forms: ['marriage', 'marriage']
+ - offsets: [123, 206]
+ - sentence_ids: [5, 7]
+ - pos_patterns: [['NOUN'], ['NOUN']]
+candidate 18: father (stemmed form)
+ - surface forms: ['father', 'father', 'father']
+ - offsets: [146, 153, 172]
+ - sentence_ids: [5, 6, 6]
+ - pos_patterns: [['NOUN'], ['NOUN'], ['NOUN']]
+candidate 19: bullet car (stemmed form)
+ - surface forms: ['Bullet car']
+ - offsets: [148]
+ - sentence_ids: [5]
+ - pos_patterns: [['PROPN', 'NOUN']]
+candidate 20: brother (stemmed form)
+ - surface forms: ['brother']
+ - offsets: [155]
+ - sentence_ids: [6]
+ - pos_patterns: [['NOUN']]
+candidate 21: child (stemmed form)
+ - surface forms: ['child']
+ - offsets: [169]
+ - sentence_ids: [6]
+ - pos_patterns: [['NOUN']]
+candidate 22: hous (stemmed form)
+ - surface forms: ['house']
+ - offsets: [174]
+ - sentence_ids: [6]
+ - pos_patterns: [['NOUN']]
+candidate 23: brother-in-law (stemmed form)
+ - surface forms: ['brother-in-law']
+ - offsets: [186]
+ - sentence_ids: [7]
+ - pos_patterns: [['NOUN']]
+candidate 24: mother-in-law (stemmed form)
+ - surface forms: ['mother-in-law']
+ - offsets: [188]
+ - sentence_ids: [7]
+ - pos_patterns: [['NOUN']]
+candidate 25: hero glamor (stemmed form)
+ - surface forms: ['Hero Glamor']
+ - offsets: [193]
+ - sentence_ids: [7]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 26: registr number jh09ag (stemmed form)
+ - surface forms: ['registration number JH09AG']
+ - offsets: [196]
+ - sentence_ids: [7]
+ - pos_patterns: [['NOUN', 'NOUN', 'NOUN']]
+candidate 27: new bullet car (stemmed form)
+ - surface forms: ['new BULLET car', 'new BULLET car']
+ - offsets: [212, 255]
+ - sentence_ids: [7, 9]
+ - pos_patterns: [['ADJ', 'PROPN', 'NOUN'], ['ADJ', 'PROPN', 'NOUN']]
+candidate 28: in-law hous (stemmed form)
+ - surface forms: ['in-laws house']
+ - offsets: [239]
+ - sentence_ids: [9]
+ - pos_patterns: [['NOUN', 'NOUN']]
+candidate 29: sure (stemmed form)
+ - surface forms: ['sure']
+ - offsets: [265]
+ - sentence_ids: [10]
+ - pos_patterns: [['ADJ']]
+candidate 30: sikh sabarak darji (stemmed form)
+ - surface forms: ['Sikh Sabarak Darji']
+ - offsets: [277]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN', 'PROPN']]
+candidate 31: vasur sikh tabarak darji (stemmed form)
+ - surface forms: ['Vasur Sikh Tabarak Darji']
+ - offsets: [283]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN', 'PROPN', 'PROPN']]
+candidate 32: nand-parbina bibi (stemmed form)
+ - surface forms: ['Nand-Parbina Bibi']
+ - offsets: [290]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 33: sikh jaganu darji (stemmed form)
+ - surface forms: ['Sikh Jaganu Darji']
+ - offsets: [295]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN', 'PROPN']]
+candidate 34: nishad darji (stemmed form)
+ - surface forms: ['Nishad Darji']
+ - offsets: [299]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 35: mother-in-law khairuna bibi (stemmed form)
+ - surface forms: ['Mother-in-law Khairuna Bibi']
+ - offsets: [304]
+ - sentence_ids: [10]
+ - pos_patterns: [['NOUN', 'PROPN', 'PROPN']]
+candidate 36: jaganu darji legal action (stemmed form)
+ - surface forms: ['Jaganu Darji legal action']
+ - offsets: [309]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN', 'ADJ', 'NOUN']]
+candidate 37: appropri measur (stemmed form)
+ - surface forms: ['appropriate measures']
+ - offsets: [319]
+ - sentence_ids: [11]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 38: maidserv (stemmed form)
+ - surface forms: ['maidservants']
+ - offsets: [324]
+ - sentence_ids: [11]
+ - pos_patterns: [['NOUN']]
+candidate 39: necessari step (stemmed form)
+ - surface forms: ['necessary steps']
+ - offsets: [327]
+ - sentence_ids: [11]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 40: futur life (stemmed form)
+ - surface forms: ['future life']
+ - offsets: [332]
+ - sentence_ids: [11]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 41: children (stemmed form)
+ - surface forms: ['children']
+ - offsets: [338]
+ - sentence_ids: [11]
+ - pos_patterns: [['NOUN']]
+candidate 42: complaint (stemmed form)
+ - surface forms: ['complaint']
+ - offsets: [341]
+ - sentence_ids: [12]
+ - pos_patterns: [['NOUN']]
+topic 0: sikh jaganu darji;sikh sabarak darji;vasur sikh tabarak darji 
+topic 1: sekh jugnu darji;sekh sabarak darji 
+topic 2: nishad darji 
+topic 3: jaganu darji legal action 
+topic 4: child;three-year-old child 
+topic 5: bullet car;new bullet car 
+topic 6: mother-in-law;mother-in-law khairuna bibi 
+topic 7: nand-parbina bibi 
+topic 8: hous;in-law hous 
+topic 9: in-law 
+topic 10: appropri measur 
+topic 11: brother 
+topic 12: brother-in-law 
+topic 13: children 
+topic 14: complaint 
+topic 15: dowri 
+topic 16: father 
+topic 17: futur life 
+topic 18: hero glamor 
+topic 19: humbl submiss 
+topic 20: husband 
+topic 21: maidserv 
+topic 22: marri 
+topic 23: marriag 
+topic 24: mother 
+topic 25: muslim neon 
+topic 26: necessari step 
+topic 27: para polic station 
+topic 28: registr number jh09ag 
+topic 29: sir 
+topic 30: son 
+topic 31: sure 
+topic 32: tortur 
+topic 33: villag 
+topic 34: world 
+topic 35: year 
+sikh sabarak darji: 0.0478009799585552
+sekh sabarak darji: 0.04250943410951723
+nishad darji: 0.02151436830385775
+jaganu darji legal action: 0.019065831222058436
+three-year-old child: 0.027271244038677665
+bullet car: 0.044590106181950265
+mother-in-law: 0.03751989051931421
+nand-parbina bibi: 0.019203060162357385
+hous: 0.031547245853278685
+in-law: 0.04650841979054383
+appropri measur: 0.018401292518997373
+brother: 0.02054369162505479
+brother-in-law: 0.020308602187720085
+children: 0.018063793777970277
+complaint: 0.016535987348304915
+dowri: 0.032867117682601206
+father: 0.04947551642029917
+futur life: 0.018609144052727924
+hero glamor: 0.021724210294102375
+humbl submiss: 0.01221072549946626
+husband: 0.08247840199381953
+maidserv: 0.020122756543573123
+marri: 0.02059285996149819
+marriag: 0.0331691929504003
+mother: 0.017167300643463557
+muslim neon: 0.01583849102047067
+necessari step: 0.020469780088458712
+para polic station: 0.019793587276620048
+registr number jh09ag: 0.021864274496705617
+sir: 0.030932564924295747
+son: 0.0486609295223964
+sure: 0.018772871850208168
+tortur: 0.028012104182809208
+villag: 0.02246266420352247
+world: 0.015245778322524071
+year: 0.018145780471879102
+rank 0: husband (0.08247840199381953)
+rank 1: father (0.04947551642029917)
+rank 2: son (0.0486609295223964)
+rank 3: sikh sabarak darji (0.0478009799585552)
+rank 4: in-laws (0.04650841979054383)
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:19:31.196012: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:19:31.318897: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:19:31.318932: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:19:31.346611: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:19:31.818956: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:19:31.819006: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:19:31.819013: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:19:32.562261: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:19:32.562335: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:19:32.562377: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: sir (stemmed form)
+ - surface forms: ['Sir', 'sir']
+ - offsets: [1, 272]
+ - sentence_ids: [0, 10]
+ - pos_patterns: [['PROPN'], ['NOUN']]
+candidate 1: humbl submiss (stemmed form)
+ - surface forms: ['humble submission']
+ - offsets: [4]
+ - sentence_ids: [0]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 2: muslim neon (stemmed form)
+ - surface forms: ['Muslim Neon']
+ - offsets: [31]
+ - sentence_ids: [1]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 3: marri (stemmed form)
+ - surface forms: ['Married']
+ - offsets: [36]
+ - sentence_ids: [1]
+ - pos_patterns: [['ADJ']]
+candidate 4: sekh sabarak darji (stemmed form)
+ - surface forms: ['Sekh Sabarak Darji']
+ - offsets: [38]
+ - sentence_ids: [1]
+ - pos_patterns: [['PROPN', 'PROPN', 'PROPN']]
+candidate 5: son (stemmed form)
+ - surface forms: ['son', 'son', 'son']
+ - offsets: [42, 64, 224]
+ - sentence_ids: [1, 2, 7]
+ - pos_patterns: [['NOUN'], ['NOUN'], ['NOUN']]
+candidate 6: sekh jugnu darji (stemmed form)
+ - surface forms: ['Sekh Jugnu Darji']
+ - offsets: [44]
+ - sentence_ids: [1]
+ - pos_patterns: [['PROPN', 'PROPN', 'PROPN']]
+candidate 7: villag (stemmed form)
+ - surface forms: ['village']
+ - offsets: [48]
+ - sentence_ids: [1]
+ - pos_patterns: [['NOUN']]
+candidate 8: para polic station (stemmed form)
+ - surface forms: ['Para police station']
+ - offsets: [51]
+ - sentence_ids: [1]
+ - pos_patterns: [['PROPN', 'NOUN', 'NOUN']]
+candidate 9: mother (stemmed form)
+ - surface forms: ['mother']
+ - offsets: [60]
+ - sentence_ids: [2]
+ - pos_patterns: [['NOUN']]
+candidate 10: year (stemmed form)
+ - surface forms: ['year']
+ - offsets: [70]
+ - sentence_ids: [2]
+ - pos_patterns: [['NOUN']]
+candidate 11: husband (stemmed form)
+ - surface forms: ['husband', 'Husband', 'husband', 'husband', 'husband', 'husband']
+ - offsets: [73, 228, 246, 268, 274, 355]
+ - sentence_ids: [2, 8, 9, 10, 10, 12]
+ - pos_patterns: [['NOUN'], ['NOUN'], ['NOUN'], ['NOUN'], ['NOUN'], ['NOUN']]
+candidate 12: in-law (stemmed form)
+ - surface forms: ['in-laws', 'in-laws', 'in-laws']
+ - offsets: [75, 160, 248]
+ - sentence_ids: [2, 6, 9]
+ - pos_patterns: [['NOUN'], ['NOUN'], ['NOUN']]
+candidate 13: three-year-old child (stemmed form)
+ - surface forms: ['three-year-old child']
+ - offsets: [91]
+ - sentence_ids: [3]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 14: world (stemmed form)
+ - surface forms: ['world']
+ - offsets: [110]
+ - sentence_ids: [4]
+ - pos_patterns: [['NOUN']]
+candidate 15: tortur (stemmed form)
+ - surface forms: ['tortures', 'torture']
+ - offsets: [114, 126]
+ - sentence_ids: [4, 5]
+ - pos_patterns: [['NOUN'], ['NOUN']]
+candidate 16: dowri (stemmed form)
+ - surface forms: ['dowry', 'dowry']
+ - offsets: [120, 203]
+ - sentence_ids: [5, 7]
+ - pos_patterns: [['NOUN'], ['NOUN']]
+candidate 17: marriag (stemmed form)
+ - surface forms: ['marriage', 'marriage']
+ - offsets: [123, 206]
+ - sentence_ids: [5, 7]
+ - pos_patterns: [['NOUN'], ['NOUN']]
+candidate 18: father (stemmed form)
+ - surface forms: ['father', 'father', 'father']
+ - offsets: [146, 153, 172]
+ - sentence_ids: [5, 6, 6]
+ - pos_patterns: [['NOUN'], ['NOUN'], ['NOUN']]
+candidate 19: bullet car (stemmed form)
+ - surface forms: ['Bullet car']
+ - offsets: [148]
+ - sentence_ids: [5]
+ - pos_patterns: [['PROPN', 'NOUN']]
+candidate 20: brother (stemmed form)
+ - surface forms: ['brother']
+ - offsets: [155]
+ - sentence_ids: [6]
+ - pos_patterns: [['NOUN']]
+candidate 21: child (stemmed form)
+ - surface forms: ['child']
+ - offsets: [169]
+ - sentence_ids: [6]
+ - pos_patterns: [['NOUN']]
+candidate 22: hous (stemmed form)
+ - surface forms: ['house']
+ - offsets: [174]
+ - sentence_ids: [6]
+ - pos_patterns: [['NOUN']]
+candidate 23: brother-in-law (stemmed form)
+ - surface forms: ['brother-in-law']
+ - offsets: [186]
+ - sentence_ids: [7]
+ - pos_patterns: [['NOUN']]
+candidate 24: mother-in-law (stemmed form)
+ - surface forms: ['mother-in-law']
+ - offsets: [188]
+ - sentence_ids: [7]
+ - pos_patterns: [['NOUN']]
+candidate 25: hero glamor (stemmed form)
+ - surface forms: ['Hero Glamor']
+ - offsets: [193]
+ - sentence_ids: [7]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 26: registr number jh09ag (stemmed form)
+ - surface forms: ['registration number JH09AG']
+ - offsets: [196]
+ - sentence_ids: [7]
+ - pos_patterns: [['NOUN', 'NOUN', 'NOUN']]
+candidate 27: new bullet car (stemmed form)
+ - surface forms: ['new BULLET car', 'new BULLET car']
+ - offsets: [212, 255]
+ - sentence_ids: [7, 9]
+ - pos_patterns: [['ADJ', 'PROPN', 'NOUN'], ['ADJ', 'PROPN', 'NOUN']]
+candidate 28: in-law hous (stemmed form)
+ - surface forms: ['in-laws house']
+ - offsets: [239]
+ - sentence_ids: [9]
+ - pos_patterns: [['NOUN', 'NOUN']]
+candidate 29: sure (stemmed form)
+ - surface forms: ['sure']
+ - offsets: [265]
+ - sentence_ids: [10]
+ - pos_patterns: [['ADJ']]
+candidate 30: sikh sabarak darji (stemmed form)
+ - surface forms: ['Sikh Sabarak Darji']
+ - offsets: [277]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN', 'PROPN']]
+candidate 31: vasur sikh tabarak darji (stemmed form)
+ - surface forms: ['Vasur Sikh Tabarak Darji']
+ - offsets: [283]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN', 'PROPN', 'PROPN']]
+candidate 32: nand-parbina bibi (stemmed form)
+ - surface forms: ['Nand-Parbina Bibi']
+ - offsets: [290]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 33: sikh jaganu darji (stemmed form)
+ - surface forms: ['Sikh Jaganu Darji']
+ - offsets: [295]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN', 'PROPN']]
+candidate 34: nishad darji (stemmed form)
+ - surface forms: ['Nishad Darji']
+ - offsets: [299]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN']]
+candidate 35: mother-in-law khairuna bibi (stemmed form)
+ - surface forms: ['Mother-in-law Khairuna Bibi']
+ - offsets: [304]
+ - sentence_ids: [10]
+ - pos_patterns: [['NOUN', 'PROPN', 'PROPN']]
+candidate 36: jaganu darji legal action (stemmed form)
+ - surface forms: ['Jaganu Darji legal action']
+ - offsets: [309]
+ - sentence_ids: [10]
+ - pos_patterns: [['PROPN', 'PROPN', 'ADJ', 'NOUN']]
+candidate 37: appropri measur (stemmed form)
+ - surface forms: ['appropriate measures']
+ - offsets: [319]
+ - sentence_ids: [11]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 38: maidserv (stemmed form)
+ - surface forms: ['maidservants']
+ - offsets: [324]
+ - sentence_ids: [11]
+ - pos_patterns: [['NOUN']]
+candidate 39: necessari step (stemmed form)
+ - surface forms: ['necessary steps']
+ - offsets: [327]
+ - sentence_ids: [11]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 40: futur life (stemmed form)
+ - surface forms: ['future life']
+ - offsets: [332]
+ - sentence_ids: [11]
+ - pos_patterns: [['ADJ', 'NOUN']]
+candidate 41: children (stemmed form)
+ - surface forms: ['children']
+ - offsets: [338]
+ - sentence_ids: [11]
+ - pos_patterns: [['NOUN']]
+candidate 42: complaint (stemmed form)
+ - surface forms: ['complaint']
+ - offsets: [341]
+ - sentence_ids: [12]
+ - pos_patterns: [['NOUN']]
+beat 0.05822381538352047
+told 0.0515799329770874
+remarri 0.045150323989727584
+eat 0.04429867398694574
+convinc 0.04279013619889856
+tri 0.04109374364372128
+let 0.040837849856547925
+want 0.04031319411067949
+came 0.040185747208955735
+surviv 0.0391241804557774
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:20:34.318290: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:20:34.465998: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:20:34.466038: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:20:34.498681: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:20:35.012678: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:20:35.012732: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:20:35.012741: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:20:35.787801: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:20:35.788018: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:20:35.788106: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: shankra-kh (stemmed form)
+ - surface forms: ['Shankra-Kh']
+ - offsets: [49]
+ - sentence_ids: [1]
+ - pos_patterns: [['VERB']]
+candidate 1: abus (stemmed form)
+ - surface forms: ['abusing']
+ - offsets: [78]
+ - sentence_ids: [2]
+ - pos_patterns: [['VERB']]
+candidate 2: beat (stemmed form)
+ - surface forms: ['beat', 'beating']
+ - offsets: [89, 100]
+ - sentence_ids: [3, 3]
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 3: let (stemmed form)
+ - surface forms: ['letting']
+ - offsets: [95]
+ - sentence_ids: [3]
+ - pos_patterns: [['VERB']]
+candidate 4: eat (stemmed form)
+ - surface forms: ['eat']
+ - offsets: [97]
+ - sentence_ids: [3]
+ - pos_patterns: [['VERB']]
+candidate 5: tri (stemmed form)
+ - surface forms: ['tried']
+ - offsets: [105]
+ - sentence_ids: [4]
+ - pos_patterns: [['VERB']]
+candidate 6: surviv (stemmed form)
+ - surface forms: ['survive']
+ - offsets: [107]
+ - sentence_ids: [4]
+ - pos_patterns: [['VERB']]
+candidate 7: pay (stemmed form)
+ - surface forms: ['paying']
+ - offsets: [117]
+ - sentence_ids: [5]
+ - pos_patterns: [['VERB']]
+candidate 8: increas (stemmed form)
+ - surface forms: ['increased']
+ - offsets: [129]
+ - sentence_ids: [5]
+ - pos_patterns: [['VERB']]
+candidate 9: told (stemmed form)
+ - surface forms: ['told', 'told']
+ - offsets: [140, 189]
+ - sentence_ids: [5, 7]
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 10: buy (stemmed form)
+ - surface forms: ['buy']
+ - offsets: [144]
+ - sentence_ids: [5]
+ - pos_patterns: [['VERB']]
+candidate 11: came (stemmed form)
+ - surface forms: ['came']
+ - offsets: [156]
+ - sentence_ids: [6]
+ - pos_patterns: [['VERB']]
+candidate 12: convinc (stemmed form)
+ - surface forms: ['convince']
+ - offsets: [158]
+ - sentence_ids: [6]
+ - pos_patterns: [['VERB']]
+candidate 13: insult (stemmed form)
+ - surface forms: ['insulted']
+ - offsets: [162]
+ - sentence_ids: [6]
+ - pos_patterns: [['VERB']]
+candidate 14: sent (stemmed form)
+ - surface forms: ['sent']
+ - offsets: [165]
+ - sentence_ids: [6]
+ - pos_patterns: [['VERB']]
+candidate 15: leav (stemmed form)
+ - surface forms: ['leaving']
+ - offsets: [183]
+ - sentence_ids: [7]
+ - pos_patterns: [['VERB']]
+candidate 16: given (stemmed form)
+ - surface forms: ['given']
+ - offsets: [201]
+ - sentence_ids: [7]
+ - pos_patterns: [['VERB']]
+candidate 17: replac (stemmed form)
+ - surface forms: ['replaced']
+ - offsets: [209]
+ - sentence_ids: [7]
+ - pos_patterns: [['VERB']]
+candidate 18: come (stemmed form)
+ - surface forms: ['come']
+ - offsets: [219]
+ - sentence_ids: [7]
+ - pos_patterns: [['VERB']]
+candidate 19: kill (stemmed form)
+ - surface forms: ['kill']
+ - offsets: [222]
+ - sentence_ids: [7]
+ - pos_patterns: [['VERB']]
+candidate 20: remarri (stemmed form)
+ - surface forms: ['remarry', 'remarried']
+ - offsets: [230, 357]
+ - sentence_ids: [8, 12]
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 21: want (stemmed form)
+ - surface forms: ['want']
+ - offsets: [235]
+ - sentence_ids: [9]
+ - pos_patterns: [['VERB']]
+candidate 22: return (stemmed form)
+ - surface forms: ['return']
+ - offsets: [237]
+ - sentence_ids: [9]
+ - pos_patterns: [['VERB']]
+candidate 23: demand (stemmed form)
+ - surface forms: ['demanding']
+ - offsets: [253]
+ - sentence_ids: [9]
+ - pos_patterns: [['VERB']]
+candidate 24: know (stemmed form)
+ - surface forms: ['know']
+ - offsets: [263]
+ - sentence_ids: [10]
+ - pos_patterns: [['VERB']]
+candidate 25: remarrieddid (stemmed form)
+ - surface forms: ['remarrieddid']
+ - offsets: [270]
+ - sentence_ids: [10]
+ - pos_patterns: [['VERB']]
+candidate 26: father-deceas (stemmed form)
+ - surface forms: ['father-deceased']
+ - offsets: [298]
+ - sentence_ids: [10]
+ - pos_patterns: [['VERB']]
+candidate 27: punish (stemmed form)
+ - surface forms: ['punish']
+ - offsets: [322]
+ - sentence_ids: [11]
+ - pos_patterns: [['VERB']]
+candidate 28: secur (stemmed form)
+ - surface forms: ['secure']
+ - offsets: [330]
+ - sentence_ids: [11]
+ - pos_patterns: [['VERB']]
+candidate 29: delay (stemmed form)
+ - surface forms: ['delayed']
+ - offsets: [343]
+ - sentence_ids: [12]
+ - pos_patterns: [['VERB']]
+candidate 30: hope (stemmed form)
+ - surface forms: ['hoping']
+ - offsets: [347]
+ - sentence_ids: [12]
+ - pos_patterns: [['VERB']]
+beat 0.05822381538352047
+told 0.0515799329770874
+remarri 0.045150323989727584
+eat 0.04429867398694574
+convinc 0.04279013619889856
+tri 0.04109374364372128
+let 0.040837849856547925
+want 0.04031319411067949
+came 0.040185747208955735
+surviv 0.0391241804557774
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:22:06.290387: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:22:06.417332: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:22:06.417363: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:22:06.448213: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:22:06.948748: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:22:06.948803: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:22:06.948810: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:22:07.806496: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:22:07.806535: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:22:07.806558: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: shankra-kh (stemmed form)
+ - surface forms: ['Shankra-Kh']
+ - offsets: [49]
+ - sentence_ids: [1]
+ - pos_patterns: [['VERB']]
+candidate 1: abus (stemmed form)
+ - surface forms: ['abusing']
+ - offsets: [78]
+ - sentence_ids: [2]
+ - pos_patterns: [['VERB']]
+candidate 2: beat (stemmed form)
+ - surface forms: ['beat', 'beating']
+ - offsets: [89, 100]
+ - sentence_ids: [3, 3]
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 3: let (stemmed form)
+ - surface forms: ['letting']
+ - offsets: [95]
+ - sentence_ids: [3]
+ - pos_patterns: [['VERB']]
+candidate 4: eat (stemmed form)
+ - surface forms: ['eat']
+ - offsets: [97]
+ - sentence_ids: [3]
+ - pos_patterns: [['VERB']]
+candidate 5: tri (stemmed form)
+ - surface forms: ['tried']
+ - offsets: [105]
+ - sentence_ids: [4]
+ - pos_patterns: [['VERB']]
+candidate 6: surviv (stemmed form)
+ - surface forms: ['survive']
+ - offsets: [107]
+ - sentence_ids: [4]
+ - pos_patterns: [['VERB']]
+candidate 7: pay (stemmed form)
+ - surface forms: ['paying']
+ - offsets: [117]
+ - sentence_ids: [5]
+ - pos_patterns: [['VERB']]
+candidate 8: increas (stemmed form)
+ - surface forms: ['increased']
+ - offsets: [129]
+ - sentence_ids: [5]
+ - pos_patterns: [['VERB']]
+candidate 9: told (stemmed form)
+ - surface forms: ['told', 'told']
+ - offsets: [140, 189]
+ - sentence_ids: [5, 7]
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 10: buy (stemmed form)
+ - surface forms: ['buy']
+ - offsets: [144]
+ - sentence_ids: [5]
+ - pos_patterns: [['VERB']]
+candidate 11: came (stemmed form)
+ - surface forms: ['came']
+ - offsets: [156]
+ - sentence_ids: [6]
+ - pos_patterns: [['VERB']]
+candidate 12: convinc (stemmed form)
+ - surface forms: ['convince']
+ - offsets: [158]
+ - sentence_ids: [6]
+ - pos_patterns: [['VERB']]
+candidate 13: insult (stemmed form)
+ - surface forms: ['insulted']
+ - offsets: [162]
+ - sentence_ids: [6]
+ - pos_patterns: [['VERB']]
+candidate 14: sent (stemmed form)
+ - surface forms: ['sent']
+ - offsets: [165]
+ - sentence_ids: [6]
+ - pos_patterns: [['VERB']]
+candidate 15: leav (stemmed form)
+ - surface forms: ['leaving']
+ - offsets: [183]
+ - sentence_ids: [7]
+ - pos_patterns: [['VERB']]
+candidate 16: given (stemmed form)
+ - surface forms: ['given']
+ - offsets: [201]
+ - sentence_ids: [7]
+ - pos_patterns: [['VERB']]
+candidate 17: replac (stemmed form)
+ - surface forms: ['replaced']
+ - offsets: [209]
+ - sentence_ids: [7]
+ - pos_patterns: [['VERB']]
+candidate 18: come (stemmed form)
+ - surface forms: ['come']
+ - offsets: [219]
+ - sentence_ids: [7]
+ - pos_patterns: [['VERB']]
+candidate 19: kill (stemmed form)
+ - surface forms: ['kill']
+ - offsets: [222]
+ - sentence_ids: [7]
+ - pos_patterns: [['VERB']]
+candidate 20: remarri (stemmed form)
+ - surface forms: ['remarry', 'remarried']
+ - offsets: [230, 357]
+ - sentence_ids: [8, 12]
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 21: want (stemmed form)
+ - surface forms: ['want']
+ - offsets: [235]
+ - sentence_ids: [9]
+ - pos_patterns: [['VERB']]
+candidate 22: return (stemmed form)
+ - surface forms: ['return']
+ - offsets: [237]
+ - sentence_ids: [9]
+ - pos_patterns: [['VERB']]
+candidate 23: demand (stemmed form)
+ - surface forms: ['demanding']
+ - offsets: [253]
+ - sentence_ids: [9]
+ - pos_patterns: [['VERB']]
+candidate 24: know (stemmed form)
+ - surface forms: ['know']
+ - offsets: [263]
+ - sentence_ids: [10]
+ - pos_patterns: [['VERB']]
+candidate 25: remarrieddid (stemmed form)
+ - surface forms: ['remarrieddid']
+ - offsets: [270]
+ - sentence_ids: [10]
+ - pos_patterns: [['VERB']]
+candidate 26: father-deceas (stemmed form)
+ - surface forms: ['father-deceased']
+ - offsets: [298]
+ - sentence_ids: [10]
+ - pos_patterns: [['VERB']]
+candidate 27: punish (stemmed form)
+ - surface forms: ['punish']
+ - offsets: [322]
+ - sentence_ids: [11]
+ - pos_patterns: [['VERB']]
+candidate 28: secur (stemmed form)
+ - surface forms: ['secure']
+ - offsets: [330]
+ - sentence_ids: [11]
+ - pos_patterns: [['VERB']]
+candidate 29: delay (stemmed form)
+ - surface forms: ['delayed']
+ - offsets: [343]
+ - sentence_ids: [12]
+ - pos_patterns: [['VERB']]
+candidate 30: hope (stemmed form)
+ - surface forms: ['hoping']
+ - offsets: [347]
+ - sentence_ids: [12]
+ - pos_patterns: [['VERB']]
+Traceback (most recent call last):
+  File "/home/bh289/Documents/clg/edi1/EDI_IPC/IPC_finder/keyword.py", line 39, in <module>
+    print(keyphrase.surface_forms, score)
+AttributeError: 'str' object has no attribute 'surface_forms'
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master) [1]> python keyword.py
+2022-11-21 21:23:07.170905: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:23:07.326933: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:23:07.326966: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:23:07.354973: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:23:07.898055: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:23:07.898109: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:23:07.898127: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:23:08.697935: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:23:08.698134: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:23:08.698199: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: shankra-kh (stemmed form)
+ - surface forms: ['Shankra-Kh']
+ - pos_patterns: [['VERB']]
+candidate 1: abus (stemmed form)
+ - surface forms: ['abusing']
+ - pos_patterns: [['VERB']]
+candidate 2: beat (stemmed form)
+ - surface forms: ['beat', 'beating']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 3: let (stemmed form)
+ - surface forms: ['letting']
+ - pos_patterns: [['VERB']]
+candidate 4: eat (stemmed form)
+ - surface forms: ['eat']
+ - pos_patterns: [['VERB']]
+candidate 5: tri (stemmed form)
+ - surface forms: ['tried']
+ - pos_patterns: [['VERB']]
+candidate 6: surviv (stemmed form)
+ - surface forms: ['survive']
+ - pos_patterns: [['VERB']]
+candidate 7: pay (stemmed form)
+ - surface forms: ['paying']
+ - pos_patterns: [['VERB']]
+candidate 8: increas (stemmed form)
+ - surface forms: ['increased']
+ - pos_patterns: [['VERB']]
+candidate 9: told (stemmed form)
+ - surface forms: ['told', 'told']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 10: buy (stemmed form)
+ - surface forms: ['buy']
+ - pos_patterns: [['VERB']]
+candidate 11: came (stemmed form)
+ - surface forms: ['came']
+ - pos_patterns: [['VERB']]
+candidate 12: convinc (stemmed form)
+ - surface forms: ['convince']
+ - pos_patterns: [['VERB']]
+candidate 13: insult (stemmed form)
+ - surface forms: ['insulted']
+ - pos_patterns: [['VERB']]
+candidate 14: sent (stemmed form)
+ - surface forms: ['sent']
+ - pos_patterns: [['VERB']]
+candidate 15: leav (stemmed form)
+ - surface forms: ['leaving']
+ - pos_patterns: [['VERB']]
+candidate 16: given (stemmed form)
+ - surface forms: ['given']
+ - pos_patterns: [['VERB']]
+candidate 17: replac (stemmed form)
+ - surface forms: ['replaced']
+ - pos_patterns: [['VERB']]
+candidate 18: come (stemmed form)
+ - surface forms: ['come']
+ - pos_patterns: [['VERB']]
+candidate 19: kill (stemmed form)
+ - surface forms: ['kill']
+ - pos_patterns: [['VERB']]
+candidate 20: remarri (stemmed form)
+ - surface forms: ['remarry', 'remarried']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 21: want (stemmed form)
+ - surface forms: ['want']
+ - pos_patterns: [['VERB']]
+candidate 22: return (stemmed form)
+ - surface forms: ['return']
+ - pos_patterns: [['VERB']]
+candidate 23: demand (stemmed form)
+ - surface forms: ['demanding']
+ - pos_patterns: [['VERB']]
+candidate 24: know (stemmed form)
+ - surface forms: ['know']
+ - pos_patterns: [['VERB']]
+candidate 25: remarrieddid (stemmed form)
+ - surface forms: ['remarrieddid']
+ - pos_patterns: [['VERB']]
+candidate 26: father-deceas (stemmed form)
+ - surface forms: ['father-deceased']
+ - pos_patterns: [['VERB']]
+candidate 27: punish (stemmed form)
+ - surface forms: ['punish']
+ - pos_patterns: [['VERB']]
+candidate 28: secur (stemmed form)
+ - surface forms: ['secure']
+ - pos_patterns: [['VERB']]
+candidate 29: delay (stemmed form)
+ - surface forms: ['delayed']
+ - pos_patterns: [['VERB']]
+candidate 30: hope (stemmed form)
+ - surface forms: ['hoping']
+ - pos_patterns: [['VERB']]
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:25:51.301584: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:25:51.433573: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:25:51.433611: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:25:51.464421: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:25:51.974994: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:25:51.975046: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:25:51.975053: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:25:52.774965: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:25:52.775165: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:25:52.775282: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: shankra-kh (stemmed form)
+ - surface forms: ['Shankra-Kh']
+ - pos_patterns: [['VERB']]
+candidate 1: abus (stemmed form)
+ - surface forms: ['abusing']
+ - pos_patterns: [['VERB']]
+candidate 2: beat (stemmed form)
+ - surface forms: ['beat', 'beating']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 3: let (stemmed form)
+ - surface forms: ['letting']
+ - pos_patterns: [['VERB']]
+candidate 4: eat (stemmed form)
+ - surface forms: ['eat']
+ - pos_patterns: [['VERB']]
+candidate 5: tri (stemmed form)
+ - surface forms: ['tried']
+ - pos_patterns: [['VERB']]
+candidate 6: surviv (stemmed form)
+ - surface forms: ['survive']
+ - pos_patterns: [['VERB']]
+candidate 7: pay (stemmed form)
+ - surface forms: ['paying']
+ - pos_patterns: [['VERB']]
+candidate 8: increas (stemmed form)
+ - surface forms: ['increased']
+ - pos_patterns: [['VERB']]
+candidate 9: told (stemmed form)
+ - surface forms: ['told', 'told']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 10: buy (stemmed form)
+ - surface forms: ['buy']
+ - pos_patterns: [['VERB']]
+candidate 11: came (stemmed form)
+ - surface forms: ['came']
+ - pos_patterns: [['VERB']]
+candidate 12: convinc (stemmed form)
+ - surface forms: ['convince']
+ - pos_patterns: [['VERB']]
+candidate 13: insult (stemmed form)
+ - surface forms: ['insulted']
+ - pos_patterns: [['VERB']]
+candidate 14: sent (stemmed form)
+ - surface forms: ['sent']
+ - pos_patterns: [['VERB']]
+candidate 15: leav (stemmed form)
+ - surface forms: ['leaving']
+ - pos_patterns: [['VERB']]
+candidate 16: given (stemmed form)
+ - surface forms: ['given']
+ - pos_patterns: [['VERB']]
+candidate 17: replac (stemmed form)
+ - surface forms: ['replaced']
+ - pos_patterns: [['VERB']]
+candidate 18: come (stemmed form)
+ - surface forms: ['come']
+ - pos_patterns: [['VERB']]
+candidate 19: kill (stemmed form)
+ - surface forms: ['kill']
+ - pos_patterns: [['VERB']]
+candidate 20: remarri (stemmed form)
+ - surface forms: ['remarry', 'remarried']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 21: want (stemmed form)
+ - surface forms: ['want']
+ - pos_patterns: [['VERB']]
+candidate 22: return (stemmed form)
+ - surface forms: ['return']
+ - pos_patterns: [['VERB']]
+candidate 23: demand (stemmed form)
+ - surface forms: ['demanding']
+ - pos_patterns: [['VERB']]
+candidate 24: know (stemmed form)
+ - surface forms: ['know']
+ - pos_patterns: [['VERB']]
+candidate 25: remarrieddid (stemmed form)
+ - surface forms: ['remarrieddid']
+ - pos_patterns: [['VERB']]
+candidate 26: father-deceas (stemmed form)
+ - surface forms: ['father-deceased']
+ - pos_patterns: [['VERB']]
+candidate 27: punish (stemmed form)
+ - surface forms: ['punish']
+ - pos_patterns: [['VERB']]
+candidate 28: secur (stemmed form)
+ - surface forms: ['secure']
+ - pos_patterns: [['VERB']]
+candidate 29: delay (stemmed form)
+ - surface forms: ['delayed']
+ - pos_patterns: [['VERB']]
+candidate 30: hope (stemmed form)
+ - surface forms: ['hoping']
+ - pos_patterns: [['VERB']]
+beat 0.05822381538352047
+told 0.0515799329770874
+remarri 0.045150323989727584
+eat 0.04429867398694574
+convinc 0.04279013619889856
+tri 0.04109374364372128
+let 0.040837849856547925
+want 0.04031319411067949
+came 0.040185747208955735
+surviv 0.0391241804557774
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:29:57.727120: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:29:57.848031: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:29:57.848061: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:29:57.874437: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:29:58.337234: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:29:58.337286: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:29:58.337295: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:29:59.037906: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:29:59.038110: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:29:59.038185: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: shankra-kh (stemmed form)
+ - surface forms: ['Shankra-Kh']
+ - pos_patterns: [['VERB']]
+candidate 1: abus (stemmed form)
+ - surface forms: ['abusing']
+ - pos_patterns: [['VERB']]
+candidate 2: beat (stemmed form)
+ - surface forms: ['beat', 'beating']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 3: let (stemmed form)
+ - surface forms: ['letting']
+ - pos_patterns: [['VERB']]
+candidate 4: eat (stemmed form)
+ - surface forms: ['eat']
+ - pos_patterns: [['VERB']]
+candidate 5: tri (stemmed form)
+ - surface forms: ['tried']
+ - pos_patterns: [['VERB']]
+candidate 6: surviv (stemmed form)
+ - surface forms: ['survive']
+ - pos_patterns: [['VERB']]
+candidate 7: pay (stemmed form)
+ - surface forms: ['paying']
+ - pos_patterns: [['VERB']]
+candidate 8: increas (stemmed form)
+ - surface forms: ['increased']
+ - pos_patterns: [['VERB']]
+candidate 9: told (stemmed form)
+ - surface forms: ['told', 'told']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 10: buy (stemmed form)
+ - surface forms: ['buy']
+ - pos_patterns: [['VERB']]
+candidate 11: came (stemmed form)
+ - surface forms: ['came']
+ - pos_patterns: [['VERB']]
+candidate 12: convinc (stemmed form)
+ - surface forms: ['convince']
+ - pos_patterns: [['VERB']]
+candidate 13: insult (stemmed form)
+ - surface forms: ['insulted']
+ - pos_patterns: [['VERB']]
+candidate 14: sent (stemmed form)
+ - surface forms: ['sent']
+ - pos_patterns: [['VERB']]
+candidate 15: leav (stemmed form)
+ - surface forms: ['leaving']
+ - pos_patterns: [['VERB']]
+candidate 16: given (stemmed form)
+ - surface forms: ['given']
+ - pos_patterns: [['VERB']]
+candidate 17: replac (stemmed form)
+ - surface forms: ['replaced']
+ - pos_patterns: [['VERB']]
+candidate 18: come (stemmed form)
+ - surface forms: ['come']
+ - pos_patterns: [['VERB']]
+candidate 19: kill (stemmed form)
+ - surface forms: ['kill']
+ - pos_patterns: [['VERB']]
+candidate 20: remarri (stemmed form)
+ - surface forms: ['remarry', 'remarried']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 21: want (stemmed form)
+ - surface forms: ['want']
+ - pos_patterns: [['VERB']]
+candidate 22: return (stemmed form)
+ - surface forms: ['return']
+ - pos_patterns: [['VERB']]
+candidate 23: demand (stemmed form)
+ - surface forms: ['demanding']
+ - pos_patterns: [['VERB']]
+candidate 24: know (stemmed form)
+ - surface forms: ['know']
+ - pos_patterns: [['VERB']]
+candidate 25: remarrieddid (stemmed form)
+ - surface forms: ['remarrieddid']
+ - pos_patterns: [['VERB']]
+candidate 26: father-deceas (stemmed form)
+ - surface forms: ['father-deceased']
+ - pos_patterns: [['VERB']]
+candidate 27: punish (stemmed form)
+ - surface forms: ['punish']
+ - pos_patterns: [['VERB']]
+candidate 28: secur (stemmed form)
+ - surface forms: ['secure']
+ - pos_patterns: [['VERB']]
+candidate 29: delay (stemmed form)
+ - surface forms: ['delayed']
+ - pos_patterns: [['VERB']]
+candidate 30: hope (stemmed form)
+ - surface forms: ['hoping']
+ - pos_patterns: [['VERB']]
+[['Shankra-Kh'], ['abusing'], ['beat', 'beating'], ['letting'], ['eat'], ['tried'], ['survive'], ['paying'], ['increased'], ['told', 'told'], ['buy'], ['came'], ['convince'], ['insulted'], ['sent'], ['leaving'], ['given'], ['replaced'], ['come'], ['kill'], ['remarry', 'remarried'], ['want'], ['return'], ['demanding'], ['know'], ['remarrieddid'], ['father-deceased'], ['punish'], ['secure'], ['delayed'], ['hoping']]
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:30:34.238532: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:30:34.368209: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:30:34.368243: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:30:34.395806: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:30:34.880289: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:30:34.880338: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:30:34.880345: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:30:35.622279: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:30:35.622459: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:30:35.622530: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: shankra-kh (stemmed form)
+ - surface forms: ['Shankra-Kh']
+ - pos_patterns: [['VERB']]
+candidate 1: abus (stemmed form)
+ - surface forms: ['abusing']
+ - pos_patterns: [['VERB']]
+candidate 2: beat (stemmed form)
+ - surface forms: ['beat', 'beating']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 3: let (stemmed form)
+ - surface forms: ['letting']
+ - pos_patterns: [['VERB']]
+candidate 4: eat (stemmed form)
+ - surface forms: ['eat']
+ - pos_patterns: [['VERB']]
+candidate 5: tri (stemmed form)
+ - surface forms: ['tried']
+ - pos_patterns: [['VERB']]
+candidate 6: surviv (stemmed form)
+ - surface forms: ['survive']
+ - pos_patterns: [['VERB']]
+candidate 7: pay (stemmed form)
+ - surface forms: ['paying']
+ - pos_patterns: [['VERB']]
+candidate 8: increas (stemmed form)
+ - surface forms: ['increased']
+ - pos_patterns: [['VERB']]
+candidate 9: told (stemmed form)
+ - surface forms: ['told', 'told']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 10: buy (stemmed form)
+ - surface forms: ['buy']
+ - pos_patterns: [['VERB']]
+candidate 11: came (stemmed form)
+ - surface forms: ['came']
+ - pos_patterns: [['VERB']]
+candidate 12: convinc (stemmed form)
+ - surface forms: ['convince']
+ - pos_patterns: [['VERB']]
+candidate 13: insult (stemmed form)
+ - surface forms: ['insulted']
+ - pos_patterns: [['VERB']]
+candidate 14: sent (stemmed form)
+ - surface forms: ['sent']
+ - pos_patterns: [['VERB']]
+candidate 15: leav (stemmed form)
+ - surface forms: ['leaving']
+ - pos_patterns: [['VERB']]
+candidate 16: given (stemmed form)
+ - surface forms: ['given']
+ - pos_patterns: [['VERB']]
+candidate 17: replac (stemmed form)
+ - surface forms: ['replaced']
+ - pos_patterns: [['VERB']]
+candidate 18: come (stemmed form)
+ - surface forms: ['come']
+ - pos_patterns: [['VERB']]
+candidate 19: kill (stemmed form)
+ - surface forms: ['kill']
+ - pos_patterns: [['VERB']]
+candidate 20: remarri (stemmed form)
+ - surface forms: ['remarry', 'remarried']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 21: want (stemmed form)
+ - surface forms: ['want']
+ - pos_patterns: [['VERB']]
+candidate 22: return (stemmed form)
+ - surface forms: ['return']
+ - pos_patterns: [['VERB']]
+candidate 23: demand (stemmed form)
+ - surface forms: ['demanding']
+ - pos_patterns: [['VERB']]
+candidate 24: know (stemmed form)
+ - surface forms: ['know']
+ - pos_patterns: [['VERB']]
+candidate 25: remarrieddid (stemmed form)
+ - surface forms: ['remarrieddid']
+ - pos_patterns: [['VERB']]
+candidate 26: father-deceas (stemmed form)
+ - surface forms: ['father-deceased']
+ - pos_patterns: [['VERB']]
+candidate 27: punish (stemmed form)
+ - surface forms: ['punish']
+ - pos_patterns: [['VERB']]
+candidate 28: secur (stemmed form)
+ - surface forms: ['secure']
+ - pos_patterns: [['VERB']]
+candidate 29: delay (stemmed form)
+ - surface forms: ['delayed']
+ - pos_patterns: [['VERB']]
+candidate 30: hope (stemmed form)
+ - surface forms: ['hoping']
+ - pos_patterns: [['VERB']]
+[<generator object <genexpr> at 0x7fbf44f04890>, <generator object <genexpr> at 0x7fbf44f042e0>, <generator object <genexpr> at 0x7fbf44f074c0>, <generator object <genexpr> at 0x7fbf44f07450>, <generator object <genexpr> at 0x7fbf44f073e0>, <generator object <genexpr> at 0x7fbf44f07370>, <generator object <genexpr> at 0x7fbf44f07300>, <generator object <genexpr> at 0x7fbf44f07290>, <generator object <genexpr> at 0x7fbf44f07220>, <generator object <genexpr> at 0x7fbf44f071b0>, <generator object <genexpr> at 0x7fbf44f07140>, <generator object <genexpr> at 0x7fbf44f070d0>, <generator object <genexpr> at 0x7fbf44f07060>, <generator object <genexpr> at 0x7fbf44f06ff0>, <generator object <genexpr> at 0x7fbf44f06f80>, <generator object <genexpr> at 0x7fbf44f06f10>, <generator object <genexpr> at 0x7fbf44f06ea0>, <generator object <genexpr> at 0x7fbf44f06e30>, <generator object <genexpr> at 0x7fbf44f06dc0>, <generator object <genexpr> at 0x7fbf44f06d50>, <generator object <genexpr> at 0x7fbf44f06ce0>, <generator object <genexpr> at 0x7fbf44f06c70>, <generator object <genexpr> at 0x7fbf44f06c00>, <generator object <genexpr> at 0x7fbf44f06b90>, <generator object <genexpr> at 0x7fbf44f06b20>, <generator object <genexpr> at 0x7fbf44f06ab0>, <generator object <genexpr> at 0x7fbf44f06a40>, <generator object <genexpr> at 0x7fbf44f069d0>, <generator object <genexpr> at 0x7fbf44f06960>, <generator object <genexpr> at 0x7fbf44f068f0>, <generator object <genexpr> at 0x7fbf44f06880>]
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:31:07.372815: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:31:07.495364: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:31:07.495449: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:31:07.522639: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:31:07.998966: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:31:07.999023: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:31:07.999036: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:31:08.714815: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:31:08.714997: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:31:08.715071: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: shankra-kh (stemmed form)
+ - surface forms: ['Shankra-Kh']
+ - pos_patterns: [['VERB']]
+candidate 1: abus (stemmed form)
+ - surface forms: ['abusing']
+ - pos_patterns: [['VERB']]
+candidate 2: beat (stemmed form)
+ - surface forms: ['beat', 'beating']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 3: let (stemmed form)
+ - surface forms: ['letting']
+ - pos_patterns: [['VERB']]
+candidate 4: eat (stemmed form)
+ - surface forms: ['eat']
+ - pos_patterns: [['VERB']]
+candidate 5: tri (stemmed form)
+ - surface forms: ['tried']
+ - pos_patterns: [['VERB']]
+candidate 6: surviv (stemmed form)
+ - surface forms: ['survive']
+ - pos_patterns: [['VERB']]
+candidate 7: pay (stemmed form)
+ - surface forms: ['paying']
+ - pos_patterns: [['VERB']]
+candidate 8: increas (stemmed form)
+ - surface forms: ['increased']
+ - pos_patterns: [['VERB']]
+candidate 9: told (stemmed form)
+ - surface forms: ['told', 'told']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 10: buy (stemmed form)
+ - surface forms: ['buy']
+ - pos_patterns: [['VERB']]
+candidate 11: came (stemmed form)
+ - surface forms: ['came']
+ - pos_patterns: [['VERB']]
+candidate 12: convinc (stemmed form)
+ - surface forms: ['convince']
+ - pos_patterns: [['VERB']]
+candidate 13: insult (stemmed form)
+ - surface forms: ['insulted']
+ - pos_patterns: [['VERB']]
+candidate 14: sent (stemmed form)
+ - surface forms: ['sent']
+ - pos_patterns: [['VERB']]
+candidate 15: leav (stemmed form)
+ - surface forms: ['leaving']
+ - pos_patterns: [['VERB']]
+candidate 16: given (stemmed form)
+ - surface forms: ['given']
+ - pos_patterns: [['VERB']]
+candidate 17: replac (stemmed form)
+ - surface forms: ['replaced']
+ - pos_patterns: [['VERB']]
+candidate 18: come (stemmed form)
+ - surface forms: ['come']
+ - pos_patterns: [['VERB']]
+candidate 19: kill (stemmed form)
+ - surface forms: ['kill']
+ - pos_patterns: [['VERB']]
+candidate 20: remarri (stemmed form)
+ - surface forms: ['remarry', 'remarried']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 21: want (stemmed form)
+ - surface forms: ['want']
+ - pos_patterns: [['VERB']]
+candidate 22: return (stemmed form)
+ - surface forms: ['return']
+ - pos_patterns: [['VERB']]
+candidate 23: demand (stemmed form)
+ - surface forms: ['demanding']
+ - pos_patterns: [['VERB']]
+candidate 24: know (stemmed form)
+ - surface forms: ['know']
+ - pos_patterns: [['VERB']]
+candidate 25: remarrieddid (stemmed form)
+ - surface forms: ['remarrieddid']
+ - pos_patterns: [['VERB']]
+candidate 26: father-deceas (stemmed form)
+ - surface forms: ['father-deceased']
+ - pos_patterns: [['VERB']]
+candidate 27: punish (stemmed form)
+ - surface forms: ['punish']
+ - pos_patterns: [['VERB']]
+candidate 28: secur (stemmed form)
+ - surface forms: ['secure']
+ - pos_patterns: [['VERB']]
+candidate 29: delay (stemmed form)
+ - surface forms: ['delayed']
+ - pos_patterns: [['VERB']]
+candidate 30: hope (stemmed form)
+ - surface forms: ['hoping']
+ - pos_patterns: [['VERB']]
+[<generator object <genexpr> at 0x7fbb3b7f8890>, <generator object <genexpr> at 0x7fbb3b7f82e0>, <generator object <genexpr> at 0x7fbb3b7fb4c0>, <generator object <genexpr> at 0x7fbb3b7fb450>, <generator object <genexpr> at 0x7fbb3b7fb3e0>, <generator object <genexpr> at 0x7fbb3b7fb370>, <generator object <genexpr> at 0x7fbb3b7fb300>, <generator object <genexpr> at 0x7fbb3b7fb290>, <generator object <genexpr> at 0x7fbb3b7fb220>, <generator object <genexpr> at 0x7fbb3b7fb1b0>, <generator object <genexpr> at 0x7fbb3b7fb140>, <generator object <genexpr> at 0x7fbb3b7fb0d0>, <generator object <genexpr> at 0x7fbb3b7fb060>, <generator object <genexpr> at 0x7fbb3b7faff0>, <generator object <genexpr> at 0x7fbb3b7faf80>, <generator object <genexpr> at 0x7fbb3b7faf10>, <generator object <genexpr> at 0x7fbb3b7faea0>, <generator object <genexpr> at 0x7fbb3b7fae30>, <generator object <genexpr> at 0x7fbb3b7fadc0>, <generator object <genexpr> at 0x7fbb3b7fad50>, <generator object <genexpr> at 0x7fbb3b7face0>, <generator object <genexpr> at 0x7fbb3b7fac70>, <generator object <genexpr> at 0x7fbb3b7fac00>, <generator object <genexpr> at 0x7fbb3b7fab90>, <generator object <genexpr> at 0x7fbb3b7fab20>, <generator object <genexpr> at 0x7fbb3b7faab0>, <generator object <genexpr> at 0x7fbb3b7faa40>, <generator object <genexpr> at 0x7fbb3b7fa9d0>, <generator object <genexpr> at 0x7fbb3b7fa960>, <generator object <genexpr> at 0x7fbb3b7fa8f0>, <generator object <genexpr> at 0x7fbb3b7fa880>]
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python merged.py
+Traceback (most recent call last):
+  File "/home/bh289/Documents/clg/edi1/EDI_IPC/IPC_finder/merged.py", line 26, in <module>
+    bmitoquest()
+  File "/home/bh289/Documents/clg/edi1/EDI_IPC/IPC_finder/merged.py", line 11, in bmitoquest
+    doc_scores = bm25.get_scores(inp)
+  File "/home/bh289/.local/lib/python3.10/site-packages/rank_bm25.py", line 118, in get_scores
+    q_freq = np.array([(doc.get(q) or 0) for doc in self.doc_freqs])
+  File "/home/bh289/.local/lib/python3.10/site-packages/rank_bm25.py", line 118, in <listcomp>
+    q_freq = np.array([(doc.get(q) or 0) for doc in self.doc_freqs])
+TypeError: unhashable type: 'list'
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master) [1]> python merged.py
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python merged.py
+76
+97
+228
+313
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python merged.py
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:36:55.906613: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:36:56.033589: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:36:56.033627: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:36:56.060535: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:36:56.523842: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:36:56.523925: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:36:56.523933: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:36:57.235420: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:36:57.235648: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:36:57.235726: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: shankra-kh (stemmed form)
+ - surface forms: ['Shankra-Kh']
+ - pos_patterns: [['VERB']]
+candidate 1: abus (stemmed form)
+ - surface forms: ['abusing']
+ - pos_patterns: [['VERB']]
+candidate 2: beat (stemmed form)
+ - surface forms: ['beat', 'beating']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 3: let (stemmed form)
+ - surface forms: ['letting']
+ - pos_patterns: [['VERB']]
+candidate 4: eat (stemmed form)
+ - surface forms: ['eat']
+ - pos_patterns: [['VERB']]
+candidate 5: tri (stemmed form)
+ - surface forms: ['tried']
+ - pos_patterns: [['VERB']]
+candidate 6: surviv (stemmed form)
+ - surface forms: ['survive']
+ - pos_patterns: [['VERB']]
+candidate 7: pay (stemmed form)
+ - surface forms: ['paying']
+ - pos_patterns: [['VERB']]
+candidate 8: increas (stemmed form)
+ - surface forms: ['increased']
+ - pos_patterns: [['VERB']]
+candidate 9: told (stemmed form)
+ - surface forms: ['told', 'told']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 10: buy (stemmed form)
+ - surface forms: ['buy']
+ - pos_patterns: [['VERB']]
+candidate 11: came (stemmed form)
+ - surface forms: ['came']
+ - pos_patterns: [['VERB']]
+candidate 12: convinc (stemmed form)
+ - surface forms: ['convince']
+ - pos_patterns: [['VERB']]
+candidate 13: insult (stemmed form)
+ - surface forms: ['insulted']
+ - pos_patterns: [['VERB']]
+candidate 14: sent (stemmed form)
+ - surface forms: ['sent']
+ - pos_patterns: [['VERB']]
+candidate 15: leav (stemmed form)
+ - surface forms: ['leaving']
+ - pos_patterns: [['VERB']]
+candidate 16: given (stemmed form)
+ - surface forms: ['given']
+ - pos_patterns: [['VERB']]
+candidate 17: replac (stemmed form)
+ - surface forms: ['replaced']
+ - pos_patterns: [['VERB']]
+candidate 18: come (stemmed form)
+ - surface forms: ['come']
+ - pos_patterns: [['VERB']]
+candidate 19: kill (stemmed form)
+ - surface forms: ['kill']
+ - pos_patterns: [['VERB']]
+candidate 20: remarri (stemmed form)
+ - surface forms: ['remarry', 'remarried']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 21: want (stemmed form)
+ - surface forms: ['want']
+ - pos_patterns: [['VERB']]
+candidate 22: return (stemmed form)
+ - surface forms: ['return']
+ - pos_patterns: [['VERB']]
+candidate 23: demand (stemmed form)
+ - surface forms: ['demanding']
+ - pos_patterns: [['VERB']]
+candidate 24: know (stemmed form)
+ - surface forms: ['know']
+ - pos_patterns: [['VERB']]
+candidate 25: remarrieddid (stemmed form)
+ - surface forms: ['remarrieddid']
+ - pos_patterns: [['VERB']]
+candidate 26: father-deceas (stemmed form)
+ - surface forms: ['father-deceased']
+ - pos_patterns: [['VERB']]
+candidate 27: punish (stemmed form)
+ - surface forms: ['punish']
+ - pos_patterns: [['VERB']]
+candidate 28: secur (stemmed form)
+ - surface forms: ['secure']
+ - pos_patterns: [['VERB']]
+candidate 29: delay (stemmed form)
+ - surface forms: ['delayed']
+ - pos_patterns: [['VERB']]
+candidate 30: hope (stemmed form)
+ - surface forms: ['hoping']
+ - pos_patterns: [['VERB']]
+[<generator object <genexpr> at 0x7f80f6430820>, <generator object <genexpr> at 0x7f80f6430270>, <generator object <genexpr> at 0x7f80f6433450>, <generator object <genexpr> at 0x7f80f64333e0>, <generator object <genexpr> at 0x7f80f6433370>, <generator object <genexpr> at 0x7f80f6433300>, <generator object <genexpr> at 0x7f80f6433290>, <generator object <genexpr> at 0x7f80f6433220>, <generator object <genexpr> at 0x7f80f64331b0>, <generator object <genexpr> at 0x7f80f6433140>, <generator object <genexpr> at 0x7f80f64330d0>, <generator object <genexpr> at 0x7f80f6433060>, <generator object <genexpr> at 0x7f80f6432ff0>, <generator object <genexpr> at 0x7f80f6432f80>, <generator object <genexpr> at 0x7f80f6432f10>, <generator object <genexpr> at 0x7f80f6432ea0>, <generator object <genexpr> at 0x7f80f6432e30>, <generator object <genexpr> at 0x7f80f6432dc0>, <generator object <genexpr> at 0x7f80f6432d50>, <generator object <genexpr> at 0x7f80f6432ce0>, <generator object <genexpr> at 0x7f80f6432c70>, <generator object <genexpr> at 0x7f80f6432c00>, <generator object <genexpr> at 0x7f80f6432b90>, <generator object <genexpr> at 0x7f80f6432b20>, <generator object <genexpr> at 0x7f80f6432ab0>, <generator object <genexpr> at 0x7f80f6432a40>, <generator object <genexpr> at 0x7f80f64329d0>, <generator object <genexpr> at 0x7f80f6432960>, <generator object <genexpr> at 0x7f80f64328f0>, <generator object <genexpr> at 0x7f80f6432880>, <generator object <genexpr> at 0x7f80f6432810>]
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:41:47.870111: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:41:47.996483: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:41:47.996514: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:41:48.023430: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:41:48.492455: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:41:48.492517: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:41:48.492528: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:41:49.300400: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:41:49.300617: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:41:49.300705: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: shankra-kh (stemmed form)
+ - surface forms: ['Shankra-Kh']
+ - pos_patterns: [['VERB']]
+candidate 1: abus (stemmed form)
+ - surface forms: ['abusing']
+ - pos_patterns: [['VERB']]
+candidate 2: beat (stemmed form)
+ - surface forms: ['beat', 'beating']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 3: let (stemmed form)
+ - surface forms: ['letting']
+ - pos_patterns: [['VERB']]
+candidate 4: eat (stemmed form)
+ - surface forms: ['eat']
+ - pos_patterns: [['VERB']]
+candidate 5: tri (stemmed form)
+ - surface forms: ['tried']
+ - pos_patterns: [['VERB']]
+candidate 6: surviv (stemmed form)
+ - surface forms: ['survive']
+ - pos_patterns: [['VERB']]
+candidate 7: pay (stemmed form)
+ - surface forms: ['paying']
+ - pos_patterns: [['VERB']]
+candidate 8: increas (stemmed form)
+ - surface forms: ['increased']
+ - pos_patterns: [['VERB']]
+candidate 9: told (stemmed form)
+ - surface forms: ['told', 'told']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 10: buy (stemmed form)
+ - surface forms: ['buy']
+ - pos_patterns: [['VERB']]
+candidate 11: came (stemmed form)
+ - surface forms: ['came']
+ - pos_patterns: [['VERB']]
+candidate 12: convinc (stemmed form)
+ - surface forms: ['convince']
+ - pos_patterns: [['VERB']]
+candidate 13: insult (stemmed form)
+ - surface forms: ['insulted']
+ - pos_patterns: [['VERB']]
+candidate 14: sent (stemmed form)
+ - surface forms: ['sent']
+ - pos_patterns: [['VERB']]
+candidate 15: leav (stemmed form)
+ - surface forms: ['leaving']
+ - pos_patterns: [['VERB']]
+candidate 16: given (stemmed form)
+ - surface forms: ['given']
+ - pos_patterns: [['VERB']]
+candidate 17: replac (stemmed form)
+ - surface forms: ['replaced']
+ - pos_patterns: [['VERB']]
+candidate 18: come (stemmed form)
+ - surface forms: ['come']
+ - pos_patterns: [['VERB']]
+candidate 19: kill (stemmed form)
+ - surface forms: ['kill']
+ - pos_patterns: [['VERB']]
+candidate 20: remarri (stemmed form)
+ - surface forms: ['remarry', 'remarried']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 21: want (stemmed form)
+ - surface forms: ['want']
+ - pos_patterns: [['VERB']]
+candidate 22: return (stemmed form)
+ - surface forms: ['return']
+ - pos_patterns: [['VERB']]
+candidate 23: demand (stemmed form)
+ - surface forms: ['demanding']
+ - pos_patterns: [['VERB']]
+candidate 24: know (stemmed form)
+ - surface forms: ['know']
+ - pos_patterns: [['VERB']]
+candidate 25: remarrieddid (stemmed form)
+ - surface forms: ['remarrieddid']
+ - pos_patterns: [['VERB']]
+candidate 26: father-deceas (stemmed form)
+ - surface forms: ['father-deceased']
+ - pos_patterns: [['VERB']]
+candidate 27: punish (stemmed form)
+ - surface forms: ['punish']
+ - pos_patterns: [['VERB']]
+candidate 28: secur (stemmed form)
+ - surface forms: ['secure']
+ - pos_patterns: [['VERB']]
+candidate 29: delay (stemmed form)
+ - surface forms: ['delayed']
+ - pos_patterns: [['VERB']]
+candidate 30: hope (stemmed form)
+ - surface forms: ['hoping']
+ - pos_patterns: [['VERB']]
+[['Shankra-Kh'], ['abusing'], ['beat'], ['beating'], ['letting'], ['eat'], ['tried'], ['survive'], ['paying'], ['increased'], ['told'], ['told'], ['buy'], ['came'], ['convince'], ['insulted'], ['sent'], ['leaving'], ['given'], ['replaced'], ['come'], ['kill'], ['remarry'], ['remarried'], ['want'], ['return'], ['demanding'], ['know'], ['remarrieddid'], ['father-deceased'], ['punish'], ['secure'], ['delayed'], ['hoping']]
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:46:16.631397: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:46:16.762509: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:46:16.762537: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:46:16.789619: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:46:17.281898: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:46:17.281955: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:46:17.281963: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:46:18.074525: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:46:18.074753: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:46:18.074835: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: shankra-kh (stemmed form)
+ - surface forms: ['Shankra-Kh']
+ - pos_patterns: [['VERB']]
+candidate 1: abus (stemmed form)
+ - surface forms: ['abusing']
+ - pos_patterns: [['VERB']]
+candidate 2: beat (stemmed form)
+ - surface forms: ['beat', 'beating']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 3: let (stemmed form)
+ - surface forms: ['letting']
+ - pos_patterns: [['VERB']]
+candidate 4: eat (stemmed form)
+ - surface forms: ['eat']
+ - pos_patterns: [['VERB']]
+candidate 5: tri (stemmed form)
+ - surface forms: ['tried']
+ - pos_patterns: [['VERB']]
+candidate 6: surviv (stemmed form)
+ - surface forms: ['survive']
+ - pos_patterns: [['VERB']]
+candidate 7: pay (stemmed form)
+ - surface forms: ['paying']
+ - pos_patterns: [['VERB']]
+candidate 8: increas (stemmed form)
+ - surface forms: ['increased']
+ - pos_patterns: [['VERB']]
+candidate 9: told (stemmed form)
+ - surface forms: ['told', 'told']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 10: buy (stemmed form)
+ - surface forms: ['buy']
+ - pos_patterns: [['VERB']]
+candidate 11: came (stemmed form)
+ - surface forms: ['came']
+ - pos_patterns: [['VERB']]
+candidate 12: convinc (stemmed form)
+ - surface forms: ['convince']
+ - pos_patterns: [['VERB']]
+candidate 13: insult (stemmed form)
+ - surface forms: ['insulted']
+ - pos_patterns: [['VERB']]
+candidate 14: sent (stemmed form)
+ - surface forms: ['sent']
+ - pos_patterns: [['VERB']]
+candidate 15: leav (stemmed form)
+ - surface forms: ['leaving']
+ - pos_patterns: [['VERB']]
+candidate 16: given (stemmed form)
+ - surface forms: ['given']
+ - pos_patterns: [['VERB']]
+candidate 17: replac (stemmed form)
+ - surface forms: ['replaced']
+ - pos_patterns: [['VERB']]
+candidate 18: come (stemmed form)
+ - surface forms: ['come']
+ - pos_patterns: [['VERB']]
+candidate 19: kill (stemmed form)
+ - surface forms: ['kill']
+ - pos_patterns: [['VERB']]
+candidate 20: remarri (stemmed form)
+ - surface forms: ['remarry', 'remarried']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 21: want (stemmed form)
+ - surface forms: ['want']
+ - pos_patterns: [['VERB']]
+candidate 22: return (stemmed form)
+ - surface forms: ['return']
+ - pos_patterns: [['VERB']]
+candidate 23: demand (stemmed form)
+ - surface forms: ['demanding']
+ - pos_patterns: [['VERB']]
+candidate 24: know (stemmed form)
+ - surface forms: ['know']
+ - pos_patterns: [['VERB']]
+candidate 25: remarrieddid (stemmed form)
+ - surface forms: ['remarrieddid']
+ - pos_patterns: [['VERB']]
+candidate 26: father-deceas (stemmed form)
+ - surface forms: ['father-deceased']
+ - pos_patterns: [['VERB']]
+candidate 27: punish (stemmed form)
+ - surface forms: ['punish']
+ - pos_patterns: [['VERB']]
+candidate 28: secur (stemmed form)
+ - surface forms: ['secure']
+ - pos_patterns: [['VERB']]
+candidate 29: delay (stemmed form)
+ - surface forms: ['delayed']
+ - pos_patterns: [['VERB']]
+candidate 30: hope (stemmed form)
+ - surface forms: ['hoping']
+ - pos_patterns: [['VERB']]
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+<class 'list'>
+[['Shankra-Kh'], ['abusing'], ['beat'], ['beating'], ['letting'], ['eat'], ['tried'], ['survive'], ['paying'], ['increased'], ['told'], ['told'], ['buy'], ['came'], ['convince'], ['insulted'], ['sent'], ['leaving'], ['given'], ['replaced'], ['come'], ['kill'], ['remarry'], ['remarried'], ['want'], ['return'], ['demanding'], ['know'], ['remarrieddid'], ['father-deceased'], ['punish'], ['secure'], ['delayed'], ['hoping']]
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:46:55.412373: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:46:55.536695: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:46:55.536730: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:46:55.563591: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:46:56.042248: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:46:56.042299: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:46:56.042307: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:46:56.820135: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:46:56.820202: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:46:56.820238: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+candidate 0: shankra-kh (stemmed form)
+ - surface forms: ['Shankra-Kh']
+ - pos_patterns: [['VERB']]
+candidate 1: abus (stemmed form)
+ - surface forms: ['abusing']
+ - pos_patterns: [['VERB']]
+candidate 2: beat (stemmed form)
+ - surface forms: ['beat', 'beating']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 3: let (stemmed form)
+ - surface forms: ['letting']
+ - pos_patterns: [['VERB']]
+candidate 4: eat (stemmed form)
+ - surface forms: ['eat']
+ - pos_patterns: [['VERB']]
+candidate 5: tri (stemmed form)
+ - surface forms: ['tried']
+ - pos_patterns: [['VERB']]
+candidate 6: surviv (stemmed form)
+ - surface forms: ['survive']
+ - pos_patterns: [['VERB']]
+candidate 7: pay (stemmed form)
+ - surface forms: ['paying']
+ - pos_patterns: [['VERB']]
+candidate 8: increas (stemmed form)
+ - surface forms: ['increased']
+ - pos_patterns: [['VERB']]
+candidate 9: told (stemmed form)
+ - surface forms: ['told', 'told']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 10: buy (stemmed form)
+ - surface forms: ['buy']
+ - pos_patterns: [['VERB']]
+candidate 11: came (stemmed form)
+ - surface forms: ['came']
+ - pos_patterns: [['VERB']]
+candidate 12: convinc (stemmed form)
+ - surface forms: ['convince']
+ - pos_patterns: [['VERB']]
+candidate 13: insult (stemmed form)
+ - surface forms: ['insulted']
+ - pos_patterns: [['VERB']]
+candidate 14: sent (stemmed form)
+ - surface forms: ['sent']
+ - pos_patterns: [['VERB']]
+candidate 15: leav (stemmed form)
+ - surface forms: ['leaving']
+ - pos_patterns: [['VERB']]
+candidate 16: given (stemmed form)
+ - surface forms: ['given']
+ - pos_patterns: [['VERB']]
+candidate 17: replac (stemmed form)
+ - surface forms: ['replaced']
+ - pos_patterns: [['VERB']]
+candidate 18: come (stemmed form)
+ - surface forms: ['come']
+ - pos_patterns: [['VERB']]
+candidate 19: kill (stemmed form)
+ - surface forms: ['kill']
+ - pos_patterns: [['VERB']]
+candidate 20: remarri (stemmed form)
+ - surface forms: ['remarry', 'remarried']
+ - pos_patterns: [['VERB'], ['VERB']]
+candidate 21: want (stemmed form)
+ - surface forms: ['want']
+ - pos_patterns: [['VERB']]
+candidate 22: return (stemmed form)
+ - surface forms: ['return']
+ - pos_patterns: [['VERB']]
+candidate 23: demand (stemmed form)
+ - surface forms: ['demanding']
+ - pos_patterns: [['VERB']]
+candidate 24: know (stemmed form)
+ - surface forms: ['know']
+ - pos_patterns: [['VERB']]
+candidate 25: remarrieddid (stemmed form)
+ - surface forms: ['remarrieddid']
+ - pos_patterns: [['VERB']]
+candidate 26: father-deceas (stemmed form)
+ - surface forms: ['father-deceased']
+ - pos_patterns: [['VERB']]
+candidate 27: punish (stemmed form)
+ - surface forms: ['punish']
+ - pos_patterns: [['VERB']]
+candidate 28: secur (stemmed form)
+ - surface forms: ['secure']
+ - pos_patterns: [['VERB']]
+candidate 29: delay (stemmed form)
+ - surface forms: ['delayed']
+ - pos_patterns: [['VERB']]
+candidate 30: hope (stemmed form)
+ - surface forms: ['hoping']
+ - pos_patterns: [['VERB']]
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+['Shankra-Kh', 'abusing', 'beat', 'beating', 'letting', 'eat', 'tried', 'survive', 'paying', 'increased', 'told', 'told', 'buy', 'came', 'convince', 'insulted', 'sent', 'leaving', 'given', 'replaced', 'come', 'kill', 'remarry', 'remarried', 'want', 'return', 'demanding', 'know', 'remarrieddid', 'father-deceased', 'punish', 'secure', 'delayed', 'hoping']
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:47:57.297918: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:47:57.424809: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:47:57.424856: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:47:57.451083: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:47:57.929210: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:47:57.929265: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:47:57.929271: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:47:58.670167: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:47:58.670355: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:47:58.670434: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+[]
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:48:55.064779: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:48:55.182328: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:48:55.182356: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:48:55.212827: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:48:55.684594: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:48:55.684690: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:48:55.684699: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:48:56.428102: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:48:56.428370: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:48:56.428473: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+sentence 0:
+ - words:   Sir , my humble ...
+ - stems:   sir , my humbl ...
+ - PoS: SPACE PROPN PUNCT PRON ADJ ...
+sentence 1:
+ - words: As per Muslim Neon last ...
+ - stems: as per muslim neon last ...
+ - PoS: ADP ADP PROPN PROPN ADV ...
+sentence 2:
+ - words: Currently , I am the ...
+ - stems: current , i am the ...
+ - PoS: ADV PUNCT PRON AUX DET ...
+sentence 3:
+ - words: They also beat my three-year-old ...
+ - stems: they also beat my three-year-old ...
+ - PoS: PRON ADV VERB PRON ADJ ...
+sentence 4:
+ - words: I have tried to survive ...
+ - stems: i have tri to surviv ...
+ - PoS: PRON AUX VERB PART VERB ...
+sentence 5:
+ - words: After paying all the dowry ...
+ - stems: after pay all the dowri ...
+ - PoS: ADP VERB DET DET NOUN ...
+sentence 6:
+ - words: Then my father and brother ...
+ - stems: then my father and brother ...
+ - PoS: ADV PRON NOUN CCONJ NOUN ...
+sentence 7:
+ - words: While leaving , my brother-in-law ...
+ - stems: while leav , my brother-in-law ...
+ - PoS: SCONJ VERB PUNCT PRON NOUN ...
+sentence 8:
+ - words: Husband will remarry . ...
+ - stems: husband will remarri . ...
+ - PoS: NOUN AUX VERB PUNCT ...
+sentence 9:
+ - words: Even though I want to ...
+ - stems: even though i want to ...
+ - PoS: ADV SCONJ PRON VERB PART ...
+sentence 10:
+ - words: is doing Now I know ...
+ - stems: is do now i know ...
+ - PoS: AUX VERB ADV PRON VERB ...
+sentence 11:
+ - words: Take appropriate measures to punish ...
+ - stems: take appropri measur to punish ...
+ - PoS: VERB ADJ NOUN PART VERB ...
+sentence 12:
+ - words: My complaint was delayed because ...
+ - stems: my complaint wa delay becaus ...
+ - PoS: PRON NOUN AUX VERB SCONJ ...
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+['Shankra-Kh', 'abusing', 'beat', 'beating', 'letting', 'eat', 'tried', 'survive', 'paying', 'increased', 'told', 'told', 'buy', 'came', 'convince', 'insulted', 'sent', 'leaving', 'given', 'replaced', 'come', 'kill', 'remarry', 'remarried', 'want', 'return', 'demanding', 'know', 'remarrieddid', 'father-deceased', 'punish', 'secure', 'delayed', 'hoping']
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:49:12.140995: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:49:12.268750: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:49:12.268779: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:49:12.295679: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:49:12.771980: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:49:12.772036: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:49:12.772044: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:49:13.517014: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:49:13.517224: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:49:13.517302: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+['Shankra-Kh', 'abusing', 'beat', 'beating', 'letting', 'eat', 'tried', 'survive', 'paying', 'increased', 'told', 'told', 'buy', 'came', 'convince', 'insulted', 'sent', 'leaving', 'given', 'replaced', 'come', 'kill', 'remarry', 'remarried', 'want', 'return', 'demanding', 'know', 'remarrieddid', 'father-deceased', 'punish', 'secure', 'delayed', 'hoping']
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python keyword.py
+2022-11-21 21:51:42.742376: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 21:51:42.868792: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 21:51:42.868828: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 21:51:42.897274: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 21:51:43.372097: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:51:43.372161: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 21:51:43.372169: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 21:51:44.112522: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 21:51:44.112718: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 21:51:44.112795: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+['Shankra-Kh', 'abusing', 'beat', 'beating', 'letting', 'eat', 'tried', 'survive', 'paying', 'increased', 'told', 'told', 'buy', 'came', 'convince', 'insulted', 'sent', 'leaving', 'given', 'replaced', 'come', 'kill', 'remarry', 'remarried', 'want', 'return', 'demanding', 'know', 'remarrieddid', 'father-deceased', 'punish', 'secure', 'delayed', 'hoping']
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python final.py 
+2022-11-21 22:00:46.797680: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 22:00:47.011219: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 22:00:47.011365: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 22:00:47.047075: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 22:00:47.528278: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 22:00:47.528365: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 22:00:47.528376: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 22:00:48.327674: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 22:00:48.327943: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 22:00:48.327973: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+['Shankra-Kh', 'abusing', 'beat', 'beating', 'letting', 'eat', 'tried', 'survive', 'paying', 'increased', 'told', 'told', 'buy', 'came', 'convince', 'insulted', 'sent', 'leaving', 'given', 'replaced', 'come', 'kill', 'remarry', 'remarried', 'want', 'return', 'demanding', 'know', 'remarrieddid', 'father-deceased', 'punish', 'secure', 'delayed', 'hoping']
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python final.py
+2022-11-21 22:02:56.044776: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 22:02:56.166142: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 22:02:56.166171: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 22:02:56.192370: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 22:02:56.660723: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 22:02:56.660776: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 22:02:56.660783: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 22:02:57.416366: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 22:02:57.416566: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 22:02:57.416646: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+97
+313
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> whereis libcudart
+libcudart:
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> find libcudart
+find: ‘libcudart’: No such file or directory
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master) [1]> find libcudart.so
+find: ‘libcudart.so’: No such file or directory
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master) [1]> find libcuda
+find: ‘libcuda’: No such file or directory
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master) [1]> find libcuda.so
+find: ‘libcuda.so’: No such file or directory
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master) [1]> python final.py
+2022-11-21 22:46:47.713004: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 22:46:48.028450: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 22:46:48.028479: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 22:46:48.063561: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 22:46:48.772793: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 22:46:48.772847: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 22:46:48.772856: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 22:46:49.996173: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 22:46:49.996386: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 22:46:49.996405: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+97
+228
+313
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python final.py
+2022-11-21 22:47:09.076101: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 22:47:09.246142: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 22:47:09.246170: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 22:47:09.277351: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 22:47:09.929893: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 22:47:09.929944: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 22:47:09.929952: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 22:47:10.861538: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 22:47:10.861744: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 22:47:10.861841: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python final.py
+2022-11-21 22:50:25.944329: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 22:50:26.116820: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 22:50:26.116873: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 22:50:26.149554: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 22:50:26.623690: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 22:50:26.623761: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 22:50:26.623768: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 22:50:27.427255: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 22:50:27.428415: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 22:50:27.428673: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+76
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python final.py
+2022-11-21 23:05:53.632299: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 23:05:53.962859: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 23:05:53.962885: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 23:05:54.013478: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 23:05:54.821927: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 23:05:54.822003: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 23:05:54.822011: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 23:05:56.102930: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 23:05:56.103182: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 23:05:56.104313: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python final.py
+2022-11-21 23:34:32.165635: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 23:34:32.567567: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 23:34:32.567601: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 23:34:32.621133: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 23:34:33.520099: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 23:34:33.520329: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 23:34:33.520342: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 23:34:35.347081: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 23:34:35.348429: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 23:34:35.348465: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+97
+228
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python final.py
+2022-11-21 23:35:00.922040: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 23:35:01.284645: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 23:35:01.284673: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 23:35:01.332711: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 23:35:02.130782: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 23:35:02.131007: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 23:35:02.131021: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 23:35:03.520695: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 23:35:03.520741: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 23:35:03.520762: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python final.py
+2022-11-21 23:36:48.593170: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-21 23:36:48.954253: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-11-21 23:36:48.954284: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-11-21 23:36:48.998618: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-11-21 23:36:49.807500: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-11-21 23:36:49.807787: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-11-21 23:36:49.807796: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-11-21 23:36:51.183719: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-11-21 23:36:51.183755: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-21 23:36:51.183772: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Bh289-HPLaptop15): /proc/driver/nvidia/version does not exist
+228
+313
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> python final.py
+2022-11-21 23:44:52.374390: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)>  cd /home/bh289/Desktop
+bh289@Bh289-HPLaptop15 ~/Desktop>  cd /home/bh289/Documents/clg/edi1/EDI_IPC/IPC_finder
+bh289@Bh289-HPLaptop15 ~/D/c/e/E/IPC_finder (master)> 
