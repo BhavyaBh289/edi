@@ -11,6 +11,7 @@ accepted_questions = []             #contains all ipcs which are sure to be appl
 x=0         #number of ipc in list whose questions are being answered ##yes and no ####yes,no
 y=0         #number of questions are being answered ##yes and no ####yes,no
 sample = """This time Re.Po.St. G.R.No. of Thane. 00/2018 c. 392,34 Document of crime in Hon. Superintendent of Police Received from Aurangabad, Ma pso So. We are filing a case as per his orders. () Name of Plaintiff :- Vivek Gupteshwar Singh Age 31 years Res. Village Renukuot Yugandh Colony Duddhi District, Sonbhadra U.P. Md. 8853053016) Name and Address of Accused:- Tea Seller Isam Age No. 18 to 22 years Ranga black slim and his three companions age 23 to 24 years second 25 years third age 12 to 13 years () Up Ghad Seat Train.No. Up 11062 Pawan X Coach 5/7 Berth 76 from Re.St. After the train departs from Jalgaon () Up Ghad Ta. Time :- Dt. 19/11/2018 at 20.00 hrs. Around () up da., h. time d. 04/12/2018 As Margin ( ) Stolen Goods Cash Rs. 2500/-Rs. (2000x1.500x1) a total of Rs.2500. ( ) got the goods :- Nirank () facts such that on the said date the plaintiff was traveling from Varanasi to Thane by the said coach and Barkh of the said train and during the journey the said Rai.St. After leaving Jalgaon, Isma, who was selling tea of ​​the above description, had a verbal altercation with him for the reason of paying extra money for the tea, and got together with his three accomplices of the above description, beat them on the face with kicks and abused them, and among them Isma, who was a French cut grandmother of the above description, took the cash of the above description from their hands. According to the complaint given by them, they left by stealing the rupees. According to 392,34 IPC, uniform report was filed by Ms. JMFC. The Railway Court has ordered Bhusawal to be sent for further investigation of the crime Hon.PI Shri. Gadhri So. doing this."""
+sample = sample.lower()
 def keywordextract():
     global n , sample
     extractor = pke.unsupervised.TopicRank()
@@ -39,8 +40,8 @@ def keyword_changing():
         else:
             t.append(i)
     n = t
-    # for i in synonyms:
-    #     if
+    for i in synonyms:
+        if
     for i in nouns:
         if i in sample:
             n.append(i)
