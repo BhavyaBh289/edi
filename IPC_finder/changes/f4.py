@@ -78,9 +78,13 @@ bmitoquest()
 
 
 def exitt():
-    global accepted_questions,ips,df
-    for i in accepted_questions :
-        print(df["1"][ips[i]])
+    global accepted_questions,ips,df,n
+    with open("myfile.txt", 'a') as file1:
+        file1.write(str(n))
+        for i in accepted_questions :
+            print(df["1"][ips[i]])
+            file1.write(str(df["1"][ips[i]]+" "))
+        file1.write("\n")
 def yes():
     global x,y,accepted_questions
     # print ("y",x,y,len(questionlist[x]),len(questionlist))
@@ -117,4 +121,4 @@ maybe_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "Maybe", com
 maybe_btn.grid(row=5, column=2, columnspan=1, padx=5, pady=5)
 no_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "No",command = no)
 no_btn.grid(row=5, column=5, columnspan=1, padx=5, pady=5)
-# root.mainloop()
+root.mainloop()

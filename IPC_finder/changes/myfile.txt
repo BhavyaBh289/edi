@@ -1,0 +1,2 @@
+['received', 'filing', 'filed', 'res', 'ranga', 'ghad', 'ghad', 'stolen', 'facts', 'traveling', 'leaving', 'selling', 'paying', 'beat', 'abused', 'took', 'left', 'stealing', 'ordered', 'sent', 'money']203 381 255 461 489D 253 266 455 361 410 
+['received', 'filing', 'filed', 'res', 'ranga', 'ghad', 'ghad', 'stolen', 'facts', 'traveling', 'leaving', 'selling', 'paying', 'beat', 'abused', 'took', 'left', 'stealing', 'ordered', 'sent', 'money']461 
