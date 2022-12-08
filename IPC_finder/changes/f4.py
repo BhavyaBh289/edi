@@ -1,19 +1,28 @@
-import pke
 import pandas as pd
-from rank_bm25 import BM25Okapi
-import tkinter
+# from rank_bm25 import BM25Okapi
+# import tkinter
 #global variables declared till
-n=[]                    # contains keywords  ##after keywordextract is run ####keywordextract,bmitoquest
-df = pd.read_csv("IPC_whole_final.csv")       #contains the database done  manually ##alltime ####bmitoquest,exit
-ips=[]          #contains all ipcs suspected in the code and passes them to ask questions  contains ipcs after  ##after bmitoquest ####bmitoquest, exit
-questionlist=[]                 # contains all the questions to be asked ## after bmitoquest ####bmitoquest, yes, no
-accepted_questions = []             #contains all ipcs which are sure to be applied ##after yes ## yes exit
-x=0         #number of ipc in list whose questions are being answered ##yes and no ####yes,no
-y=0         #number of questions are being answered ##yes and no ####yes,no
-sample = """This time Re.Po.St. G.R.No. of Thane. 00/2018 c. 392,34 Document of crime in Hon. Superintendent of Police Received from Aurangabad, Ma pso So. We are filing a case as per his orders. () Name of Plaintiff :- Vivek Gupteshwar Singh Age 31 years Res. Village Renukuot Yugandh Colony Duddhi District, Sonbhadra U.P. Md. 8853053016) Name and Address of Accused:- Tea Seller Isam Age No. 18 to 22 years Ranga black slim and his three companions age 23 to 24 years second 25 years third age 12 to 13 years () Up Ghad Seat Train.No. Up 11062 Pawan X Coach 5/7 Berth 76 from Re.St. After the train departs from Jalgaon () Up Ghad Ta. Time :- Dt. 19/11/2018 at 20.00 hrs. Around () up da., h. time d. 04/12/2018 As Margin ( ) Stolen Goods Cash Rs. 2500/-Rs. (2000x1.500x1) a total of Rs.2500. ( ) got the goods :- Nirank () facts such that on the said date the plaintiff was traveling from Varanasi to Thane by the said coach and Barkh of the said train and during the journey the said Rai.St. After leaving Jalgaon, Isma, who was selling tea of ​​the above description, had a verbal altercation with him for the reason of paying extra money for the tea, and got together with his three accomplices of the above description, beat them on the face with kicks and abused them, and among them Isma, who was a French cut grandmother of the above description, took the cash of the above description from their hands. According to the complaint given by them, they left by stealing the rupees. According to 392,34 IPC, uniform report was filed by Ms. JMFC. The Railway Court has ordered Bhusawal to be sent for further investigation of the crime Hon.PI Shri. Gadhri So. doing this."""
-sample = sample.lower()
-def keywordextract():
-    global n , sample
+# n=[]                    # contains keywords  ##after keywordextract is run ####keywordextract,bmitoquest
+# df = pd.read_csv("IPC_whole_final.csv")       #contains the database done  manually ##alltime ####bmitoquest,exit
+# ips=[]          #contains all ipcs suspected in the code and passes them to ask questions  contains ipcs after  ##after bmitoquest ####bmitoquest, exit
+# questionlist=[]                 # contains all the questions to be asked ## after bmitoquest ####bmitoquest, yes, no
+# accepted_questions = []             #contains all ipcs which are sure to be applied ##after yes ## yes exit
+# x=0         #number of ipc in list whose questions are being answered ##yes and no ####yes,no
+# y=0         #number of questions are being answered ##yes and no ####yes,no
+# sample = """Sir, my humble submission to you is that I am Roshan Bibi Swami Sikh Sabarak Darji, Village:-Shankra-Kh,Po:-Shankra,Thana:-Para,Dist:- Purulia resident.As per Muslim Neon last dated 05.09.2017 Married to Sekh Sabarak Darji, son of Sekh Jugnu Darji of village Shankra-Kh under Para police station.
+#
+# Currently, I am the mother of a 03-year-old son, from the last one year, my husband and in-laws have been abusing me mentally and physically in various ways. They also beat my three-year-old child by not letting him eat or verbally beating him. I have tried to survive in the world despite all the tortures.
+#
+# After paying all the dowry during the marriage, the torture on me increased for the last nine-ten months, and I was repeatedly told by them to buy my father a Bullet car. Then my father and brother came to convince my in-laws and insulted them and sent me and my child to my father's house on 29-09-2021. While leaving, my brother-in-law and mother-in-law told me that the Hero Glamor whose registration number JH09AG 6215 was given as dowry during the marriage should be replaced by a new BULLET car, otherwise they should come back or kill their son i.e. me.
+#
+# Husband will remarry. Even though I want to return to in-laws house again and again, my husband or in-laws keep humiliating me and demanding a new BULLET car.
+#
+# is doing Now I know for sure that my husband is remarried
+#
+# did So sir my husband 1) Sikh Sabarak Darji, 2) Vasur Sikh Tabarak Darji, 3) Nand-Parbina Bibi, 4) Sikh Jaganu Darji father-deceased Nishad Darji and 5) Mother-in-law Khairuna Bibi, husband- Jaganu Darji legal action against all of them. Take appropriate measures to punish the maidservants and take necessary steps to secure the future life of me and my children. My complaint was delayed because I was hoping it would take me now that my husband had remarried.."""
+# sample = sample.lower()
+def keywordextract(sample):
+    import pke
     extractor = pke.unsupervised.TopicRank()
     extractor.load_document(input=sample, language='en')
     a=[]
@@ -25,15 +34,15 @@ def keywordextract():
         for c in i:
             for d in c:
                 n.append(d)
-    # print(n, i)
-def keyword_changing():
+    # print(n)
+    return n
+def keyword_changing(n,sample):
     #keyword adding and removing
-    global n , sample
     t = []
     # print("before",n)
     verb =["can","got", "gave","take", "will","according","given","said"]
     synonyms=[["beat","hurt","abuse","assault"],["kill""murder"],["sexual","rape"],["abetment","influence"]]
-    nouns=["Authority","officer", "hospital", "weapon", "girl", "coin","money","drug"]
+    nouns=["Authority","officer", "hospital", "weapon", "girl", "coin","money","drug","dowry"]
     for i in n :
         if i in verb :
             pass
@@ -45,36 +54,40 @@ def keyword_changing():
     for i in nouns:
         if i in sample:
             n.append(i)
-    print("after",n)
+    # print("after",n)
+    n = [*set(n)]
+    return n
 
-def bmitoquest():
-    global questionlist,ips,df,n
+def bmitoquest(df,n):
+    # global questionlist,ips,df,n
+    from rank_bm25 import BM25Okapi
     ld = df["3"]
     languagedata = [doc.split(" ") for doc in ld]
     bm25 = BM25Okapi(languagedata)
     doc_scores = bm25.get_scores(n)
     questionlist = []
     ips = []
-    tp = []
+    row = []
     t=-2
     tempstr="test"
     for i in doc_scores:
         t+=1
         if i > 0.1:
-            ips.append(t)
-            tp.append(df["1"][t])
+            row.append(t)
+            ips.append(df["1"][t])
             temp=[df["4"][t],df["5"][t],df["6"][t]]
             temp2=[]
             for temp3 in temp:
                 if type(temp3)==type(tempstr):
                     temp2.append(temp3)
             questionlist.append(temp2)
-    print(questionlist,tp)
+    # print(questionlist,tp)
+    return [questionlist,row,ips]
 
-keywordextract()
-keyword_changing()
-bmitoquest()
-
+# keywordextract()
+# keyword_changing()
+# bmitoquest()
+#
 
 
 def exitt():
@@ -109,16 +122,16 @@ def no():
         return
     x+=1
     questions.configure(text =questionlist[x][y])
-root = tkinter.Tk()
-root.geometry("700x300")
-root.title("questions")
-
-questions = tkinter.Label(root, font=("arial", 25), text=questionlist[0][0])
-questions.grid(row=3, column=0, columnspan=3, padx=5, pady=5)
-yes_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "Yes", command = yes)
-yes_btn.grid(row=5, column=0, columnspan=1, padx=5, pady=5)
-maybe_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "Maybe", command = yes)
-maybe_btn.grid(row=5, column=2, columnspan=1, padx=5, pady=5)
-no_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "No",command = no)
-no_btn.grid(row=5, column=5, columnspan=1, padx=5, pady=5)
-root.mainloop()
+# root = tkinter.Tk()
+# root.geometry("700x300")
+# root.title("questions")
+#
+# questions = tkinter.Label(root, font=("arial", 25), text=questionlist[0][0])
+# questions.grid(row=3, column=0, columnspan=3, padx=5, pady=5)
+# yes_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "Yes", command = yes)
+# yes_btn.grid(row=5, column=0, columnspan=1, padx=5, pady=5)
+# maybe_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "Maybe", command = yes)
+# maybe_btn.grid(row=5, column=2, columnspan=1, padx=5, pady=5)
+# no_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "No",command = no)
+# no_btn.grid(row=5, column=5, columnspan=1, padx=5, pady=5)
+# root.mainloop()
