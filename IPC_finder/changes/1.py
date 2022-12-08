@@ -1,0 +1,2 @@
+import tkinterte
+tkinterte.form()
