@@ -1,2 +1,4 @@
 import tkinterte
-tkinterte.form()
+import fir
+test = tkinterte.form()
+print(test.District)

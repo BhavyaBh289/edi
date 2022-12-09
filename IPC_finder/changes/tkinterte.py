@@ -1,5 +1,6 @@
 def form():
     import tkinter
+    import fir
     root = tkinter.Tk()
 
     root.geometry("1500x700")
@@ -143,13 +144,18 @@ def form():
     other_var = tkinter.StringVar()
     other = tkinter.Entry(root, font=("arial Bold", 8), textvariable=other_var)
     other.grid(row=8, column=4, padx=5, pady=10)
-
+    def exitt():
+        global testfir
+        testfir = fir.fir(district_var.get(), ps_var.get(), year_var.get(), tp_var.get(), firno_var.get(), entryno_var.get(), name_var.get(), fh_var.get(), db_var.get(), add_var.get(), nat_var.get(), ci_var.get(), date_var.get(), day_var.get(), ti_var.get(), other_var.get())
+        # print(testfir)
+        root.destroy()
+        return testfir
     #btn=Button(root, text="SUBMIT", fg='blue', font=("Forte", 30))
     #btn.place(x=120,y=350)
     #btn.grid(row=10, column=3, padx=20, pady=20)
     #btn = button(root, text = 'SUBMIT !', bd = '5',command = root.destroy)
     #btn.grid(row=10, column=3, padx=20, pady=20)
-    button = tkinter.Button(root, text="Submit",fg='red',font=("arial Bold", 13))
+    button = tkinter.Button(root,command = exitt, text="Submit",fg='red',font=("arial Bold", 13))
     button.grid(row=9, column=3, padx=70, pady=60)
-
     root.mainloop()
+    return testfir

@@ -79,6 +79,7 @@ bmitoquest()
 
 def exitt():
     global accepted_questions,ips,df,n
+    finalipcs = []
     for i in accepted_questions :
             finalipcs.append(df["1"][ips[i]])
     t = [["120","120B"],["159","160"],["310","311"],['339','341'],['340','342'],['375','376'],['378','379'],['383','384'],['390','392'],['391','395'],['415','417'],['425','426'],['499','500']]
@@ -125,9 +126,9 @@ questions.grid(row=3, column=0, columnspan=3, padx=5, pady=5)
 yes_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "Yes", command = yes)
 yes_btn.grid(row=5, column=0, columnspan=1, padx=5, pady=5)
 maybe_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "Maybe", command = yes)
-maybe_btn.grid(row=5, column=2, columnspan=1, padx=5, pady=5)
+maybe_btn.grid(row=7, column=0, columnspan=1, padx=5, pady=5)
 no_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "No",command = no)
-no_btn.grid(row=5, column=5, columnspan=1, padx=5, pady=5)
+no_btn.grid(row=9, column=0, columnspan=1, padx=5, pady=5)
 root.mainloop()
 
 
