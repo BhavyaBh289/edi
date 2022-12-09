@@ -55,7 +55,7 @@ def keyword_changing():
     for i in nouns:
         if i in sample:
             n.append(i)
-    print("after",n)
+    # print("after",n)
 
 def bmitoquest():
     global questionlist,ips,df,n
@@ -79,7 +79,7 @@ def bmitoquest():
                 if type(temp3)==type(tempstr):
                     temp2.append(temp3)
             questionlist.append(temp2)
-    print(questionlist,tp)
+    # print(questionlist,tp)
 
 keywordextract()
 keyword_changing()
