@@ -79,11 +79,18 @@ bmitoquest()
 
 def exitt():
     global accepted_questions,ips,df,n
+    for i in accepted_questions :
+            finalipcs.append(df["1"][ips[i]])
+    t = [["120","120B"],["159","160"],["310","311"],['339','341'],['340','342'],['375','376'],['378','379'],['383','384'],['390','392'],['391','395'],['415','417'],['425','426'],['499','500']]
+    for i in finalipcs:
+        for b in t:
+            if i in b :
+                finalipcs.append(b[1])
     with open("myfile.txt", 'a') as file1:
         file1.write(str(n))
-        for i in accepted_questions :
-            print(df["1"][ips[i]])
-            file1.write(str(df["1"][ips[i]]+" "))
+        for i in finalipcs :
+            print(i)
+            file1.write(i)
         file1.write("\n")
 def yes():
     global x,y,accepted_questions
@@ -122,4 +129,5 @@ maybe_btn.grid(row=5, column=2, columnspan=1, padx=5, pady=5)
 no_btn = tkinter.Button(root,font=("Times New Roman", 25),text = "No",command = no)
 no_btn.grid(row=5, column=5, columnspan=1, padx=5, pady=5)
 root.mainloop()
+
 
