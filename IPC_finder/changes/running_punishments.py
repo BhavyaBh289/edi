@@ -91,7 +91,7 @@ def exitt():
         file1.write(str(n))
         for i in finalipcs :
             print(i)
-            file1.write(i)
+            file1.write(str(i+" "))
         file1.write("\n")
 def yes():
     global x,y,accepted_questions
