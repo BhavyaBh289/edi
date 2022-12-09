@@ -1,3 +1,5 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 import pke
 import pandas as pd
 from rank_bm25 import BM25Okapi
