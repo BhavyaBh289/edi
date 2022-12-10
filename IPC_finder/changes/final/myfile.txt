@@ -1,0 +1,4 @@
+['residing', 'stolen', 'threatened', 'tried', 'confront', 'injured', 'weapon']410 411 412 
+['residing', 'stolen', 'threatened', 'tried', 'confront', 'injured', 'weapon']111 140 145 157 318 324 409 410 411 412 413 
+['residing', 'stolen', 'threatened', 'tried', 'confront', 'injured', 'weapon']138 145 409 410 411 412 413 
+['residing', 'stolen', 'threatened', 'tried', 'confront', 'injured', 'weapon']138 410 411 412 413 

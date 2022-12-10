@@ -1,0 +1,17 @@
+Name = 
+District = 
+year = 
+FIR_NO = 
+Date of birth = 
+Nationality = 
+Information type = 
+Police Station = 
+Time Period = 
+Entry Number = 
+Father's or Husband's name = 
+Address = 
+Day = 
+Complantant = 
+Other data = 
+Ipcs = ['138', '410', '411', '412', '413']
+Story = I am a 35 year old male residing in mumbai. My bike was stolen from the parking lot of my residence on saturday night by a gang of theives. the theives also threatened me with a deadly weapon when I tried to confront them. A friend of mine who was with me got injured by one of the theives. 
